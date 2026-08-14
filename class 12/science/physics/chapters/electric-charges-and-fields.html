@@ -1,0 +1,4974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Class 12 Physics Chapter 1 - Electric Charges and Fields. Complete notes, concepts, formulas, examples, important questions and quiz.">
+
+    <title>Electric Charges and Fields | Bihar Learners</title>
+
+
+    <!-- =====================================================
+         FONTS
+    ====================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- =====================================================
+         BOOTSTRAP ICONS
+    ====================================================== -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
+
+    <link rel="stylesheet" href="../../../../css/style.css">
+
+
+    <link rel="stylesheet" href="../../../../css/components.css">
+
+    <link rel="stylesheet" href="../../../../css/responsive.css">
+    <link rel="stylesheet" href="../../../../css/chapter.css">
+
+    <!-- =====================================================
+         CHAPTER PAGE CSS
+    ====================================================== -->
+
+    <style>
+        .quiz-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        .quiz-progress-text {
+            color: #64748b;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .quiz-progress {
+            height: 6px;
+            margin-top: 14px;
+            overflow: hidden;
+            border-radius: 50px;
+            background: #e2e8f0;
+        }
+
+        .quiz-progress-bar {
+            height: 100%;
+            border-radius: 50px;
+            background: linear-gradient(90deg,
+                    #4f46e5,
+                    #7c3aed);
+            transition: width .3s ease;
+        }
+
+        .quiz-options {
+            display: grid;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .quiz-option {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 13px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            color: #334155;
+            background: white;
+            text-align: left;
+            cursor: pointer;
+            transition: .2s ease;
+        }
+
+        .quiz-option:hover:not(:disabled) {
+            border-color: #818cf8;
+            background: #f8faff;
+            transform: translateY(-1px);
+        }
+
+        .quiz-option:disabled {
+            cursor: default;
+        }
+
+        .quiz-option-letter {
+            width: 30px;
+            height: 30px;
+            display: grid;
+            place-items: center;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #eef2ff;
+            color: #4f46e5;
+            font-size: 11px;
+            font-weight: 800;
+        }
+
+        .quiz-option.correct {
+            border-color: #22c55e;
+            background: #f0fdf4;
+        }
+
+        .quiz-option.correct .quiz-option-letter {
+            background: #22c55e;
+            color: white;
+        }
+
+        .quiz-option.wrong {
+            border-color: #ef4444;
+            background: #fef2f2;
+        }
+
+        .quiz-option.wrong .quiz-option-letter {
+            background: #ef4444;
+            color: white;
+        }
+
+        .quiz-feedback {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 15px;
+            padding: 11px 13px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .quiz-feedback.success {
+            color: #166534;
+            background: #f0fdf4;
+        }
+
+        .quiz-feedback.error {
+            color: #b91c1c;
+            background: #fef2f2;
+        }
+
+        .quiz-next {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+            padding: 11px 16px;
+            border: 0;
+            border-radius: 10px;
+            color: white;
+            background: #4f46e5;
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .quiz-next:hover {
+            background: #4338ca;
+        }
+
+        .quiz-result {
+            padding: 25px 10px;
+            text-align: center;
+        }
+
+        .result-icon {
+            width: 70px;
+            height: 70px;
+            display: grid;
+            place-items: center;
+            margin: 0 auto 18px;
+            border-radius: 50%;
+            color: #f59e0b;
+            background: #fef3c7;
+            font-size: 30px;
+        }
+
+        .result-score {
+            margin-top: 18px;
+            color: #4f46e5;
+            font-family: "Poppins", sans-serif;
+            font-size: 52px;
+            font-weight: 800;
+            line-height: 1;
+        }
+
+        .result-score span {
+            color: #94a3b8;
+            font-size: 24px;
+        }
+
+        .result-percentage {
+            margin-top: 10px;
+            color: #475569;
+            font-weight: 700;
+        }
+
+        .result-message {
+            max-width: 450px;
+            margin: 10px auto 20px;
+            color: #64748b;
+            font-size: 12px;
+        }
+
+        /* =================================================
+           CHAPTER HERO
+        ================================================= */
+
+        .chapter-hero {
+
+            padding:
+                55px 0 45px;
+
+            background:
+                linear-gradient(135deg,
+                    #eef2ff,
+                    #ffffff 55%,
+                    #f5f3ff);
+
+            border-bottom:
+                1px solid var(--border);
+
+        }
+
+
+        .chapter-hero-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                minmax(0, 1fr) 300px;
+
+            gap: 35px;
+
+            align-items: center;
+
+        }
+
+
+        .chapter-label {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 7px;
+
+            padding:
+                7px 11px;
+
+            border-radius: 50px;
+
+            color: #4338ca;
+
+            background: #e0e7ff;
+
+            font-size: 10px;
+
+            font-weight: 800;
+
+        }
+
+
+        .chapter-hero h1 {
+
+            margin-top: 17px;
+
+            font-family: "Poppins", sans-serif;
+
+            font-size:
+                clamp(32px, 5vw, 48px);
+
+            line-height: 1.15;
+
+            letter-spacing: -1.5px;
+
+        }
+
+
+        .chapter-hero h1 span {
+
+            color: var(--primary);
+
+        }
+
+
+        .chapter-hero-description {
+
+            max-width: 720px;
+
+            margin-top: 14px;
+
+            color: var(--text-muted);
+
+            font-size: 13px;
+
+            line-height: 1.8;
+
+        }
+
+
+        .chapter-meta {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 8px;
+
+            margin-top: 20px;
+
+        }
+
+
+        .chapter-meta span {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 6px;
+
+            padding:
+                7px 10px;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: 8px;
+
+            color: var(--text-muted);
+
+            background: white;
+
+            font-size: 10px;
+
+            font-weight: 600;
+
+        }
+
+
+        /* =================================================
+           CHAPTER VISUAL
+        ================================================= */
+
+        .chapter-visual {
+
+            position: relative;
+
+            min-height: 230px;
+
+            display: grid;
+
+            place-items: center;
+
+        }
+
+
+        .electric-orb {
+
+            width: 190px;
+
+            height: 190px;
+
+            display: grid;
+
+            place-items: center;
+
+            border:
+                1px solid #c7d2fe;
+
+            border-radius: 50%;
+
+            background:
+                radial-gradient(circle,
+                    #ffffff,
+                    #eef2ff);
+
+            box-shadow:
+                0 25px 60px rgba(79, 70, 229, .15);
+
+        }
+
+
+        .electric-orb-inner {
+
+            width: 105px;
+
+            height: 105px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 50%;
+
+            color: white;
+
+            background:
+                linear-gradient(135deg,
+                    #4f46e5,
+                    #7c3aed);
+
+            box-shadow:
+                0 15px 35px rgba(79, 70, 229, .30);
+
+            font-size: 42px;
+
+            animation:
+                electricPulse 2s ease-in-out infinite;
+
+        }
+
+
+        @keyframes electricPulse {
+
+            0%,
+            100% {
+
+                transform: scale(1);
+
+            }
+
+            50% {
+
+                transform: scale(1.08);
+
+            }
+
+        }
+
+
+        .electric-dot {
+
+            position: absolute;
+
+            width: 10px;
+
+            height: 10px;
+
+            border-radius: 50%;
+
+            background: #6366f1;
+
+            box-shadow:
+                0 0 18px rgba(99, 102, 241, .7);
+
+        }
+
+
+        .electric-dot.one {
+
+            top: 25px;
+
+            right: 55px;
+
+        }
+
+
+        .electric-dot.two {
+
+            bottom: 35px;
+
+            left: 55px;
+
+        }
+
+
+        .electric-dot.three {
+
+            top: 75px;
+
+            left: 25px;
+
+        }
+
+
+        /* =================================================
+           LEARNING LAYOUT
+        ================================================= */
+
+        .learning-layout {
+
+            display: grid;
+
+            grid-template-columns:
+                230px minmax(0, 1fr);
+
+            gap: 30px;
+
+            align-items: start;
+
+        }
+
+
+        .chapter-sidebar {
+
+            position: sticky;
+
+            top: 90px;
+
+        }
+
+
+        .chapter-menu {
+
+            padding: 8px;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: 15px;
+
+            background: white;
+
+        }
+
+
+        .chapter-menu a {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 9px;
+
+            padding:
+                10px 11px;
+
+            border-radius: 9px;
+
+            color: var(--text-muted);
+
+            font-size: 10px;
+
+            font-weight: 600;
+
+            transition: var(--transition);
+
+        }
+
+
+        .chapter-menu a:hover {
+
+            color: var(--primary);
+
+            background: #eef2ff;
+
+        }
+
+
+        .chapter-menu a.active {
+
+            color: var(--primary);
+
+            background: #eef2ff;
+
+            font-weight: 800;
+
+        }
+
+
+        /* =================================================
+           LESSON CONTENT
+        ================================================= */
+
+        .lesson-content {
+
+            min-width: 0;
+
+        }
+
+
+        .lesson-section {
+
+            scroll-margin-top: 95px;
+
+            margin-bottom: 55px;
+
+        }
+
+
+        .lesson-section:last-child {
+
+            margin-bottom: 0;
+
+        }
+
+
+        .lesson-section h2 {
+
+            margin-bottom: 13px;
+
+            font-family: "Poppins", sans-serif;
+
+            font-size: 25px;
+
+            letter-spacing: -.5px;
+
+        }
+
+
+        .lesson-section h3 {
+
+            margin-top: 25px;
+
+            margin-bottom: 8px;
+
+            font-family: "Poppins", sans-serif;
+
+            font-size: 17px;
+
+        }
+
+
+        .lesson-section p {
+
+            color: #475569;
+
+            font-size: 13px;
+
+            line-height: 1.85;
+
+        }
+
+
+        .lesson-section ul {
+
+            padding-left: 20px;
+
+            margin-top: 12px;
+
+        }
+
+
+        .lesson-section li {
+
+            margin-bottom: 8px;
+
+            color: #475569;
+
+            font-size: 12px;
+
+            line-height: 1.7;
+
+        }
+
+
+        /* =================================================
+           INTRO CARD
+        ================================================= */
+
+        .intro-card {
+
+            padding: 23px;
+
+            border:
+                1px solid #c7d2fe;
+
+            border-radius: 18px;
+
+            background:
+                linear-gradient(135deg,
+                    #eef2ff,
+                    #fafaff);
+
+        }
+
+
+        .intro-card strong {
+
+            color: #3730a3;
+
+        }
+
+
+        /* =================================================
+           FORMULA CARD
+        ================================================= */
+
+        .formula-card {
+
+            margin-top: 18px;
+
+            padding: 20px;
+
+            border:
+                1px solid #ddd6fe;
+
+            border-radius: 16px;
+
+            background: #faf5ff;
+
+        }
+
+
+        .formula-title {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            color: #6d28d9;
+
+            font-size: 11px;
+
+            font-weight: 800;
+
+            letter-spacing: .4px;
+
+        }
+
+
+        .formula {
+
+            margin-top: 13px;
+
+            padding: 14px;
+
+            overflow-x: auto;
+
+            border-radius: 10px;
+
+            color: #312e81;
+
+            background: white;
+
+            font-family: "Courier New", monospace;
+
+            font-size: 15px;
+
+            font-weight: 700;
+
+            text-align: center;
+
+        }
+
+
+        /* =================================================
+           EXAMPLE CARD
+        ================================================= */
+
+        .example-card {
+
+            margin-top: 18px;
+
+            padding: 20px;
+
+            border-left:
+                4px solid var(--primary);
+
+            border-radius: 0 14px 14px 0;
+
+            background: #f8fafc;
+
+        }
+
+
+        .example-label {
+
+            color: var(--primary);
+
+            font-size: 10px;
+
+            font-weight: 800;
+
+            letter-spacing: .5px;
+
+        }
+
+
+        .example-card h4 {
+
+            margin-top: 7px;
+
+            font-size: 14px;
+
+        }
+
+
+        .example-card p {
+
+            margin-top: 8px;
+
+        }
+
+
+        /* =================================================
+           IMPORTANT POINTS
+        ================================================= */
+
+        .important-box {
+
+            padding: 22px;
+
+            border:
+                1px solid #fde68a;
+
+            border-radius: 16px;
+
+            background: #fffbeb;
+
+        }
+
+
+        .important-box-title {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            color: #a16207;
+
+            font-size: 12px;
+
+            font-weight: 800;
+
+        }
+
+
+        /* =================================================
+           DEFINITION
+        ================================================= */
+
+        .definition-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(2, minmax(0, 1fr));
+
+            gap: 14px;
+
+            margin-top: 18px;
+
+        }
+
+
+        .definition-card {
+
+            padding: 17px;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: 14px;
+
+            background: white;
+
+        }
+
+
+        .definition-card h4 {
+
+            font-size: 13px;
+
+        }
+
+
+        .definition-card p {
+
+            margin-top: 6px;
+
+            font-size: 11px;
+
+        }
+
+
+        /* =================================================
+           QUESTION LIST
+        ================================================= */
+
+        .question-list {
+
+            display: grid;
+
+            gap: 10px;
+
+            margin-top: 18px;
+
+        }
+
+
+        .question-item {
+
+            display: flex;
+
+            gap: 12px;
+
+            padding: 15px;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: 13px;
+
+            background: white;
+
+        }
+
+
+        .question-number {
+
+            width: 28px;
+
+            height: 28px;
+
+            display: grid;
+
+            place-items: center;
+
+            flex-shrink: 0;
+
+            border-radius: 8px;
+
+            color: var(--primary);
+
+            background: #eef2ff;
+
+            font-size: 10px;
+
+            font-weight: 800;
+
+        }
+
+
+        .question-item p {
+
+            font-size: 12px;
+
+        }
+
+
+        /* =================================================
+           ACTION BOX
+        ================================================= */
+
+        .action-box {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            gap: 20px;
+
+            padding: 25px;
+
+            border-radius: 18px;
+
+            color: white;
+
+            background:
+                linear-gradient(135deg,
+                    #3730a3,
+                    #6366f1);
+
+            box-shadow:
+                0 18px 40px rgba(79, 70, 229, .18);
+
+        }
+
+
+        .action-box h3 {
+
+            margin: 0;
+
+            color: white;
+
+            font-size: 18px;
+
+        }
+
+
+        .action-box p {
+
+            margin-top: 5px;
+
+            color: rgba(255, 255, 255, .75);
+
+            font-size: 11px;
+
+        }
+
+
+        .action-box .btn {
+
+            flex-shrink: 0;
+
+            color: #3730a3;
+
+            background: white;
+
+            border-color: white;
+
+        }
+
+
+        /* =================================================
+           RESPONSIVE
+        ================================================= */
+
+        @media (max-width: 900px) {
+
+            .chapter-hero-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .chapter-visual {
+
+                display: none;
+
+            }
+
+
+            .learning-layout {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .chapter-sidebar {
+
+                position: static;
+
+            }
+
+
+            .chapter-menu {
+
+                display: flex;
+
+                overflow-x: auto;
+
+                gap: 4px;
+
+            }
+
+
+            .chapter-menu a {
+
+                flex-shrink: 0;
+
+            }
+
+        }
+
+
+        @media (max-width: 600px) {
+
+            .chapter-hero {
+
+                padding:
+                    40px 0 35px;
+
+            }
+
+
+            .chapter-hero h1 {
+
+                font-size: 32px;
+
+            }
+
+
+            .definition-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .action-box {
+
+                flex-direction: column;
+
+                align-items: flex-start;
+
+            }
+
+
+            .action-box .btn {
+
+                width: 100%;
+
+            }
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+     HEADER
+====================================================== -->
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+
+            <a href="../../../index.html" class="brand">
+
+                <span class="brand-icon">
+
+                    <i class="bi bi-mortarboard-fill"></i>
+
+                </span>
+
+                <span>
+                    Bihar<span>Learners</span>
+                </span>
+
+            </a>
+
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation"
+                aria-expanded="false">
+
+                <i class="bi bi-list"></i>
+
+            </button>
+
+
+            <nav class="main-nav" id="mainNav">
+
+                <a href="../../../../index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="../../../index.html" class="nav-link">
+                    Class 12
+                </a>
+
+                <a href="../index.html" class="nav-link active">
+                    Physics
+                </a>
+
+                <a href="#quiz" class="nav-link">
+                    Quiz
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+     CHAPTER HERO
+====================================================== -->
+
+    <section class="chapter-hero">
+
+        <div class="container chapter-hero-grid">
+
+
+            <div>
+
+                <div class="breadcrumb">
+
+                    <a href="../../../../index.html">
+                        Home
+                    </a>
+
+                    <i class="bi bi-chevron-right"></i>
+
+                    <a href="../../../index.html">
+                        Class 12
+                    </a>
+
+                    <i class="bi bi-chevron-right"></i>
+
+                    <a href="../index.html">
+                        Physics
+                    </a>
+
+                    <i class="bi bi-chevron-right"></i>
+
+                    <span class="current">
+                        Chapter 1
+                    </span>
+
+                </div>
+
+
+                <div class="chapter-label" style="margin-top:18px;">
+
+                    <i class="bi bi-lightning-charge-fill"></i>
+
+                    CHAPTER 01
+
+                </div>
+
+
+                <h1>
+                    वैद्युत आवेश
+                    <span>
+                        तथा क्षेत्र
+                    </span>
+                </h1>
+
+
+                <p class="chapter-hero-description">
+
+                    इस अध्याय में हम वैद्युत आवेश, कूलॉम के नियम,
+                    वैद्युत क्षेत्र, वैद्युत क्षेत्र रेखाएँ, वैद्युत फ्लक्स
+                    तथा गॉस के नियम को आसान भाषा में समझेंगे।
+                    साथ ही महत्वपूर्ण सूत्र, उदाहरण और बोर्ड परीक्षा
+                    के लिए उपयोगी प्रश्नों का अभ्यास करेंगे।
+
+                </p>
+
+
+                <div class="chapter-meta">
+
+                    <span>
+                        <i class="bi bi-book"></i>
+                        कॉन्सेप्ट नोट्स
+                    </span>
+
+                    <span>
+                        <i class="bi bi-calculator"></i>
+                        महत्वपूर्ण सूत्र
+                    </span>
+
+                    <span>
+                        <i class="bi bi-patch-question"></i>
+                        अध्याय क्विज़
+                    </span>
+
+                    <span>
+                        <i class="bi bi-trophy"></i>
+                        परीक्षा अभ्यास
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="chapter-visual">
+
+                <div class="electric-orb">
+
+                    <div class="electric-orb-inner">
+
+                        <i class="bi bi-lightning-charge-fill"></i>
+
+                    </div>
+
+                </div>
+
+                <span class="electric-dot one"></span>
+
+                <span class="electric-dot two"></span>
+
+                <span class="electric-dot three"></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+     LEARNING CONTENT
+====================================================== -->
+
+    <section class="page-content">
+
+        <div class="container">
+
+            <div class="learning-layout">
+
+
+                <!-- =================================================
+                 SIDEBAR
+            ================================================== -->
+
+                <aside class="chapter-sidebar">
+
+                    <div class="chapter-menu">
+
+                        <a href="#overview" class="active">
+                            <i class="bi bi-house"></i>
+                            अध्याय परिचय
+                        </a>
+
+                        <a href="#electric-charge">
+                            <i class="bi bi-circle"></i>
+                            वैद्युत आवेश
+                        </a>
+
+                        <a href="#coulomb-law">
+                            <i class="bi bi-lightning"></i>
+                            कूलॉम का नियम
+                        </a>
+
+                        <a href="#electric-field">
+                            <i class="bi bi-broadcast"></i>
+                            वैद्युत क्षेत्र
+                        </a>
+
+                        <a href="#electric-flux">
+                            <i class="bi bi-box"></i>
+                            वैद्युत फ्लक्स
+                        </a>
+
+                        <a href="#gauss-law">
+                            <i class="bi bi-diagram-3"></i>
+                            गॉस का नियम
+                        </a>
+
+                        <a href="#important">
+                            <i class="bi bi-star"></i>
+                            महत्वपूर्ण बिंदु
+                        </a>
+
+                        <a href="#questions">
+                            <i class="bi bi-question-circle"></i>
+                            महत्वपूर्ण प्रश्न
+                        </a>
+
+                        <a href="#quiz">
+                            <i class="bi bi-patch-question"></i>
+                            अध्याय क्विज़
+                        </a>
+
+                    </div>
+
+                </aside>
+
+
+
+                <!-- =================================================
+                 MAIN LESSON
+            ================================================== -->
+
+                <article class="lesson-content">
+
+
+                    <!-- =================================================
+                     OVERVIEW
+                ================================================== -->
+
+                    <section id="overview" class="lesson-section">
+
+                        <span class="eyebrow">
+                            START HERE
+                        </span>
+
+                        <h2>
+                            Chapter Overview
+                        </h2>
+
+
+                        <div class="intro-card">
+
+                            <p>
+
+                                <strong>
+                                    Electric Charges and Fields
+                                </strong>
+                                is the foundation of electrostatics.
+                                In this chapter, we study electric
+                                charge and the effect produced by
+                                charges around them.
+
+                            </p>
+
+
+                            <p style="margin-top:12px;">
+
+                                The main ideas are:
+
+                            </p>
+
+
+                            <ul>
+
+                                <li>
+                                    Electric charge and its properties
+                                </li>
+
+                                <li>
+                                    Force between electric charges
+                                </li>
+
+                                <li>
+                                    Electric field and electric field lines
+                                </li>
+
+                                <li>
+                                    Electric flux
+                                </li>
+
+                                <li>
+                                    Gauss's law and its applications
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     ELECTRIC CHARGE
+                ================================================== -->
+
+                    <section id="electric-charge" class="lesson-section">
+
+                        <span class="eyebrow">
+                            TOPIC 01
+                        </span>
+
+                        <h2>
+                            वैद्युत आवेश
+                        </h2>
+
+                        <p>
+                            पदार्थ का वह भौतिक गुण जिसके कारण वह किसी दूसरे
+                            आवेशित पदार्थ को आकर्षित या प्रतिकर्षित करता है,
+                            <strong>वैद्युत आवेश</strong> कहलाता है।
+                        </p>
+
+                        <p style="margin-top:12px;">
+                            वैद्युत आवेश मुख्य रूप से इलेक्ट्रॉनों और प्रोटॉनों
+                            से संबंधित होता है। इलेक्ट्रॉन पर ऋणात्मक आवेश तथा
+                            प्रोटॉन पर धनात्मक आवेश होता है।
+                        </p>
+
+
+                        <!-- TYPES OF CHARGE -->
+
+                        <h3>
+                            वैद्युत आवेश के प्रकार
+                        </h3>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    धनात्मक आवेश (+)
+                                </h4>
+
+                                <p>
+                                    जब किसी वस्तु में इलेक्ट्रॉनों की कमी हो जाती है,
+                                    तो वह वस्तु धनात्मक रूप से आवेशित कहलाती है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    ऋणात्मक आवेश (−)
+                                </h4>
+
+                                <p>
+                                    जब किसी वस्तु में इलेक्ट्रॉनों की अधिकता हो जाती है,
+                                    तो वह वस्तु ऋणात्मक रूप से आवेशित कहलाती है।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- BASIC RULE -->
+
+                        <h3>
+                            आवेशों के बीच आकर्षण और प्रतिकर्षण
+                        </h3>
+
+                        <p>
+                            दो समान प्रकार के आवेश एक-दूसरे को प्रतिकर्षित करते हैं,
+                            जबकि दो विपरीत प्रकार के आवेश एक-दूसरे को आकर्षित करते हैं।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-lightning-charge"></i>
+
+                                याद रखने का आसान तरीका
+
+                            </div>
+
+                            <div class="formula">
+
+                                समान आवेश → प्रतिकर्षण &nbsp;&nbsp; | &nbsp;&nbsp;
+                                असमान आवेश → आकर्षण
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PROPERTIES -->
+
+                        <h3>
+                            वैद्युत आवेश के प्रमुख गुण
+                        </h3>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    1. आवेश का संरक्षण
+                                </h4>
+
+                                <p>
+                                    किसी पृथक निकाय में कुल वैद्युत आवेश न तो उत्पन्न
+                                    किया जा सकता है और न ही नष्ट किया जा सकता है।
+                                    यह केवल एक वस्तु से दूसरी वस्तु में स्थानांतरित
+                                    हो सकता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    2. आवेश का क्वांटीकरण
+                                </h4>
+
+                                <p>
+                                    किसी वस्तु पर आवेश हमेशा मूल आवेश के पूर्णांक
+                                    गुणज के रूप में पाया जाता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    3. आवेश योगात्मक होता है
+                                </h4>
+
+                                <p>
+                                    किसी निकाय का कुल आवेश उसके सभी अलग-अलग
+                                    आवेशों के बीजीय योग के बराबर होता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    4. आवेश एक अदिश राशि है
+                                </h4>
+
+                                <p>
+                                    वैद्युत आवेश का केवल परिमाण होता है,
+                                    इसकी कोई दिशा नहीं होती।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- QUANTISATION -->
+
+                        <h3>
+                            आवेश का क्वांटीकरण
+                        </h3>
+
+                        <p>
+                            किसी वस्तु पर उपस्थित कुल आवेश को निम्न सूत्र से
+                            व्यक्त किया जा सकता है:
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-calculator"></i>
+
+                                महत्वपूर्ण सूत्र
+
+                            </div>
+
+                            <div class="formula">
+
+                                q = ne
+
+                            </div>
+
+                            <p style="margin-top:12px;">
+
+                                जहाँ,
+
+                                <strong>q</strong> = वस्तु पर कुल आवेश,
+
+                                <strong>n</strong> = इलेक्ट्रॉनों की संख्या तथा
+
+                                <strong>e</strong> = मूल आवेश।
+
+                            </p>
+
+                            <p style="margin-top:8px;">
+
+                                मूल आवेश का मान:
+
+                                <strong>
+                                    e = 1.6 × 10⁻¹⁹ C
+                                </strong>
+
+                            </p>
+
+                        </div>
+
+
+                        <!-- SI UNIT -->
+
+                        <h3>
+                            वैद्युत आवेश की SI इकाई
+                        </h3>
+
+                        <p>
+                            वैद्युत आवेश की SI इकाई <strong>कूलॉम (C)</strong> है।
+                        </p>
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-star-fill"></i>
+
+                                परीक्षा के लिए महत्वपूर्ण
+
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    वैद्युत आवेश की SI इकाई — <strong>कूलॉम (C)</strong>
+                                </li>
+
+                                <li>
+                                    इलेक्ट्रॉन का आवेश — <strong>−1.6 × 10⁻¹⁹ C</strong>
+                                </li>
+
+                                <li>
+                                    प्रोटॉन का आवेश — <strong>+1.6 × 10⁻¹⁹ C</strong>
+                                </li>
+
+                                <li>
+                                    समान आवेशों में — <strong>प्रतिकर्षण</strong>
+                                </li>
+
+                                <li>
+                                    विपरीत आवेशों में — <strong>आकर्षण</strong>
+                                </li>
+
+                                <li>
+                                    आवेश एक <strong>अदिश राशि</strong> है।
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- EXAMPLE -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                उदाहरण
+                            </div>
+
+                            <h4>
+                                किसी वस्तु पर 5 इलेक्ट्रॉन अधिक हैं। उसका कुल आवेश कितना होगा?
+                            </h4>
+
+                            <p>
+                                एक इलेक्ट्रॉन का आवेश = −1.6 × 10⁻¹⁹ C
+                            </p>
+
+                            <p>
+                                इलेक्ट्रॉनों की संख्या = 5
+                            </p>
+
+                            <div class="formula">
+                                q = ne
+                            </div>
+
+                            <p>
+                                q = 5 × (−1.6 × 10⁻¹⁹)
+                            </p>
+
+                            <p>
+                                <strong>
+                                    q = −8 × 10⁻¹⁹ C
+                                </strong>
+                            </p>
+
+                            <p>
+                                ऋणात्मक चिन्ह बताता है कि वस्तु पर इलेक्ट्रॉनों
+                                की अधिकता है।
+                            </p>
+
+                        </div>
+
+
+                        <!-- QUICK REVISION -->
+
+                        <h3>
+                            त्वरित पुनरावृत्ति
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    समान आवेश एक-दूसरे को प्रतिकर्षित करते हैं।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    विपरीत आवेश एक-दूसरे को आकर्षित करते हैं।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    आवेश का संरक्षण होता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    04
+                                </span>
+
+                                <p>
+                                    आवेश का क्वांटीकरण q = ne द्वारा व्यक्त किया जाता है।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     COULOMB LAW
+                ================================================== -->
+
+                    <section id="coulomb-law" class="lesson-section">
+
+                        <span class="eyebrow">
+                            TOPIC 02
+                        </span>
+
+                        <h2>
+                            कूलॉम का नियम
+                        </h2>
+
+                        <p>
+                            दो स्थिर बिंदु आवेशों के बीच लगने वाले वैद्युत
+                            बल का अध्ययन <strong>कूलॉम के नियम</strong> द्वारा
+                            किया जाता है। यह बल दोनों आवेशों के परिमाण के
+                            गुणनफल के समानुपाती तथा उनके बीच की दूरी के
+                            वर्ग के व्युत्क्रमानुपाती होता है।
+                        </p>
+
+
+                        <!-- LAW -->
+
+                        <h3>
+                            कूलॉम का नियम — कथन
+                        </h3>
+
+                        <div class="intro-card">
+
+                            <p>
+                                दो स्थिर बिंदु आवेशों के बीच वैद्युत बल का
+                                परिमाण उनके आवेशों के गुणनफल के समानुपाती
+                                तथा उनके बीच की दूरी के वर्ग के व्युत्क्रमानुपाती
+                                होता है।
+                            </p>
+
+                        </div>
+
+
+                        <!-- FORMULA -->
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-calculator"></i>
+
+                                कूलॉम के नियम का सूत्र
+
+                            </div>
+
+                            <div class="formula">
+
+                                F = k |q₁q₂| / r²
+
+                            </div>
+
+                            <p style="margin-top:12px;">
+
+                                जहाँ,
+
+                            </p>
+
+                            <ul>
+
+                                <li>
+                                    <strong>F</strong> = वैद्युत बल
+                                </li>
+
+                                <li>
+                                    <strong>q₁ और q₂</strong> = दोनों बिंदु आवेश
+                                </li>
+
+                                <li>
+                                    <strong>r</strong> = दोनों आवेशों के बीच की दूरी
+                                </li>
+
+                                <li>
+                                    <strong>k</strong> = आनुपातिकता नियतांक
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- CONSTANT -->
+
+                        <h3>
+                            निर्वात में कूलॉम नियतांक
+                        </h3>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+
+                                k = 1 / 4πε₀
+
+                            </div>
+
+                            <p style="margin-top:12px;">
+
+                                निर्वात में,
+
+                                <strong>
+                                    k ≈ 9 × 10⁹ N m²/C²
+                                </strong>
+
+                            </p>
+
+                        </div>
+
+
+                        <!-- DEPENDENCE -->
+
+                        <h3>
+                            वैद्युत बल किन बातों पर निर्भर करता है?
+                        </h3>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    आवेश पर निर्भरता
+                                </h4>
+
+                                <p>
+                                    बल दोनों आवेशों के गुणनफल के समानुपाती होता है।
+                                </p>
+
+                                <div class="formula">
+                                    F ∝ q₁q₂
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    दूरी पर निर्भरता
+                                </h4>
+
+                                <p>
+                                    बल दोनों आवेशों के बीच की दूरी के वर्ग के
+                                    व्युत्क्रमानुपाती होता है।
+                                </p>
+
+                                <div class="formula">
+                                    F ∝ 1/r²
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DISTANCE CONCEPT -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                EXAM CONCEPT
+                            </div>
+
+                            <h4>
+                                यदि दूरी दोगुनी कर दी जाए तो क्या होगा?
+                            </h4>
+
+                            <p>
+                                कूलॉम के नियम के अनुसार:
+                            </p>
+
+                            <div class="formula">
+                                F ∝ 1/r²
+                            </div>
+
+                            <p>
+                                यदि दूरी <strong>2r</strong> हो जाए, तो:
+                            </p>
+
+                            <div class="formula">
+                                F' = F/4
+                            </div>
+
+                            <p>
+                                अर्थात बल अपने प्रारंभिक मान का
+                                <strong>एक-चौथाई</strong> हो जाएगा।
+                            </p>
+
+                        </div>
+
+
+                        <!-- CHARGE CHANGE -->
+
+                        <h3>
+                            यदि किसी एक आवेश को दोगुना कर दिया जाए
+                        </h3>
+
+                        <p>
+                            क्योंकि वैद्युत बल आवेशों के गुणनफल के समानुपाती
+                            होता है, इसलिए किसी एक आवेश को दोगुना करने पर
+                            बल भी दोगुना हो जाएगा।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+                                q₁ → 2q₁
+                            </div>
+
+                            <p style="margin-top:10px;">
+                                इसलिए,
+                            </p>
+
+                            <div class="formula">
+                                F' = 2F
+                            </div>
+
+                        </div>
+
+
+                        <!-- ATTRACT REPULSION -->
+
+                        <h3>
+                            आकर्षण और प्रतिकर्षण
+                        </h3>
+
+                        <p>
+                            कूलॉम बल की दिशा आवेशों के प्रकार पर निर्भर करती है।
+                        </p>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    समान आवेश
+                                </h4>
+
+                                <p>
+                                    धनात्मक-धनात्मक या ऋणात्मक-ऋणात्मक आवेश
+                                    एक-दूसरे को प्रतिकर्षित करते हैं।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    विपरीत आवेश
+                                </h4>
+
+                                <p>
+                                    धनात्मक और ऋणात्मक आवेश एक-दूसरे को
+                                    आकर्षित करते हैं।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- MEDIUM -->
+
+                        <h3>
+                            माध्यम का प्रभाव
+                        </h3>
+
+                        <p>
+                            यदि आवेशों को निर्वात के स्थान पर किसी माध्यम में
+                            रखा जाए, तो उनके बीच लगने वाला वैद्युत बल माध्यम
+                            के परावैद्युतांक पर निर्भर करता है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-calculator"></i>
+
+                                माध्यम में कूलॉम का नियम
+
+                            </div>
+
+                            <div class="formula">
+
+                                F = 1/(4πε) × |q₁q₂|/r²
+
+                            </div>
+
+                            <p style="margin-top:12px;">
+
+                                जहाँ <strong>ε</strong> माध्यम की विद्युतशीलता
+                                (permittivity) है।
+
+                            </p>
+
+                        </div>
+
+
+                        <!-- SUPERPOSITION -->
+
+                        <h3>
+                            अध्यारोपण का सिद्धांत
+                        </h3>
+
+                        <p>
+                            यदि किसी आवेश पर एक से अधिक आवेशों के कारण बल
+                            लग रहा हो, तो उस आवेश पर लगने वाला कुल बल
+                            प्रत्येक बल का <strong>सदिश योग</strong> होता है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-diagram-3"></i>
+
+                                कुल वैद्युत बल
+
+                            </div>
+
+                            <div class="formula">
+
+                                F⃗ = F⃗₁ + F⃗₂ + F⃗₃ + ...
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- NUMERICAL -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                NUMERICAL EXAMPLE
+                            </div>
+
+                            <h4>
+                                दो आवेशों के बीच दूरी दोगुनी करने पर बल में क्या परिवर्तन होगा?
+                            </h4>
+
+                            <p>
+                                कूलॉम के नियम से:
+                            </p>
+
+                            <div class="formula">
+                                F ∝ 1/r²
+                            </div>
+
+                            <p>
+                                नई दूरी = 2r
+                            </p>
+
+                            <div class="formula">
+                                F' = F/(2)²
+                            </div>
+
+                            <div class="formula">
+                                F' = F/4
+                            </div>
+
+                            <p>
+                                <strong>उत्तर:</strong> नया बल प्रारंभिक बल का
+                                एक-चौथाई होगा।
+                            </p>
+
+                        </div>
+
+
+                        <!-- IMPORTANT -->
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-star-fill"></i>
+
+                                परीक्षा के लिए महत्वपूर्ण बिंदु
+
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    कूलॉम का नियम दो <strong>स्थिर बिंदु आवेशों</strong>
+                                    के बीच वैद्युत बल बताता है।
+                                </li>
+
+                                <li>
+                                    वैद्युत बल आवेशों के गुणनफल के समानुपाती होता है।
+                                </li>
+
+                                <li>
+                                    वैद्युत बल दूरी के वर्ग के व्युत्क्रमानुपाती होता है।
+                                </li>
+
+                                <li>
+                                    समान आवेशों में प्रतिकर्षण तथा विपरीत आवेशों
+                                    में आकर्षण होता है।
+                                </li>
+
+                                <li>
+                                    कूलॉम बल एक <strong>सदिश राशि</strong> है।
+                                </li>
+
+                                <li>
+                                    कई आवेशों की स्थिति में अध्यारोपण का सिद्धांत
+                                    लागू किया जाता है।
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- QUICK REVISION -->
+
+                        <h3>
+                            त्वरित पुनरावृत्ति
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    कूलॉम का नियम दो बिंदु आवेशों के बीच वैद्युत
+                                    बल से संबंधित है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    सूत्र: F = k|q₁q₂|/r²
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    दूरी दोगुनी होने पर बल एक-चौथाई हो जाता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    04
+                                </span>
+
+                                <p>
+                                    कई आवेशों के लिए कुल बल सभी बलों का सदिश योग होता है।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     ELECTRIC FIELD
+                ================================================== -->
+                    <section id="electric-field" class="lesson-section">
+
+                        <span class="eyebrow">
+                            TOPIC 03
+                        </span>
+
+                        <h2>
+                            वैद्युत क्षेत्र
+                        </h2>
+
+                        <p>
+                            किसी आवेशित वस्तु के चारों ओर का वह क्षेत्र,
+                            जिसमें कोई अन्य वैद्युत आवेश रखने पर उस पर
+                            वैद्युत बल अनुभव होता है, <strong>वैद्युत क्षेत्र</strong>
+                            कहलाता है।
+                        </p>
+
+                        <p style="margin-top:12px;">
+                            सरल शब्दों में, किसी आवेश के आसपास का वह स्थान
+                            जहाँ उसके प्रभाव को महसूस किया जा सकता है,
+                            वैद्युत क्षेत्र कहलाता है।
+                        </p>
+
+
+                        <!-- ELECTRIC FIELD INTENSITY -->
+
+                        <h3>
+                            वैद्युत क्षेत्र की तीव्रता
+                        </h3>
+
+                        <p>
+                            किसी बिंदु पर वैद्युत क्षेत्र की तीव्रता उस बिंदु पर
+                            रखे गए एकांक धनात्मक परीक्षण आवेश पर लगने वाले
+                            वैद्युत बल के बराबर होती है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-calculator"></i>
+
+                                वैद्युत क्षेत्र की तीव्रता
+
+                            </div>
+
+                            <div class="formula">
+
+                                E = F / q₀
+
+                            </div>
+
+                            <p style="margin-top:12px;">
+
+                                जहाँ,
+
+                            </p>
+
+                            <ul>
+
+                                <li>
+                                    <strong>E</strong> = वैद्युत क्षेत्र की तीव्रता
+                                </li>
+
+                                <li>
+                                    <strong>F</strong> = परीक्षण आवेश पर लगने वाला बल
+                                </li>
+
+                                <li>
+                                    <strong>q₀</strong> = परीक्षण आवेश
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- SI UNIT -->
+
+                        <h3>
+                            वैद्युत क्षेत्र की SI इकाई
+                        </h3>
+
+                        <p>
+                            वैद्युत क्षेत्र की SI इकाई <strong>न्यूटन प्रति कूलॉम
+                                (N/C)</strong> है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+                                1 N/C = 1 N / 1 C
+                            </div>
+
+                        </div>
+
+
+                        <!-- POINT CHARGE -->
+
+                        <h3>
+                            बिंदु आवेश के कारण वैद्युत क्षेत्र
+                        </h3>
+
+                        <p>
+                            यदि किसी बिंदु आवेश <strong>q</strong> से
+                            <strong>r</strong> दूरी पर कोई बिंदु हो, तो उस
+                            बिंदु पर वैद्युत क्षेत्र की तीव्रता निम्न प्रकार
+                            व्यक्त की जाती है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-lightning-charge"></i>
+
+                                बिंदु आवेश के कारण वैद्युत क्षेत्र
+
+                            </div>
+
+                            <div class="formula">
+
+                                E = k |q| / r²
+
+                            </div>
+
+                            <p style="margin-top:12px;">
+
+                                निर्वात में:
+
+                            </p>
+
+                            <div class="formula">
+
+                                E = 1/(4πε₀) × |q|/r²
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DEPENDENCE -->
+
+                        <h3>
+                            वैद्युत क्षेत्र किन बातों पर निर्भर करता है?
+                        </h3>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    आवेश के परिमाण पर
+                                </h4>
+
+                                <p>
+                                    वैद्युत क्षेत्र आवेश के परिमाण के समानुपाती
+                                    होता है।
+                                </p>
+
+                                <div class="formula">
+                                    E ∝ q
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    दूरी पर
+                                </h4>
+
+                                <p>
+                                    वैद्युत क्षेत्र दूरी के वर्ग के व्युत्क्रमानुपाती
+                                    होता है।
+                                </p>
+
+                                <div class="formula">
+                                    E ∝ 1/r²
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DIRECTION -->
+
+                        <h3>
+                            वैद्युत क्षेत्र की दिशा
+                        </h3>
+
+                        <p>
+                            वैद्युत क्षेत्र की दिशा उस दिशा में मानी जाती है
+                            जिस दिशा में एक स्वतंत्र धनात्मक परीक्षण आवेश
+                            गति करेगा।
+                        </p>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    धनात्मक आवेश
+                                </h4>
+
+                                <p>
+                                    धनात्मक आवेश के कारण वैद्युत क्षेत्र की
+                                    दिशा आवेश से बाहर की ओर होती है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    ऋणात्मक आवेश
+                                </h4>
+
+                                <p>
+                                    ऋणात्मक आवेश के कारण वैद्युत क्षेत्र की
+                                    दिशा आवेश की ओर होती है।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- TEST CHARGE -->
+
+                        <h3>
+                            परीक्षण आवेश
+                        </h3>
+
+                        <p>
+                            किसी वैद्युत क्षेत्र का अध्ययन करने के लिए एक बहुत
+                            छोटे धनात्मक आवेश का उपयोग किया जाता है, जिसे
+                            <strong>परीक्षण आवेश</strong> कहते हैं।
+                        </p>
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-star-fill"></i>
+
+                                ध्यान रखें
+
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    परीक्षण आवेश का मान बहुत छोटा माना जाता है।
+                                </li>
+
+                                <li>
+                                    परीक्षण आवेश धनात्मक माना जाता है।
+                                </li>
+
+                                <li>
+                                    परीक्षण आवेश स्वयं मूल वैद्युत क्षेत्र को
+                                    प्रभावित नहीं करता है।
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- ELECTRIC FIELD LINES -->
+
+                        <h3>
+                            वैद्युत क्षेत्र रेखाएँ
+                        </h3>
+
+                        <p>
+                            वैद्युत क्षेत्र को चित्र द्वारा प्रदर्शित करने के लिए
+                            काल्पनिक रेखाओं का उपयोग किया जाता है। इन्हें
+                            <strong>वैद्युत क्षेत्र रेखाएँ</strong> कहते हैं।
+                        </p>
+
+
+                        <h3>
+                            वैद्युत क्षेत्र रेखाओं के गुण
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    वैद्युत क्षेत्र रेखाएँ धनात्मक आवेश से निकलती
+                                    हैं और ऋणात्मक आवेश पर समाप्त होती हैं।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    किसी बिंदु पर क्षेत्र रेखा की स्पर्श रेखा
+                                    उस बिंदु पर वैद्युत क्षेत्र की दिशा बताती है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    दो वैद्युत क्षेत्र रेखाएँ कभी एक-दूसरे को
+                                    नहीं काटती हैं।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    04
+                                </span>
+
+                                <p>
+                                    जहाँ क्षेत्र रेखाएँ अधिक पास-पास होती हैं,
+                                    वहाँ वैद्युत क्षेत्र अधिक प्रबल होता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    05
+                                </span>
+
+                                <p>
+                                    समान रूप से आवेशित क्षेत्र में क्षेत्र रेखाएँ
+                                    समानांतर और समान दूरी पर होती हैं।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    06
+                                </span>
+
+                                <p>
+                                    स्थिर वैद्युत क्षेत्र में क्षेत्र रेखाएँ
+                                    बंद वक्र नहीं बनाती हैं।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- SUPERPOSITION -->
+
+                        <h3>
+                            वैद्युत क्षेत्र का अध्यारोपण सिद्धांत
+                        </h3>
+
+                        <p>
+                            यदि किसी बिंदु पर कई आवेशों के कारण वैद्युत क्षेत्र
+                            उपस्थित हो, तो उस बिंदु पर कुल वैद्युत क्षेत्र
+                            सभी अलग-अलग वैद्युत क्षेत्रों का सदिश योग होता है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-diagram-3"></i>
+
+                                कुल वैद्युत क्षेत्र
+
+                            </div>
+
+                            <div class="formula">
+
+                                E⃗ = E⃗₁ + E⃗₂ + E⃗₃ + ...
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EXAMPLE 1 -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                CONCEPT EXAMPLE
+                            </div>
+
+                            <h4>
+                                यदि दूरी दोगुनी कर दी जाए तो वैद्युत क्षेत्र पर क्या प्रभाव पड़ेगा?
+                            </h4>
+
+                            <p>
+                                बिंदु आवेश के कारण:
+                            </p>
+
+                            <div class="formula">
+                                E ∝ 1/r²
+                            </div>
+
+                            <p>
+                                नई दूरी = 2r
+                            </p>
+
+                            <div class="formula">
+                                E' = E/4
+                            </div>
+
+                            <p>
+                                इसलिए वैद्युत क्षेत्र अपने प्रारंभिक मान का
+                                <strong>एक-चौथाई</strong> हो जाएगा।
+                            </p>
+
+                        </div>
+
+
+                        <!-- EXAMPLE 2 -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                NUMERICAL EXAMPLE
+                            </div>
+
+                            <h4>
+                                किसी बिंदु पर 20 N का बल 4 C के परीक्षण आवेश पर लगता है।
+                                वैद्युत क्षेत्र ज्ञात कीजिए।
+                            </h4>
+
+                            <p>
+                                दिया गया:
+                            </p>
+
+                            <p>
+                                F = 20 N
+                            </p>
+
+                            <p>
+                                q₀ = 4 C
+                            </p>
+
+                            <p>
+                                सूत्र:
+                            </p>
+
+                            <div class="formula">
+                                E = F/q₀
+                            </div>
+
+                            <p>
+                                E = 20/4
+                            </p>
+
+                            <div class="formula">
+                                <strong>E = 5 N/C</strong>
+                            </div>
+
+                        </div>
+
+
+                        <!-- IMPORTANT -->
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-star-fill"></i>
+
+                                परीक्षा के लिए महत्वपूर्ण
+
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    वैद्युत क्षेत्र एक <strong>सदिश राशि</strong> है।
+                                </li>
+
+                                <li>
+                                    इसकी SI इकाई <strong>N/C</strong> है।
+                                </li>
+
+                                <li>
+                                    बिंदु आवेश के कारण E = k|q|/r²
+                                </li>
+
+                                <li>
+                                    धनात्मक आवेश के कारण क्षेत्र बाहर की ओर होता है।
+                                </li>
+
+                                <li>
+                                    ऋणात्मक आवेश के कारण क्षेत्र आवेश की ओर होता है।
+                                </li>
+
+                                <li>
+                                    क्षेत्र रेखाएँ कभी एक-दूसरे को नहीं काटती हैं।
+                                </li>
+
+                                <li>
+                                    क्षेत्र रेखाओं की सघनता क्षेत्र की तीव्रता बताती है।
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- QUICK REVISION -->
+
+                        <h3>
+                            त्वरित पुनरावृत्ति
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    वैद्युत क्षेत्र वह क्षेत्र है जहाँ आवेश वैद्युत
+                                    बल का अनुभव करता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    वैद्युत क्षेत्र की तीव्रता E = F/q₀ होती है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    वैद्युत क्षेत्र की SI इकाई N/C है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    04
+                                </span>
+
+                                <p>
+                                    वैद्युत क्षेत्र एक सदिश राशि है।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     ELECTRIC FLUX
+                ================================================== -->
+
+                    <section id="electric-flux" class="lesson-section">
+
+                        <span class="eyebrow">
+                            TOPIC 04
+                        </span>
+
+                        <h2>
+                            वैद्युत फ्लक्स
+                        </h2>
+
+                        <p>
+                            किसी सतह से होकर गुजरने वाले वैद्युत क्षेत्र की
+                            कुल मात्रा को मापने के लिए जिस भौतिक राशि का
+                            उपयोग किया जाता है, उसे <strong>वैद्युत फ्लक्स</strong>
+                            कहते हैं।
+                        </p>
+
+                        <p style="margin-top:12px;">
+                            इसे सामान्यतः <strong>Φ (फाई)</strong> से प्रदर्शित
+                            किया जाता है। वैद्युत फ्लक्स इस बात पर निर्भर करता है
+                            कि सतह से वैद्युत क्षेत्र किस प्रकार गुजर रहा है।
+                        </p>
+
+
+                        <!-- BASIC FORMULA -->
+
+                        <h3>
+                            वैद्युत फ्लक्स का सूत्र
+                        </h3>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-calculator"></i>
+
+                                महत्वपूर्ण सूत्र
+
+                            </div>
+
+                            <div class="formula">
+
+                                Φ = E A cos θ
+
+                            </div>
+
+                            <p style="margin-top:12px;">
+
+                                जहाँ,
+
+                            </p>
+
+                            <ul>
+
+                                <li>
+                                    <strong>Φ</strong> = वैद्युत फ्लक्स
+                                </li>
+
+                                <li>
+                                    <strong>E</strong> = वैद्युत क्षेत्र
+                                </li>
+
+                                <li>
+                                    <strong>A</strong> = सतह का क्षेत्रफल
+                                </li>
+
+                                <li>
+                                    <strong>θ</strong> = वैद्युत क्षेत्र और क्षेत्रफल
+                                    सदिश के बीच का कोण
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- AREA VECTOR -->
+
+                        <h3>
+                            क्षेत्रफल सदिश
+                        </h3>
+
+                        <p>
+                            किसी समतल सतह के क्षेत्रफल को एक सदिश राशि के रूप
+                            में प्रदर्शित किया जाता है, जिसे <strong>क्षेत्रफल सदिश</strong>
+                            कहते हैं।
+                        </p>
+
+                        <p style="margin-top:12px;">
+                            क्षेत्रफल सदिश की दिशा सतह के लंबवत मानी जाती है।
+                        </p>
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-info-circle-fill"></i>
+
+                                याद रखें
+
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    क्षेत्रफल सदिश की दिशा सतह के लंबवत होती है।
+                                </li>
+
+                                <li>
+                                    इसका परिमाण सतह के क्षेत्रफल के बराबर होता है।
+                                </li>
+
+                                <li>
+                                    वैद्युत फ्लक्स में कोण वैद्युत क्षेत्र और
+                                    क्षेत्रफल सदिश के बीच लिया जाता है।
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- ANGLE CASES -->
+
+                        <h3>
+                            कोण के अनुसार वैद्युत फ्लक्स
+                        </h3>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    θ = 0°
+                                </h4>
+
+                                <p>
+                                    जब वैद्युत क्षेत्र क्षेत्रफल सदिश के समान दिशा
+                                    में हो, तब फ्लक्स अधिकतम होता है।
+                                </p>
+
+                                <div class="formula">
+                                    Φ = EA
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    θ = 90°
+                                </h4>
+
+                                <p>
+                                    जब वैद्युत क्षेत्र क्षेत्रफल सदिश के लंबवत हो,
+                                    तब फ्लक्स शून्य होता है।
+                                </p>
+
+                                <div class="formula">
+                                    Φ = 0
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    θ = 180°
+                                </h4>
+
+                                <p>
+                                    जब वैद्युत क्षेत्र और क्षेत्रफल सदिश
+                                    विपरीत दिशा में हों, तब फ्लक्स ऋणात्मक होता है।
+                                </p>
+
+                                <div class="formula">
+                                    Φ = −EA
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    θ = 60°
+                                </h4>
+
+                                <p>
+                                    इस स्थिति में cos 60° = 1/2 होता है।
+                                </p>
+
+                                <div class="formula">
+                                    Φ = EA/2
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- MAXIMUM -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                EXAM CONCEPT
+                            </div>
+
+                            <h4>
+                                वैद्युत फ्लक्स अधिकतम कब होता है?
+                            </h4>
+
+                            <p>
+                                सूत्र:
+                            </p>
+
+                            <div class="formula">
+                                Φ = EA cos θ
+                            </div>
+
+                            <p>
+                                फ्लक्स अधिकतम होने के लिए cos θ का मान अधिकतम
+                                होना चाहिए।
+                            </p>
+
+                            <div class="formula">
+                                cos 0° = 1
+                            </div>
+
+                            <p>
+                                इसलिए <strong>θ = 0°</strong> पर वैद्युत फ्लक्स
+                                अधिकतम होता है।
+                            </p>
+
+                        </div>
+
+
+                        <!-- ZERO FLUX -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                QUICK CONCEPT
+                            </div>
+
+                            <h4>
+                                वैद्युत फ्लक्स शून्य कब होता है?
+                            </h4>
+
+                            <p>
+                                जब वैद्युत क्षेत्र क्षेत्रफल सदिश के लंबवत होता है,
+                                तब θ = 90° होता है।
+                            </p>
+
+                            <div class="formula">
+                                Φ = EA cos 90°
+                            </div>
+
+                            <div class="formula">
+                                <strong>Φ = 0</strong>
+                            </div>
+
+                        </div>
+
+
+                        <!-- SI UNIT -->
+
+                        <h3>
+                            वैद्युत फ्लक्स की SI इकाई
+                        </h3>
+
+                        <p>
+                            वैद्युत फ्लक्स की SI इकाई
+                            <strong>N m²/C</strong> होती है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+                                SI Unit = N m²/C
+                            </div>
+
+                        </div>
+
+
+                        <!-- VECTOR FORM -->
+
+                        <h3>
+                            सदिश रूप में वैद्युत फ्लक्स
+                        </h3>
+
+                        <p>
+                            यदि वैद्युत क्षेत्र और क्षेत्रफल को सदिश के रूप में
+                            व्यक्त किया जाए, तो वैद्युत फ्लक्स को डॉट प्रोडक्ट
+                            के रूप में लिखा जा सकता है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-diagram-3"></i>
+
+                                सदिश सूत्र
+
+                            </div>
+
+                            <div class="formula">
+
+                                Φ = E⃗ · A⃗
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- NUMERICAL -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                NUMERICAL EXAMPLE
+                            </div>
+
+                            <h4>
+                                एक सतह का क्षेत्रफल 2 m² है। उस पर 10 N/C का
+                                वैद्युत क्षेत्र लंबवत दिशा में कार्य करता है।
+                                फ्लक्स ज्ञात कीजिए।
+                            </h4>
+
+                            <p>
+                                दिया गया:
+                            </p>
+
+                            <p>
+                                E = 10 N/C
+                            </p>
+
+                            <p>
+                                A = 2 m²
+                            </p>
+
+                            <p>
+                                क्षेत्र और क्षेत्रफल सदिश की दिशा समान है,
+                                इसलिए:
+                            </p>
+
+                            <div class="formula">
+                                θ = 0°
+                            </div>
+
+                            <p>
+                                सूत्र:
+                            </p>
+
+                            <div class="formula">
+                                Φ = EA cos θ
+                            </div>
+
+                            <p>
+                                Φ = 10 × 2 × cos 0°
+                            </p>
+
+                            <div class="formula">
+                                <strong>Φ = 20 N m²/C</strong>
+                            </div>
+
+                        </div>
+
+
+                        <!-- SECOND NUMERICAL -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                PRACTICE EXAMPLE
+                            </div>
+
+                            <h4>
+                                यदि E = 100 N/C, A = 0.5 m² और θ = 60° हो,
+                                तो वैद्युत फ्लक्स ज्ञात कीजिए।
+                            </h4>
+
+                            <p>
+                                सूत्र:
+                            </p>
+
+                            <div class="formula">
+                                Φ = EA cos θ
+                            </div>
+
+                            <p>
+                                Φ = 100 × 0.5 × cos 60°
+                            </p>
+
+                            <p>
+                                cos 60° = 1/2
+                            </p>
+
+                            <div class="formula">
+                                Φ = 100 × 0.5 × 1/2
+                            </div>
+
+                            <div class="formula">
+                                <strong>Φ = 25 N m²/C</strong>
+                            </div>
+
+                        </div>
+
+
+                        <!-- IMPORTANT -->
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-star-fill"></i>
+
+                                परीक्षा के लिए महत्वपूर्ण
+
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    वैद्युत फ्लक्स का प्रतीक <strong>Φ</strong> है।
+                                </li>
+
+                                <li>
+                                    मुख्य सूत्र <strong>Φ = EA cos θ</strong> है।
+                                </li>
+
+                                <li>
+                                    θ कोण वैद्युत क्षेत्र और क्षेत्रफल सदिश के
+                                    बीच लिया जाता है।
+                                </li>
+
+                                <li>
+                                    θ = 0° पर फ्लक्स अधिकतम होता है।
+                                </li>
+
+                                <li>
+                                    θ = 90° पर फ्लक्स शून्य होता है।
+                                </li>
+
+                                <li>
+                                    θ = 180° पर फ्लक्स ऋणात्मक होता है।
+                                </li>
+
+                                <li>
+                                    वैद्युत फ्लक्स की SI इकाई
+                                    <strong>N m²/C</strong> है।
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- QUICK REVISION -->
+
+                        <h3>
+                            त्वरित पुनरावृत्ति
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    वैद्युत फ्लक्स किसी सतह से गुजरने वाले
+                                    वैद्युत क्षेत्र का माप है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    वैद्युत फ्लक्स का सूत्र Φ = EA cos θ है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    θ = 0° पर फ्लक्स अधिकतम होता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    04
+                                </span>
+
+                                <p>
+                                    θ = 90° पर फ्लक्स शून्य होता है।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     GAUSS LAW
+                ================================================== -->
+
+                    <section id="gauss-law" class="lesson-section">
+
+                        <span class="eyebrow">
+                            TOPIC 05
+                        </span>
+
+                        <h2>
+                            गॉस का नियम
+                        </h2>
+
+                        <p>
+                            किसी बंद सतह से गुजरने वाला कुल वैद्युत फ्लक्स उस
+                            सतह के अंदर स्थित कुल आवेश के <strong>1/ε₀</strong>
+                            गुना के बराबर होता है। इसे <strong>गॉस का नियम</strong>
+                            कहते हैं।
+                        </p>
+
+                        <p style="margin-top:12px;">
+                            यह नियम विशेष रूप से उन स्थितियों में बहुत उपयोगी
+                            होता है जहाँ आवेश वितरण में पर्याप्त सममिति होती है।
+                        </p>
+
+
+                        <!-- STATEMENT -->
+
+                        <h3>
+                            गॉस के नियम का कथन
+                        </h3>
+
+                        <div class="intro-card">
+
+                            <p>
+                                किसी बंद सतह से होकर गुजरने वाला कुल वैद्युत
+                                फ्लक्स उस बंद सतह के अंदर उपस्थित कुल आवेश
+                                तथा निर्वात की विद्युतशीलता के अनुपात के बराबर होता है।
+                            </p>
+
+                        </div>
+
+
+                        <!-- FORMULA -->
+
+                        <div class="formula-card">
+
+                            <div class="formula-title">
+
+                                <i class="bi bi-calculator"></i>
+
+                                गॉस के नियम का सूत्र
+
+                            </div>
+
+                            <div class="formula">
+
+                                Φ = q<sub>enclosed</sub> / ε₀
+
+                            </div>
+
+                            <p style="margin-top:12px;">
+
+                                जहाँ,
+
+                            </p>
+
+                            <ul>
+
+                                <li>
+                                    <strong>Φ</strong> = बंद सतह से कुल वैद्युत फ्लक्स
+                                </li>
+
+                                <li>
+                                    <strong>q<sub>enclosed</sub></strong> =
+                                    बंद सतह के अंदर स्थित कुल आवेश
+                                </li>
+
+                                <li>
+                                    <strong>ε₀</strong> = निर्वात की विद्युतशीलता
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- EPSILON -->
+
+                        <h3>
+                            निर्वात की विद्युतशीलता
+                        </h3>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+                                ε₀ = 8.85 × 10⁻¹² C²/(N m²)
+                            </div>
+
+                        </div>
+
+
+                        <!-- CLOSED SURFACE -->
+
+                        <h3>
+                            बंद सतह क्या है?
+                        </h3>
+
+                        <p>
+                            ऐसी सतह जो किसी आयतन को पूरी तरह घेरती है,
+                            <strong>बंद सतह</strong> कहलाती है।
+                        </p>
+
+                        <p style="margin-top:12px;">
+                            उदाहरण के लिए गोला, घन और बेलन जैसी सतहें बंद
+                            सतह के उदाहरण हैं।
+                        </p>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    बंद सतह
+                                </h4>
+
+                                <p>
+                                    जो सतह किसी आयतन को चारों ओर से पूरी तरह
+                                    घेरती है, जैसे गोला।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    खुली सतह
+                                </h4>
+
+                                <p>
+                                    जिसकी कोई सीमा खुली रहती है, जैसे एक समतल
+                                    सतह या खुला हुआ घुमावदार भाग।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- GAUSSIAN SURFACE -->
+
+                        <h3>
+                            गॉसियन सतह
+                        </h3>
+
+                        <p>
+                            गॉस के नियम का उपयोग करते समय चुनी गई काल्पनिक
+                            बंद सतह को <strong>गॉसियन सतह</strong> कहते हैं।
+                        </p>
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-info-circle-fill"></i>
+
+                                गॉसियन सतह चुनने का उद्देश्य
+
+                            </div>
+
+                            <p style="margin-top:10px;">
+                                ऐसी सतह चुनी जाती है जिससे वैद्युत क्षेत्र की
+                                गणना सरल हो जाए और सममिति का लाभ लिया जा सके।
+                            </p>
+
+                        </div>
+
+
+                        <!-- SYMMETRY -->
+
+                        <h3>
+                            गॉस के नियम में सममिति का महत्व
+                        </h3>
+
+                        <p>
+                            गॉस का नियम हमेशा सत्य है, लेकिन वैद्युत क्षेत्र
+                            ज्ञात करने के लिए यह तभी विशेष रूप से उपयोगी होता है
+                            जब आवेश वितरण में उचित सममिति हो।
+                        </p>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    गोलाकार सममिति
+                                </h4>
+
+                                <p>
+                                    बिंदु आवेश या समान रूप से आवेशित गोलाकार
+                                    वितरण के लिए उपयोगी।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    बेलनाकार सममिति
+                                </h4>
+
+                                <p>
+                                    बहुत लंबे समान रूप से आवेशित तार जैसे
+                                    वितरण के लिए उपयोगी।
+                                </p>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    समतलीय सममिति
+                                </h4>
+
+                                <p>
+                                    अनंत समान रूप से आवेशित समतल चादर के
+                                    लिए उपयोगी।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- POINT CHARGE -->
+
+                        <h3>
+                            बिंदु आवेश के लिए गॉस का नियम
+                        </h3>
+
+                        <p>
+                            यदि किसी बंद गोलाकार सतह के केंद्र में एक बिंदु
+                            आवेश q रखा गया हो, तो उस सतह से गुजरने वाला कुल
+                            वैद्युत फ्लक्स केवल उस आवेश पर निर्भर करेगा।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+                                Φ = q/ε₀
+                            </div>
+
+                        </div>
+
+
+                        <!-- OUTSIDE CHARGE -->
+
+                        <h3>
+                            यदि आवेश बंद सतह के बाहर हो
+                        </h3>
+
+                        <p>
+                            यदि कोई आवेश बंद सतह के बाहर स्थित है, तो वह उस
+                            बंद सतह के अंदर का आवेश नहीं माना जाएगा।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+                                q<sub>enclosed</sub> = 0
+                            </div>
+
+                            <div class="formula" style="margin-top:10px;">
+                                Φ = 0
+                            </div>
+
+                        </div>
+
+
+                        <!-- NET CHARGE -->
+
+                        <h3>
+                            एक से अधिक आवेशों के लिए
+                        </h3>
+
+                        <p>
+                            यदि बंद सतह के अंदर कई आवेश उपस्थित हों, तो
+                            अंदर स्थित सभी आवेशों का बीजीय योग लिया जाता है।
+                        </p>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+                                Φ = (q₁ + q₂ + q₃ + ...)/ε₀
+                            </div>
+
+                        </div>
+
+
+                        <!-- IMPORTANT CONCEPT -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                IMPORTANT CONCEPT
+                            </div>
+
+                            <h4>
+                                क्या बाहर रखा आवेश कुल फ्लक्स को बदलता है?
+                            </h4>
+
+                            <p>
+                                किसी बंद सतह के बाहर स्थित आवेश बंद सतह के
+                                अंदर का कुल आवेश नहीं बदलता। इसलिए उस बंद
+                                सतह से निकलने वाला <strong>शुद्ध वैद्युत फ्लक्स</strong>
+                                केवल अंदर स्थित कुल आवेश पर निर्भर करता है।
+                            </p>
+
+                        </div>
+
+
+                        <!-- APPLICATION 1 -->
+
+                        <h3>
+                            गॉस के नियम के प्रमुख अनुप्रयोग
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    गोलाकार रूप से सममित आवेश वितरण के कारण
+                                    वैद्युत क्षेत्र ज्ञात करना।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    बहुत लंबे समान रूप से आवेशित तार के कारण
+                                    वैद्युत क्षेत्र ज्ञात करना।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    अनंत समान रूप से आवेशित समतल चादर के कारण
+                                    वैद्युत क्षेत्र ज्ञात करना।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- NUMERICAL 1 -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                NUMERICAL EXAMPLE
+                            </div>
+
+                            <h4>
+                                किसी बंद सतह के अंदर 8.85 × 10⁻¹² C का आवेश है।
+                                कुल वैद्युत फ्लक्स ज्ञात कीजिए।
+                            </h4>
+
+                            <p>
+                                दिया गया:
+                            </p>
+
+                            <p>
+                                q = 8.85 × 10⁻¹² C
+                            </p>
+
+                            <p>
+                                ε₀ = 8.85 × 10⁻¹² C²/(N m²)
+                            </p>
+
+                            <p>
+                                सूत्र:
+                            </p>
+
+                            <div class="formula">
+                                Φ = q/ε₀
+                            </div>
+
+                            <p>
+                                मान रखने पर:
+                            </p>
+
+                            <div class="formula">
+                                Φ = 1 N m²/C
+                            </div>
+
+                            <p>
+                                <strong>उत्तर: Φ = 1 N m²/C</strong>
+                            </p>
+
+                        </div>
+
+
+                        <!-- NUMERICAL 2 -->
+
+                        <div class="example-card">
+
+                            <div class="example-label">
+                                CONCEPT PRACTICE
+                            </div>
+
+                            <h4>
+                                यदि किसी बंद सतह के अंदर कुल आवेश शून्य हो,
+                                तो कुल वैद्युत फ्लक्स कितना होगा?
+                            </h4>
+
+                            <p>
+                                गॉस के नियम से:
+                            </p>
+
+                            <div class="formula">
+                                Φ = q<sub>enclosed</sub>/ε₀
+                            </div>
+
+                            <p>
+                                क्योंकि:
+                            </p>
+
+                            <div class="formula">
+                                q<sub>enclosed</sub> = 0
+                            </div>
+
+                            <div class="formula">
+                                <strong>Φ = 0</strong>
+                            </div>
+
+                        </div>
+
+
+                        <!-- EXAM IMPORTANT -->
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-star-fill"></i>
+
+                                परीक्षा के लिए महत्वपूर्ण
+
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    गॉस का नियम बंद सतह के लिए लागू किया जाता है।
+                                </li>
+
+                                <li>
+                                    कुल फ्लक्स केवल बंद सतह के अंदर स्थित
+                                    <strong>शुद्ध आवेश</strong> पर निर्भर करता है।
+                                </li>
+
+                                <li>
+                                    गॉस के नियम का सूत्र
+                                    <strong>Φ = q/ε₀</strong> है।
+                                </li>
+
+                                <li>
+                                    गॉसियन सतह एक काल्पनिक बंद सतह होती है।
+                                </li>
+
+                                <li>
+                                    उचित सममिति होने पर गॉस का नियम वैद्युत क्षेत्र
+                                    ज्ञात करने में बहुत उपयोगी है।
+                                </li>
+
+                                <li>
+                                    बाहर स्थित आवेश enclosed charge में शामिल नहीं होता।
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- QUICK REVISION -->
+
+                        <h3>
+                            त्वरित पुनरावृत्ति
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    गॉस का नियम बंद सतह से गुजरने वाले कुल
+                                    वैद्युत फ्लक्स और enclosed charge के बीच संबंध बताता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    गॉस का नियम: Φ = q/ε₀
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    गॉसियन सतह एक काल्पनिक बंद सतह है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    04
+                                </span>
+
+                                <p>
+                                    गॉस के नियम में केवल बंद सतह के अंदर का
+                                    कुल शुद्ध आवेश लिया जाता है।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     IMPORTANT POINTS
+                ================================================== -->
+
+                    <section id="important" class="lesson-section">
+
+                        <span class="eyebrow">
+                            EXAM REVISION
+                        </span>
+
+                        <h2>
+                            अध्याय 1 — परीक्षा के लिए महत्वपूर्ण बिंदु
+                        </h2>
+
+                        <p>
+                            परीक्षा से पहले इस भाग को जरूर पढ़ें। यहाँ पूरे
+                            अध्याय के सबसे महत्वपूर्ण concepts और formulas
+                            एक जगह दिए गए हैं।
+                        </p>
+
+
+                        <!-- CORE CONCEPTS -->
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-star-fill"></i>
+
+                                सबसे महत्वपूर्ण बातें
+
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    विद्युत आवेश दो प्रकार के होते हैं —
+                                    <strong>धनात्मक और ऋणात्मक।</strong>
+                                </li>
+
+                                <li>
+                                    समान आवेश एक-दूसरे को प्रतिकर्षित करते हैं।
+                                </li>
+
+                                <li>
+                                    असमान आवेश एक-दूसरे को आकर्षित करते हैं।
+                                </li>
+
+                                <li>
+                                    विद्युत आवेश एक संरक्षित राशि है।
+                                </li>
+
+                                <li>
+                                    आवेश का क्वांटीकरण:
+                                    <strong>q = ne</strong>
+                                </li>
+
+                                <li>
+                                    कूलॉम का नियम दो बिंदु आवेशों के बीच
+                                    विद्युत बल बताता है।
+                                </li>
+
+                                <li>
+                                    कूलॉम बल दूरी के वर्ग के व्युत्क्रमानुपाती होता है:
+                                    <strong>F ∝ 1/r²</strong>
+                                </li>
+
+                                <li>
+                                    विद्युत क्षेत्र एक सदिश राशि है।
+                                </li>
+
+                                <li>
+                                    विद्युत क्षेत्र की दिशा धनात्मक परीक्षण
+                                    आवेश पर लगने वाले बल की दिशा होती है।
+                                </li>
+
+                                <li>
+                                    विद्युत क्षेत्र रेखाएँ धनात्मक आवेश से निकलती
+                                    हैं और ऋणात्मक आवेश पर समाप्त होती हैं।
+                                </li>
+
+                                <li>
+                                    दो विद्युत क्षेत्र रेखाएँ कभी एक-दूसरे को
+                                    प्रतिच्छेद नहीं करतीं।
+                                </li>
+
+                                <li>
+                                    विद्युत फ्लक्स:
+                                    <strong>Φ = EA cos θ</strong>
+                                </li>
+
+                                <li>
+                                    θ = 0° पर विद्युत फ्लक्स अधिकतम होता है।
+                                </li>
+
+                                <li>
+                                    θ = 90° पर विद्युत फ्लक्स शून्य होता है।
+                                </li>
+
+                                <li>
+                                    गॉस का नियम:
+                                    <strong>Φ = q/ε₀</strong>
+                                </li>
+
+                                <li>
+                                    गॉस का नियम बंद सतह के लिए प्रयोग किया जाता है।
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <!-- FORMULA REVISION -->
+
+                        <h3>
+                            सभी महत्वपूर्ण सूत्र एक नजर में
+                        </h3>
+
+                        <div class="definition-grid">
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    आवेश का क्वांटीकरण
+                                </h4>
+
+                                <div class="formula">
+                                    q = ne
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    कूलॉम का नियम
+                                </h4>
+
+                                <div class="formula">
+                                    F = k|q₁q₂|/r²
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    विद्युत क्षेत्र
+                                </h4>
+
+                                <div class="formula">
+                                    E = F/q₀
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    बिंदु आवेश का क्षेत्र
+                                </h4>
+
+                                <div class="formula">
+                                    E = k|q|/r²
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    विद्युत फ्लक्स
+                                </h4>
+
+                                <div class="formula">
+                                    Φ = EA cos θ
+                                </div>
+
+                            </div>
+
+
+                            <div class="definition-card">
+
+                                <h4>
+                                    गॉस का नियम
+                                </h4>
+
+                                <div class="formula">
+                                    Φ = q/ε₀
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- CONSTANTS -->
+
+                        <h3>
+                            महत्वपूर्ण स्थिरांक
+                        </h3>
+
+                        <div class="formula-card">
+
+                            <div class="formula">
+
+                                e = 1.6 × 10⁻¹⁹ C
+
+                            </div>
+
+                            <div class="formula" style="margin-top:10px;">
+
+                                ε₀ = 8.85 × 10⁻¹² C²/(N m²)
+
+                            </div>
+
+                            <div class="formula" style="margin-top:10px;">
+
+                                k = 9 × 10⁹ N m²/C²
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- ONE LINE REVISION -->
+
+                        <h3>
+                            One-Line Revision
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    <strong>आवेश</strong> — पदार्थ का वह गुण जिसके
+                                    कारण विद्युत आकर्षण या प्रतिकर्षण होता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    <strong>कूलॉम का नियम</strong> — दो आवेशों के
+                                    बीच लगने वाले विद्युत बल का नियम।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    <strong>विद्युत क्षेत्र</strong> — आवेश के आसपास
+                                    का वह क्षेत्र जहाँ दूसरा आवेश विद्युत बल अनुभव करता है।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    04
+                                </span>
+
+                                <p>
+                                    <strong>विद्युत फ्लक्स</strong> — किसी सतह से
+                                    गुजरने वाले विद्युत क्षेत्र का माप।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    05
+                                </span>
+
+                                <p>
+                                    <strong>गॉस का नियम</strong> — बंद सतह के कुल
+                                    फ्लक्स को enclosed charge से जोड़ता है।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     IMPORTANT QUESTIONS
+                ================================================== -->
+
+                    <section id="questions" class="lesson-section">
+
+                        <span class="eyebrow">
+                            BIHAR BOARD • EXAM PRACTICE
+                        </span>
+
+                        <h2>
+                            महत्वपूर्ण प्रश्न
+                        </h2>
+
+                        <p>
+                            नीचे दिए गए प्रश्न अध्याय के महत्वपूर्ण concepts,
+                            definitions, laws और formulas की परीक्षा-आधारित
+                            practice के लिए हैं।
+                        </p>
+
+
+                        <!-- VERY SHORT -->
+
+                        <h3>
+                            अति लघु उत्तरीय प्रश्न
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    01
+                                </span>
+
+                                <p>
+                                    विद्युत आवेश क्या है?
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    02
+                                </span>
+
+                                <p>
+                                    विद्युत आवेश की SI इकाई क्या है?
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    03
+                                </span>
+
+                                <p>
+                                    कूलॉम के नियम का सूत्र लिखिए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    04
+                                </span>
+
+                                <p>
+                                    विद्युत क्षेत्र की SI इकाई लिखिए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    05
+                                </span>
+
+                                <p>
+                                    विद्युत फ्लक्स का SI मात्रक क्या है?
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    06
+                                </span>
+
+                                <p>
+                                    गॉस के नियम का सूत्र लिखिए।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- SHORT ANSWER -->
+
+                        <h3>
+                            लघु उत्तरीय प्रश्न
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    07
+                                </span>
+
+                                <p>
+                                    विद्युत आवेश के प्रमुख गुणों को समझाइए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    08
+                                </span>
+
+                                <p>
+                                    कूलॉम के नियम को लिखकर उसमें प्रयुक्त
+                                    राशियों को समझाइए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    09
+                                </span>
+
+                                <p>
+                                    विद्युत क्षेत्र की परिभाषा दीजिए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    10
+                                </span>
+
+                                <p>
+                                    विद्युत क्षेत्र रेखाओं के कोई चार गुण लिखिए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    11
+                                </span>
+
+                                <p>
+                                    विद्युत फ्लक्स क्या है? इसका सूत्र लिखिए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    12
+                                </span>
+
+                                <p>
+                                    गॉसियन सतह से आप क्या समझते हैं?
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- LONG ANSWER -->
+
+                        <h3>
+                            दीर्घ उत्तरीय प्रश्न
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    13
+                                </span>
+
+                                <p>
+                                    कूलॉम के नियम को लिखिए तथा इसका गणितीय
+                                    रूप समझाइए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    14
+                                </span>
+
+                                <p>
+                                    विद्युत क्षेत्र रेखाओं के प्रमुख गुणों को
+                                    विस्तार से समझाइए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    15
+                                </span>
+
+                                <p>
+                                    गॉस के नियम का कथन लिखिए तथा उसका
+                                    गणितीय व्यंजक दीजिए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    16
+                                </span>
+
+                                <p>
+                                    गॉस के नियम के प्रमुख अनुप्रयोगों को
+                                    समझाइए।
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- NUMERICAL -->
+
+                        <h3>
+                            संख्यात्मक प्रश्न
+                        </h3>
+
+                        <div class="question-list">
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    17
+                                </span>
+
+                                <p>
+                                    दो आवेशों के बीच की दूरी दोगुनी कर दी जाए,
+                                    तो उनके बीच विद्युत बल पर क्या प्रभाव पड़ेगा?
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    18
+                                </span>
+
+                                <p>
+                                    यदि E = 200 N/C, A = 2 m² और θ = 60° हो,
+                                    तो विद्युत फ्लक्स की गणना कीजिए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    19
+                                </span>
+
+                                <p>
+                                    किसी बंद सतह के अंदर 2 × 10⁻⁹ C का आवेश
+                                    स्थित है। उस सतह से कुल विद्युत फ्लक्स ज्ञात कीजिए।
+                                </p>
+
+                            </div>
+
+
+                            <div class="question-item">
+
+                                <span class="question-number">
+                                    20
+                                </span>
+
+                                <p>
+                                    किसी आवेश से दूरी तीन गुना करने पर
+                                    विद्युत क्षेत्र कितने गुना हो जाएगा?
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EXAM TIP -->
+
+                        <div class="important-box">
+
+                            <div class="important-box-title">
+
+                                <i class="bi bi-lightbulb-fill"></i>
+
+                                परीक्षा टिप
+
+                            </div>
+
+                            <p style="margin-top:10px;">
+
+                                Numerical questions में पहले
+                                <strong>Given</strong>, फिर
+                                <strong>Formula</strong>, उसके बाद
+                                <strong>Calculation</strong> और अंत में
+                                <strong>Answer with Unit</strong> लिखना बेहतर रहता है।
+
+                            </p>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     QUIZ
+                ================================================== -->
+
+                    <section id="quiz" class="lesson-section">
+
+                        <span class="eyebrow">
+                            CHAPTER TEST • 20 QUESTIONS
+                        </span>
+
+                        <h2>
+                            अध्याय 1 — क्विज
+                        </h2>
+
+                        <p>
+                            अपने ज्ञान को जाँचने के लिए नीचे दिए गए 20 प्रश्नों
+                            को हल करें। प्रत्येक प्रश्न के लिए केवल एक सही उत्तर है।
+                        </p>
+
+
+                        <!-- QUIZ CARD -->
+
+                        <div class="question-card" id="quizBox">
+
+                            <div class="quiz-top">
+
+                                <span class="question-number">
+                                    प्रश्न <span id="quizQuestionNo">01</span>
+                                </span>
+
+                                <span class="quiz-progress-text">
+                                    <span id="quizCurrent">1</span> / 20
+                                </span>
+
+                            </div>
+
+
+                            <!-- PROGRESS -->
+
+                            <div class="quiz-progress">
+
+                                <div class="quiz-progress-bar" id="quizProgressBar" style="width:5%;"></div>
+
+                            </div>
+
+
+                            <!-- QUESTION -->
+
+                            <p class="question-text" id="quizQuestion">
+                                विद्युत आवेश की SI इकाई क्या है?
+                            </p>
+
+
+                            <!-- OPTIONS -->
+
+                            <div class="quiz-options" id="quizOptions">
+
+                                <button class="quiz-option" type="button" data-option="0">
+                                    <span class="quiz-option-letter">A</span>
+                                    न्यूटन
+                                </button>
+
+                                <button class="quiz-option" type="button" data-option="1">
+                                    <span class="quiz-option-letter">B</span>
+                                    कूलॉम
+                                </button>
+
+                                <button class="quiz-option" type="button" data-option="2">
+                                    <span class="quiz-option-letter">C</span>
+                                    जूल
+                                </button>
+
+                                <button class="quiz-option" type="button" data-option="3">
+                                    <span class="quiz-option-letter">D</span>
+                                    वाट
+                                </button>
+
+                            </div>
+
+
+                            <!-- FEEDBACK -->
+
+                            <div class="quiz-feedback" id="quizFeedback" style="display:none;">
+                            </div>
+
+
+                            <!-- NEXT BUTTON -->
+
+                            <button class="quiz-next" id="quizNext" type="button" style="display:none;">
+
+                                अगला प्रश्न
+
+                                <i class="bi bi-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+
+                        <!-- FINAL RESULT -->
+
+                        <div class="question-card quiz-result" id="quizResult" style="display:none;">
+
+                            <div class="result-icon">
+
+                                <i class="bi bi-trophy-fill"></i>
+
+                            </div>
+
+                            <h3>
+                                क्विज पूरा हुआ!
+                            </h3>
+
+                            <p>
+                                आपने Chapter 1 का पूरा टेस्ट पूरा कर लिया है।
+                            </p>
+
+
+                            <div class="result-score">
+
+                                <span id="quizScore">
+                                    0
+                                </span>
+
+                                <span>
+                                    / 20
+                                </span>
+
+                            </div>
+
+
+                            <div class="result-percentage" id="quizPercentage">
+                                0%
+                            </div>
+
+
+                            <p class="result-message" id="quizMessage">
+                                अच्छा प्रयास!
+                            </p>
+
+
+                            <button class="quiz-next" id="quizRestart" type="button">
+
+                                <i class="bi bi-arrow-repeat"></i>
+
+                                फिर से टेस्ट दें
+
+                            </button>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- =================================================
+                     NEXT STEP
+                ================================================== -->
+
+                    <div class="action-box">
+
+                        <div>
+
+                            <h3>
+                                Ready for the next step?
+                            </h3>
+
+                            <p>
+                                Complete the chapter quiz and
+                                practice questions.
+                            </p>
+
+                        </div>
+
+
+                        <a href="#quiz" class="btn">
+
+                            Start Quiz
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+     FOOTER
+====================================================== -->
+
+   <footer class="site-footer">
+
+    <div class="container footer-top">
+
+        <div class="footer-brand">
+
+            <h3>Bihar<span>Learners</span></h3>
+
+            <p>
+                Bihar Board Class 9–12 ke students ke liye free learning
+                platform. Notes, Quiz, PYQ, Practice Test aur Mock Test
+                ek hi jagah.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h4>Quick Links</h4>
+
+            <a href="../../../../index.html">Home</a>
+            <a href="../../../index.html">Class 12</a>
+            <a href="#">Notes</a>
+            <a href="#">Quiz</a>
+            <a href="#">Mock Test</a>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h4>Resources</h4>
+
+            <a href="#">PYQ</a>
+            <a href="#">Formula Sheet</a>
+            <a href="#">Syllabus</a>
+            <a href="#">Model Paper</a>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h4>Support</h4>
+
+            <a href="#">About</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Bihar Learners. All Rights Reserved.
+        </p>
+
+        <span>
+            Made with ❤️ for Bihar Board Students
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+    <!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
+    <script src="../../../../js/app.js"></script>
+    <script src="../../../../js/quiz.js"></script>
+    
+</body>
+
+</html>

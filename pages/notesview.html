@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relations and Functions — Notes | BiharLearners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/notesview.css">
+</head>
+<body>
+<header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">
+                <span class="brand-icon">
+                    <i class="bi bi-mortarboard-fill"></i>
+                </span>
+                <span class="brand-text">Bihar<span>Learners</span></span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="courses.html" class="nav-link">Courses</a>
+                <a href="tests.html" class="nav-link">Tests</a>
+                <a href="notes.html" class="nav-link active">Notes</a>
+                <a href="about.html" class="nav-link">About</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+  <!-- Reading progress bar -->
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+
+  <div class="view-shell">
+
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="chapter-sidebar">
+      <div class="sidebar-head">
+        <span class="sidebar-tag maths">CLASS 12TH · MATHEMATICS</span>
+        <h4>Chapters</h4>
+      </div>
+      <nav class="chapter-list">
+        <a href="#" class="chapter-item active">
+          <span class="chapter-num">01</span>
+          <span class="chapter-name">Relations and Functions</span>
+        </a>
+        <a href="#" class="chapter-item">
+          <span class="chapter-num">02</span>
+          <span class="chapter-name">Inverse Trigonometric Functions</span>
+        </a>
+        <a href="#" class="chapter-item">
+          <span class="chapter-num">03</span>
+          <span class="chapter-name">Matrices</span>
+        </a>
+        <a href="#" class="chapter-item">
+          <span class="chapter-num">04</span>
+          <span class="chapter-name">Determinants</span>
+        </a>
+        <a href="#" class="chapter-item">
+          <span class="chapter-num">05</span>
+          <span class="chapter-name">Continuity and Differentiability</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- ============ MAIN CONTENT ============ -->
+    <main class="note-content">
+
+      <div class="breadcrumb reveal">
+        <a href="notes.html">Notes</a>
+        <span>/</span>
+        <a href="notes.html">Class 12th</a>
+        <span>/</span>
+        <span class="current">Mathematics</span>
+      </div>
+
+      <header class="content-head reveal" style="transition-delay:.05s">
+        <span class="chapter-eyebrow">Chapter 1</span>
+        <h1>Relations and Functions</h1>
+        <div class="content-meta">
+          <span>🕒 12 min read</span>
+          <span>📄 18 pages</span>
+          <span>✅ Board exam pattern</span>
+        </div>
+      </header>
+
+      <article class="note-body reveal" style="transition-delay:.1s">
+
+        <section class="note-block">
+          <h2>1. Introduction to Relations</h2>
+          <p>
+            A <strong>relation</strong> R from a non-empty set A to a non-empty set B
+            is a subset of the Cartesian product A × B, obtained by describing a
+            relationship between the first element and the second element of the
+            ordered pairs in A × B.
+          </p>
+          <div class="highlight-box">
+            <span class="highlight-tag">Key Point</span>
+            <p>If (a, b) ∈ R, we say that a is related to b, written as a R b.</p>
+          </div>
+        </section>
+
+        <section class="note-block">
+          <h2>2. Types of Relations</h2>
+          <ul class="note-list">
+            <li><strong>Empty relation:</strong> No element of A is related to any element of A.</li>
+            <li><strong>Universal relation:</strong> Every element of A is related to every element of A.</li>
+            <li><strong>Reflexive:</strong> a R a for every a ∈ A.</li>
+            <li><strong>Symmetric:</strong> a R b implies b R a.</li>
+            <li><strong>Transitive:</strong> a R b and b R c implies a R c.</li>
+          </ul>
+        </section>
+
+        <section class="note-block">
+          <h2>3. Equivalence Relations</h2>
+          <p>
+            A relation R is an <strong>equivalence relation</strong> if it is
+            reflexive, symmetric and transitive at the same time. Equivalence
+            relations partition a set into disjoint equivalence classes.
+          </p>
+          <div class="highlight-box exam">
+            <span class="highlight-tag exam">Often Asked</span>
+            <p>Prove that a given relation is an equivalence relation — appears almost every year in the board paper.</p>
+          </div>
+        </section>
+
+        <section class="note-block">
+          <h2>4. Functions</h2>
+          <p>
+            A relation f from A to B is called a <strong>function</strong> if every
+            element of A has one and only one image in B. Functions can be
+            classified as one-one (injective), onto (surjective), or bijective.
+          </p>
+        </section>
+
+      </article>
+
+      <!-- Prev / Next -->
+      <div class="chapter-nav reveal">
+        <a href="#" class="nav-btn disabled">← Previous Chapter</a>
+        <a href="#" class="nav-btn primary">Next: Inverse Trigonometric Functions →</a>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script>
+    fetch('nav.html')
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById('nav-placeholder').innerHTML = html;
+        const path = window.location.pathname.split("/").pop().replace(".html", "") || "index";
+        document.querySelectorAll(".nav-link").forEach(link => {
+          if (link.dataset.page === "notes") link.classList.add("active");
+        });
+      });
+
+    // Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => revealObserver.observe(el));
+
+    // Reading progress bar
+    const progressFill = document.getElementById('progressFill');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const percent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      progressFill.style.width = percent + '%';
+    });
+  </script>
+
+</body>
+</html>

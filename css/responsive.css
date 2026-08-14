@@ -1,0 +1,1204 @@
+/* =========================================================
+   BIHAR LEARNERS
+   Responsive Styles
+========================================================= */
+
+
+/* =========================================================
+   LARGE TABLETS / SMALL LAPTOPS
+   1100px
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .hero-container {
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(350px, 0.85fr);
+
+        gap: 45px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 56px;
+
+    }
+
+
+    .main-nav {
+
+        gap: 20px;
+
+    }
+
+
+    .test-banner {
+
+        padding: 50px;
+
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+   900px
+========================================================= */
+
+@media (max-width: 900px) {
+
+
+    /* -------------------------
+       NAVIGATION
+    ------------------------- */
+
+    .main-nav {
+
+        gap: 15px;
+
+    }
+
+
+    .nav-link {
+
+        font-size: 13px;
+
+    }
+
+
+    .nav-cta {
+
+        padding: 10px 13px;
+
+        font-size: 12px;
+
+    }
+
+
+    /* -------------------------
+       HERO
+    ------------------------- */
+
+    .hero-section {
+
+        padding:
+            75px 0
+            65px;
+
+    }
+
+
+    .hero-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 55px;
+
+    }
+
+
+    .hero-content {
+
+        max-width: 720px;
+
+        margin-inline: auto;
+
+        text-align: center;
+
+    }
+
+
+    .hero-content > p {
+
+        margin-inline: auto;
+
+    }
+
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+
+    .hero-points {
+
+        justify-content: center;
+
+    }
+
+
+    .hero-visual {
+
+        min-height: 450px;
+
+        max-width: 570px;
+
+        width: 100%;
+
+        margin-inline: auto;
+
+    }
+
+
+    /* -------------------------
+       STATS
+    ------------------------- */
+
+    .stats-container {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    .stat-item {
+
+        border-bottom:
+            1px solid var(--border);
+
+    }
+
+
+    .stat-item:nth-child(2) {
+
+        border-right: 0;
+
+    }
+
+
+    .stat-item:nth-child(3),
+    .stat-item:nth-child(4) {
+
+        border-bottom: 0;
+
+    }
+
+
+    .stat-item:nth-child(4) {
+
+        border-right: 0;
+
+    }
+
+
+    /* -------------------------
+       FEATURES
+    ------------------------- */
+
+    .feature-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    /* -------------------------
+       COURSES
+    ------------------------- */
+
+    .course-preview-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    /* -------------------------
+       TEST BANNER
+    ------------------------- */
+
+    .test-banner {
+
+        padding: 45px;
+
+    }
+
+
+    .test-banner-visual {
+
+        width: 170px;
+
+        height: 170px;
+
+    }
+
+
+    .score-circle {
+
+        width: 125px;
+
+        height: 125px;
+
+    }
+
+}
+
+
+/* =========================================================
+   TABLETS / LARGE MOBILE
+   760px
+========================================================= */
+
+@media (max-width: 760px) {
+
+
+    /* -------------------------
+       HEADER
+    ------------------------- */
+
+    .site-header {
+
+        height: 70px;
+
+    }
+
+
+    .nav-container {
+
+        position: relative;
+
+    }
+
+
+    .main-nav {
+
+        display: none;
+
+        position: absolute;
+
+        top: 60px;
+
+        left: 0;
+
+        right: 0;
+
+        width: 100%;
+
+        padding: 18px;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 4px;
+
+        border:
+            1px solid var(--border);
+
+        border-radius: 0 0 18px 18px;
+
+        background:
+            rgba(255,255,255,.98);
+
+        box-shadow:
+            0 20px 40px rgba(15,23,42,.08);
+
+    }
+
+
+    .main-nav.menu-open {
+
+        display: flex;
+
+    }
+
+
+    .nav-link {
+
+        padding: 12px 10px;
+
+        border-radius: 9px;
+
+    }
+
+
+    .nav-link:hover {
+
+        background: var(--primary-light);
+
+    }
+
+
+    .nav-link::after {
+
+        display: none;
+
+    }
+
+
+    .nav-cta {
+
+        justify-content: center;
+
+        margin-top: 5px;
+
+    }
+
+
+    .menu-toggle {
+
+        display: grid;
+
+        place-items: center;
+
+    }
+
+
+    /* -------------------------
+       HERO
+    ------------------------- */
+
+    .hero-section {
+
+        min-height: auto;
+
+        padding:
+            60px 0
+            50px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size:
+            clamp(38px, 9vw, 54px);
+
+        letter-spacing:
+            -2px;
+
+    }
+
+
+    .hero-content > p {
+
+        font-size: 14px;
+
+    }
+
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        width: 100%;
+
+        max-width: 340px;
+
+        margin-inline: auto;
+
+    }
+
+
+    .hero-buttons .btn {
+
+        width: 100%;
+
+    }
+
+
+    .hero-points {
+
+        gap: 10px 15px;
+
+    }
+
+
+    .hero-visual {
+
+        min-height: 400px;
+
+    }
+
+
+    .dashboard-card {
+
+        transform:
+            perspective(1000px)
+            rotateY(-2deg)
+            rotateX(1deg);
+
+    }
+
+
+    .floating-test {
+
+        left: -2px;
+
+        bottom: 45px;
+
+    }
+
+
+    .floating-note {
+
+        right: -2px;
+
+        top: 45px;
+
+    }
+
+
+    /* -------------------------
+       STATS
+    ------------------------- */
+
+    .stats-section {
+
+        margin-top: -15px;
+
+    }
+
+
+    .stat-item {
+
+        padding: 18px;
+
+    }
+
+
+    .stat-icon {
+
+        width: 38px;
+
+        height: 38px;
+
+        font-size: 16px;
+
+    }
+
+
+    .stat-item strong {
+
+        font-size: 15px;
+
+    }
+
+
+    .stat-item span {
+
+        font-size: 10px;
+
+    }
+
+
+    /* -------------------------
+       SECTIONS
+    ------------------------- */
+
+    .features-section,
+    .courses-section {
+
+        padding:
+            75px 0;
+
+    }
+
+
+    .section-heading {
+
+        margin-bottom: 30px;
+
+    }
+
+
+    .section-heading h2 {
+
+        font-size: 32px;
+
+    }
+
+
+    /* -------------------------
+       FEATURE GRID
+    ------------------------- */
+
+    .feature-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    /* -------------------------
+       COURSE GRID
+    ------------------------- */
+
+    .course-preview-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    /* -------------------------
+       SECTION HEADING
+    ------------------------- */
+
+    .section-heading-row {
+
+        align-items: flex-start;
+
+        gap: 15px;
+
+    }
+
+
+    .view-all {
+
+        white-space: nowrap;
+
+    }
+
+
+    /* -------------------------
+       TEST BANNER
+    ------------------------- */
+
+    .test-section {
+
+        padding:
+            20px 0
+            75px;
+
+    }
+
+
+    .test-banner {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 40px 30px;
+
+    }
+
+
+    .test-banner-visual {
+
+        align-self: center;
+
+        margin-top: 25px;
+
+    }
+
+
+    /* -------------------------
+       FOOTER
+    ------------------------- */
+
+    .footer-container {
+
+        flex-direction: column;
+
+        gap: 25px;
+
+    }
+
+
+    .footer-links {
+
+        flex-wrap: wrap;
+
+        gap: 15px 22px;
+
+    }
+
+
+    .footer-bottom {
+
+        flex-direction: column;
+
+        gap: 7px;
+
+        text-align: center;
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   600px
+========================================================= */
+
+@media (max-width: 600px) {
+
+
+    .container {
+
+        width: min(92%, 520px);
+
+    }
+
+
+    /* -------------------------
+       BRAND
+    ------------------------- */
+
+    .brand {
+
+        font-size: 18px;
+
+    }
+
+
+    .brand-icon {
+
+        width: 37px;
+
+        height: 37px;
+
+        border-radius: 11px;
+
+    }
+
+
+    /* -------------------------
+       HERO
+    ------------------------- */
+
+    .hero-section {
+
+        padding:
+            50px 0
+            40px;
+
+    }
+
+
+    .hero-badge {
+
+        font-size: 10px;
+
+        padding:
+            7px 11px;
+
+    }
+
+
+    .hero-content h1 {
+
+        margin-top: 16px;
+
+        font-size:
+            clamp(34px, 10vw, 46px);
+
+        letter-spacing:
+            -1.7px;
+
+    }
+
+
+    .hero-content > p {
+
+        margin-top: 18px;
+
+        font-size: 13px;
+
+        line-height: 1.75;
+
+    }
+
+
+    .hero-points {
+
+        flex-direction: column;
+
+        gap: 8px;
+
+    }
+
+
+    /* -------------------------
+       HERO DASHBOARD
+    ------------------------- */
+
+    .hero-visual {
+
+        min-height: 350px;
+
+    }
+
+
+    .dashboard-card {
+
+        width: 100%;
+
+        padding: 15px;
+
+        border-radius: 20px;
+
+    }
+
+
+    .dashboard-header {
+
+        padding-bottom: 15px;
+
+    }
+
+
+    .dashboard-header h3 {
+
+        font-size: 18px;
+
+    }
+
+
+    .learning-progress {
+
+        padding: 14px;
+
+    }
+
+
+    .mini-subjects {
+
+        gap: 8px;
+
+    }
+
+
+    .mini-subject {
+
+        padding: 10px;
+
+        gap: 7px;
+
+    }
+
+
+    .subject-symbol {
+
+        flex-basis: 31px;
+
+        width: 31px;
+
+        height: 31px;
+
+        font-size: 14px;
+
+    }
+
+
+    .mini-subject strong {
+
+        font-size: 9px;
+
+    }
+
+
+    .mini-subject small {
+
+        font-size: 7px;
+
+    }
+
+
+    .test-preview {
+
+        padding: 10px;
+
+    }
+
+
+    .floating-card {
+
+        padding:
+            9px 10px;
+
+    }
+
+
+    .floating-card strong {
+
+        font-size: 8px;
+
+    }
+
+
+    .floating-card small {
+
+        font-size: 7px;
+
+    }
+
+
+    .floating-test {
+
+        left: -5px;
+
+        bottom: 30px;
+
+    }
+
+
+    .floating-note {
+
+        right: -5px;
+
+        top: 25px;
+
+    }
+
+
+    /* -------------------------
+       STATS
+    ------------------------- */
+
+    .stats-container {
+
+        border-radius: 15px;
+
+    }
+
+
+    .stat-item {
+
+        padding: 14px;
+
+        gap: 9px;
+
+    }
+
+
+    .stat-icon {
+
+        width: 34px;
+
+        height: 34px;
+
+        font-size: 14px;
+
+        border-radius: 9px;
+
+    }
+
+
+    .stat-item strong {
+
+        font-size: 13px;
+
+    }
+
+
+    .stat-item span {
+
+        font-size: 8px;
+
+    }
+
+
+    /* -------------------------
+       SECTIONS
+    ------------------------- */
+
+    .features-section,
+    .courses-section {
+
+        padding:
+            60px 0;
+
+    }
+
+
+    .section-heading h2 {
+
+        font-size: 28px;
+
+        letter-spacing:
+            -1px;
+
+    }
+
+
+    .section-heading p {
+
+        font-size: 12px;
+
+    }
+
+
+    /* -------------------------
+       FEATURE CARD
+    ------------------------- */
+
+    .feature-card {
+
+        padding: 20px;
+
+    }
+
+
+    .feature-icon {
+
+        width: 43px;
+
+        height: 43px;
+
+        font-size: 19px;
+
+    }
+
+
+    .feature-card h3 {
+
+        font-size: 15px;
+
+    }
+
+
+    /* -------------------------
+       COURSE CARD
+    ------------------------- */
+
+    .course-card {
+
+        min-height: 215px;
+
+        padding: 21px;
+
+    }
+
+
+    .course-footer {
+
+        left: 21px;
+
+        right: 21px;
+
+        bottom: 19px;
+
+    }
+
+
+    /* -------------------------
+       TEST BANNER
+    ------------------------- */
+
+    .test-banner {
+
+        padding:
+            32px 22px;
+
+        border-radius: 22px;
+
+    }
+
+
+    .test-banner h2 {
+
+        font-size: 28px;
+
+    }
+
+
+    .test-banner p {
+
+        font-size: 11px;
+
+    }
+
+
+    .test-banner-visual {
+
+        width: 160px;
+
+        height: 160px;
+
+    }
+
+
+    .score-circle {
+
+        width: 115px;
+
+        height: 115px;
+
+    }
+
+
+    .score-circle strong {
+
+        font-size: 27px;
+
+    }
+
+
+    /* -------------------------
+       FOOTER
+    ------------------------- */
+
+    .site-footer {
+
+        padding-top: 40px;
+
+    }
+
+
+    .footer-bottom p,
+    .footer-bottom span {
+
+        font-size: 9px;
+
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   420px
+========================================================= */
+
+@media (max-width: 420px) {
+
+
+    .container {
+
+        width: 91%;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 35px;
+
+    }
+
+
+    .hero-visual {
+
+        min-height: 320px;
+
+    }
+
+
+    .dashboard-card {
+
+        padding: 12px;
+
+    }
+
+
+    .mini-subjects {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .mini-subject {
+
+        padding: 9px;
+
+    }
+
+
+    .floating-card {
+
+        transform: scale(.88);
+
+    }
+
+
+    .floating-test {
+
+        left: -15px;
+
+    }
+
+
+    .floating-note {
+
+        right: -15px;
+
+    }
+
+
+    .stats-container {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .stat-item {
+
+        border-right: 0;
+
+        border-bottom:
+            1px solid var(--border);
+
+    }
+
+
+    .stat-item:last-child {
+
+        border-bottom: 0;
+
+    }
+
+
+    .section-heading-row {
+
+        flex-direction: column;
+
+    }
+
+
+    .view-all {
+
+        margin-top: -5px;
+
+    }
+
+
+    .course-card {
+
+        min-height: 205px;
+
+    }
+
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+
+        animation-duration: 0.01ms !important;
+
+        animation-iteration-count: 1 !important;
+
+        scroll-behavior: auto !important;
+
+        transition-duration: 0.01ms !important;
+
+    }
+
+}

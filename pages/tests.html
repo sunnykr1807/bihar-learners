@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test | BiharLearners</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/tests.css">
+
+
+
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">
+                <span class="brand-icon">
+                    <i class="bi bi-mortarboard-fill"></i>
+                </span>
+                <span class="brand-text">Bihar<span>Learners</span></span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="courses.html" class="nav-link">Courses</a>
+                <a href="tests.html" class="nav-link active">Tests</a>
+                <a href="notes.html" class="nav-link">Notes</a>
+                <a href="about.html" class="nav-link">About</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO + SELECTORS -->
+    <section id="pickView">
+        <div class="hero">
+            <div class="badge"><span class="dot"></span> Class 12 • Bihar Board</div>
+            <h1>Apni <span class="accent">Test Series</span> Chuniye</h1>
+            <p>Class aur Subject select karke apna practice test shuru karein.</p>
+        </div>
+
+        <div class="select-panel">
+            <div class="select-box">
+                <label>🎓 Class</label>
+                <select id="classSelect">
+                    <option value="">Select Your Class</option>
+                    <option value="12">Class 12th</option>
+                    <option value="11">Class 11th</option>
+                    <option value="10">Class 10th</option>
+                    <option value="9">Class 9th</option>
+                </select>
+            </div>
+            <div class="select-box">
+                <label>📘 Subject</label>
+                <select id="subjectSelect" disabled>
+                    <option value="">Select Subject</option>
+                </select>
+            </div>
+            <button class="go-btn" id="goBtn" disabled>Tests</button>
+        </div>
+
+        <div class="section-wrap">
+            <div id="testListArea"></div>
+            <p class="hint-text" id="hintText">Test list dekhne ke liye upar Class aur Subject select karein.</p>
+        </div>
+    </section>
+
+    <!-- QUIZ VIEW -->
+    <section class="quiz-wrap hidden" id="quizView">
+        <div class="quiz-header">
+            <div>
+                <div class="quiz-title" id="quizTitle">Test</div>
+                <div class="quiz-progress-text" id="quizProgressText">Question 1 / 10</div>
+            </div>
+            <div class="timer">⏱ <span id="timerText">10:00</span></div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="q-card">
+            <div class="q-num" id="qNum">QUESTION 1</div>
+            <div class="q-text" id="qText">...</div>
+            <div class="options" id="optionsArea"></div>
+        </div>
+        <div class="nav-buttons">
+            <button class="btn btn-outline" id="prevBtn">← Previous</button>
+            <button class="btn btn-primary" id="nextBtn">Next →</button>
+        </div>
+    </section>
+
+    <!-- RESULT VIEW -->
+    <section class="hidden" id="resultView">
+        <div class="result-card">
+            <div class="result-ring" id="resultRing"><span id="resultPct">0%</span></div>
+            <h2>Test Complete!</h2>
+            <p id="resultSub">Aapne test successfully complete kar liya hai.</p>
+            <div class="result-stats">
+                <div class="stat-box correct">
+                    <div class="num" id="correctCount">0</div>
+                    <div class="lbl">Sahi</div>
+                </div>
+                <div class="stat-box wrong">
+                    <div class="num" id="wrongCount">0</div>
+                    <div class="lbl">Galat</div>
+                </div>
+                <div class="stat-box">
+                    <div class="num" id="skipCount">0</div>
+                    <div class="lbl">Chhoda</div>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="restartBtn" style="width:100%;">Aur Test Dekhein</button>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <div class="footer-brand">
+                <h3>Bihar<span>Learners</span></h3>
+                <p>Bihar Board Class 9–12 ke students ke liye free learning platform. Notes, Quiz, PYQ, Practice Test
+                    aur Mock Test ek hi jagah.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="tests.html">Tests</a>
+                <a href="notes.html">Notes</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <a href="#">PYQ</a>
+                <a href="#">Formula Sheet</a>
+                <a href="#">Syllabus</a>
+                <a href="#">Model Paper</a>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Bihar Learners. All Rights Reserved.</p>
+            <span>Made with ❤️ for Bihar Board Students</span>
+        </div>
+    </footer>
+
+
+
+    <script>
+        /* ---------- DATA ---------- */
+        const subjectsByClass = {
+            "10": ["Hindi", "Science", "Mathematics", "Social Science"],
+            "12": ["Physics", "Chemistry", "Mathematics", "English"]
+        };
+
+        // sample question bank keyed by "class-subject"
+        function sampleQuestions(subject) {
+            return [
+                {
+                    q: `${subject} — Sabse mahatvapurn topic kaun sa hai jo board exam me har baar poochha jata hai?`,
+                    options: ["Basic Concepts", "Advanced Only", "Random Topic", "Koi nahi"], answer: 0
+                },
+                {
+                    q: `${subject} ke question paper me sabse zyada weightage kis section ka hota hai?`,
+                    options: ["Objective", "Short Answer", "Long Answer", "Sabhi barabar"], answer: 3
+                },
+                {
+                    q: `Board exam ki taiyari ke liye sabse achha tareeka kya hai?`,
+                    options: ["Sirf notes padhna", "Chapter-wise practice test", "Last night padhna", "Kuchh na karna"], answer: 1
+                },
+                {
+                    q: `${subject} me revision ke liye kitna time roz dena chahiye?`,
+                    options: ["0 min", "10-15 min", "1-2 ghante", "Kabhi nahi"], answer: 2
+                },
+                {
+                    q: `Practice test dene ka sabse bada fayda kya hai?`,
+                    options: ["Time management", "Sirf marks", "Kuchh nahi", "Sirf fun"], answer: 0
+                },
+            ];
+        }
+
+        const testsData = {
+            "10": {
+                "Hindi": [
+                    { title: "पद्खण्ड 7. हिरोशिमा", time: 30, q: 8 },
+                    { title: "पद्खण्ड 8. एक वृक्ष की हत्या", time: 10, q: 6 },
+                    { title: "पद्खण्ड 9. हमारी नींद", time: 10, q: 6 },
+                ],
+                "Science": [
+                    { title: "Chapter 1: Light – Reflection", time: 20, q: 10 },
+                    { title: "Chapter 2: Acids, Bases & Salts", time: 20, q: 10 },
+                ],
+                "Mathematics": [
+                    { title: "Chapter 1: Real Numbers", time: 15, q: 8 },
+                    { title: "Chapter 3: Pair of Linear Equations", time: 20, q: 10 },
+                ],
+                "Social Science": [
+                    { title: "History: Nationalism in India", time: 15, q: 8 },
+                ]
+            },
+            "12": {
+                "Physics": [
+                    { title: "Chapter 1: Electric Charges & Fields", time: 20, q: 10 },
+                    { title: "Chapter 2: Electrostatic Potential", time: 20, q: 10 },
+                ],
+                "Chemistry": [
+                    { title: "Chapter 1: Solid State", time: 15, q: 8 },
+                    { title: "Chapter 2: Solutions", time: 15, q: 8 },
+                ],
+                "Mathematics": [
+                    { title: "Chapter 1: Relations & Functions", time: 20, q: 10 },
+                ],
+                "English": [
+                    { title: "Full Course Practice Test", time: 30, q: 12 },
+                ],
+                  "Hindi": [
+                    { title: "पद्खण्ड 7. हिरोशिमा", time: 30, q: 8 },
+                    { title: "पद्खण्ड 8. एक वृक्ष की हत्या", time: 10, q: 6 },
+                    { title: "पद्खण्ड 9. हमारी नींद", time: 10, q: 6 },
+                ],
+            }
+        };
+
+        /* ---------- ELEMENTS ---------- */
+        const classSelect = document.getElementById('classSelect');
+        const subjectSelect = document.getElementById('subjectSelect');
+        const goBtn = document.getElementById('goBtn');
+        const testListArea = document.getElementById('testListArea');
+        const hintText = document.getElementById('hintText');
+
+        const pickView = document.getElementById('pickView');
+        const quizView = document.getElementById('quizView');
+        const resultView = document.getElementById('resultView');
+
+        classSelect.addEventListener('change', () => {
+            const cls = classSelect.value;
+            subjectSelect.innerHTML = '';
+            testListArea.innerHTML = '';
+            hintText.classList.remove('hidden');
+            if (!cls) {
+                subjectSelect.disabled = true;
+                subjectSelect.innerHTML = '<option value="">Pehle Class Chunein</option>';
+                goBtn.disabled = true;
+                return;
+            }
+            subjectSelect.disabled = false;
+            subjectSelect.innerHTML = '<option value="">Subject Chunein</option>' +
+                subjectsByClass[cls].map(s => `<option value="${s}">${s}</option>`).join('');
+            goBtn.disabled = true;
+        });
+
+        subjectSelect.addEventListener('change', () => {
+            goBtn.disabled = !subjectSelect.value;
+        });
+
+        goBtn.addEventListener('click', () => {
+            renderTestList(classSelect.value, subjectSelect.value);
+        });
+
+        function renderTestList(cls, subject) {
+            const list = (testsData[cls] && testsData[cls][subject]) || [];
+            hintText.classList.add('hidden');
+            if (list.length === 0) {
+                testListArea.innerHTML = `<p class="hint-text">Is subject ke liye abhi koi test available nahi hai.</p>`;
+                return;
+            }
+            testListArea.innerHTML = `
+    <div class="section-title">📝 Class ${cls} · ${subject} — Available Tests</div>
+    <div class="test-grid">
+      ${list.map((t, i) => `
+        <div class="test-card" data-idx="${i}">
+          <div class="test-top">
+            <div class="test-icon">📄</div>
+            <div class="test-tag">CLASS ${cls}TH</div>
+          </div>
+          <h3>${t.title}</h3>
+          <div class="test-meta">
+            <span>📘 ${subject}</span>
+            <span>⏱ ${t.time}m</span>
+            <span>📋 ${t.q}Q</span>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+            document.querySelectorAll('.test-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const idx = card.getAttribute('data-idx');
+                    const testInfo = list[idx];
+                    startQuiz(cls, subject, testInfo);
+                });
+            });
+        }
+
+        /* ---------- QUIZ LOGIC ---------- */
+        let quizState = {};
+        let timerInterval;
+
+        function startQuiz(cls, subject, testInfo) {
+            const questions = sampleQuestions(subject).slice(0, testInfo.q > 5 ? 5 : testInfo.q);
+            quizState = {
+                title: testInfo.title,
+                questions,
+                current: 0,
+                answers: new Array(questions.length).fill(null),
+                secondsLeft: testInfo.time * 60
+            };
+            pickView.classList.add('hidden');
+            resultView.classList.add('hidden');
+            quizView.classList.remove('hidden');
+            document.getElementById('quizTitle').textContent = testInfo.title;
+            renderQuestion();
+            startTimer();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function startTimer() {
+            clearInterval(timerInterval);
+            updateTimerText();
+            timerInterval = setInterval(() => {
+                quizState.secondsLeft--;
+                updateTimerText();
+                if (quizState.secondsLeft <= 0) {
+                    clearInterval(timerInterval);
+                    finishQuiz();
+                }
+            }, 1000);
+        }
+        function updateTimerText() {
+            const m = Math.floor(quizState.secondsLeft / 60);
+            const s = quizState.secondsLeft % 60;
+            document.getElementById('timerText').textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        }
+
+        function renderQuestion() {
+            const { current, questions, answers } = quizState;
+            const q = questions[current];
+            document.getElementById('qNum').textContent = `QUESTION ${current + 1}`;
+            document.getElementById('qText').textContent = q.q;
+            document.getElementById('quizProgressText').textContent = `Question ${current + 1} / ${questions.length}`;
+            document.getElementById('progressFill').style.width = `${((current + 1) / questions.length) * 100}%`;
+
+            const letters = ['A', 'B', 'C', 'D'];
+            const optionsArea = document.getElementById('optionsArea');
+            optionsArea.innerHTML = q.options.map((opt, i) => `
+    <div class="option ${answers[current] === i ? 'selected' : ''}" data-i="${i}">
+      <span class="letter">${letters[i]}</span> ${opt}
+    </div>
+  `).join('');
+
+            optionsArea.querySelectorAll('.option').forEach(el => {
+                el.addEventListener('click', () => {
+                    answers[current] = parseInt(el.getAttribute('data-i'));
+                    renderQuestion();
+                });
+            });
+
+            document.getElementById('prevBtn').disabled = current === 0;
+            document.getElementById('nextBtn').textContent = current === questions.length - 1 ? 'Submit Test' : 'Next →';
+        }
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            if (quizState.current > 0) { quizState.current--; renderQuestion(); }
+        });
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            if (quizState.current < quizState.questions.length - 1) {
+                quizState.current++; renderQuestion();
+            } else {
+                finishQuiz();
+            }
+        });
+
+        function finishQuiz() {
+            clearInterval(timerInterval);
+            const { questions, answers } = quizState;
+            let correct = 0, wrong = 0, skip = 0;
+            questions.forEach((q, i) => {
+                if (answers[i] === null) skip++;
+                else if (answers[i] === q.answer) correct++;
+                else wrong++;
+            });
+            const pct = Math.round((correct / questions.length) * 100);
+            document.getElementById('correctCount').textContent = correct;
+            document.getElementById('wrongCount').textContent = wrong;
+            document.getElementById('skipCount').textContent = skip;
+            document.getElementById('resultPct').textContent = pct + '%';
+            document.getElementById('resultRing').style.setProperty('--pct', pct);
+            document.getElementById('resultSub').textContent = `${quizState.title} — Aapne ${questions.length} me se ${correct} sahi kiye.`;
+            quizView.classList.add('hidden');
+            resultView.classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        document.getElementById('restartBtn').addEventListener('click', () => {
+            resultView.classList.add('hidden');
+            pickView.classList.remove('hidden');
+        });
+    </script>
+</body>
+
+</html>

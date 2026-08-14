@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Bihar Learners - Free Class 12 Bihar Board courses, notes, quizzes, practice tests and exam preparation.">
+
+    <meta name="theme-color" content="#4f46e5">
+
+    <title>Bihar Learners | Class 12 Bihar Board</title>
+
+
+    <!-- =========================
+         GOOGLE FONTS
+    ========================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- =========================
+         BOOTSTRAP ICONS
+    ========================== -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!-- =========================
+         PROJECT CSS
+    ========================== -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/components.css">
+
+</head>
+<style>
+    /* Modern Premium Dropdown UI CSS */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Invisible block to keep hover active between button and dropdown */
+    .dropdown::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 15px;
+    }
+
+    .logo img {
+        height: 50px;
+        vertical-align: middle
+    }
+
+    .dropdown-content {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(15px);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 200px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        z-index: 9999;
+        border-radius: 12px;
+        top: 100%;
+        left: 0;
+        margin-top: 12px;
+        padding: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    /* Upward pointing arrow (Caret) */
+    .dropdown-content::before {
+        content: '';
+        position: absolute;
+        top: -6px;
+        left: 45px;
+        /* Adjust according to button text */
+        transform: rotate(45deg);
+        width: 12px;
+        height: 12px;
+        background-color: #ffffff;
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        border-left: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .dropdown-content a {
+        color: #4a4a4a !important;
+        padding: 10px 16px;
+        text-decoration: none;
+        display: block;
+        background: transparent !important;
+        border-radius: 8px !important;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        margin-bottom: 2px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .dropdown-content a:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Hover effect on dropdown links */
+    .dropdown-content a:hover {
+        background-color: #f5f0fa !important;
+        /* Soft theme matching color */
+        color: #571F84 !important;
+        transform: translateX(5px);
+        /* Modern slide right effect */
+    }
+
+    /* Show dropdown on hover */
+    .dropdown:hover .dropdown-content {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+</style>
+
+
+<!-- ==================================================
+     NAVBAR
+================================================== -->
+
+<header class="site-header">
+
+    <div class="container nav-container">
+
+
+        <!-- BRAND -->
+
+        <a href="index.html" class="brand">
+
+            <span class="brand-icon">
+                <i class="bi bi-mortarboard-fill"></i>
+            </span>
+
+            <span class="brand-text">
+                Bihar<span>Learners</span>
+            </span>
+
+        </a>
+
+
+        <!-- DESKTOP NAVIGATION -->
+
+        <nav class="main-nav" id="mainNav">
+
+            <a href="index.html" class="nav-link active">
+                Home
+            </a>
+
+            <a href="pages/courses.html" class="nav-link">
+                Courses
+            </a>
+
+            <a href="pages/tests.html" class="nav-link">
+                Tests
+            </a>
+
+            <a href="pages/notes.html" class="nav-link">
+                Notes
+            </a>
+
+            <a href="pages/about.html" class="nav-link">
+                About
+            </a>
+
+            <li class="dropdown">
+                <a href="#"
+                    style="color:white; background:#571F84; padding: 5px 15px; border-radius: 20px; transition: 0.3s;"
+                    class="">More Tools <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="careers.php"><i class="fa-solid fa-briefcase"></i> Careers</a>
+                    <a href="free-library.php"><i class="fa-solid fa-book-open-reader"></i> Free Course</a>
+                    <a href="spoken-english.php"><i class="fa-solid fa-language"></i> Spoken Learning</a>
+                    <a href="tools.php"><i class="fa-solid fa-toolbox"></i> Master Tools</a>
+                    <a href="omr.php"><i class="fa-solid fa-list-check"></i> OMR Generator</a>
+                    <a href="exam_timer.php"><i class="fa-solid fa-stopwatch"></i> Exam Timer</a>
+                </div>
+            </li>
+
+        </nav>
+
+
+        <!-- MOBILE MENU -->
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+
+            <i class="bi bi-list"></i>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- ==================================================
+     HERO
+================================================== -->
+
+<main>
+
+
+    <section class="hero-section">
+
+        <div class="hero-background">
+
+            <div class="hero-glow glow-one"></div>
+
+            <div class="hero-glow glow-two"></div>
+
+        </div>
+
+
+        <div class="container hero-container">
+
+
+            <!-- HERO CONTENT -->
+
+            <div class="hero-content">
+
+
+                <div class="hero-badge">
+
+                    <span class="badge-dot"></span>
+
+                    #1 Education Platform in Bihar Board
+
+                </div>
+
+
+                <h1>
+
+                    Your Journey to
+
+                    <span>Better Learning</span>
+
+                    Starts Here.
+
+                </h1>
+
+
+                <p>
+
+                    Bihar Board preparation
+                    with easy explanations, chapter-wise notes,
+                    quizzes, practice tests and exam-focused
+                    learning Everything you need for your board exams pripration — completely free.
+
+                </p>
+                <i>Study Smart. Score High. Stress Less.</i>
+
+
+                <div class="hero-buttons">
+
+                    <a href="class 12/index.html" class="btn btn-primary">
+
+                        Start Learning
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </a>
+
+
+                    <a href="pages/tests.html" class="btn btn-secondary">
+
+                        <i class="bi bi-play-circle"></i>
+
+                        Practice Test
+
+                    </a>
+
+                </div>
+
+
+                <!-- TRUST POINTS -->
+
+                <div class="hero-points">
+
+                    <span>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Free Notes & Resources
+                    </span>
+
+                    <span>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Chapter-wise Quizzes
+                    </span>
+
+                    <span>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Updated for 2026 Syllabus
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-visual">
+
+
+                <div class="dashboard-card">
+
+
+                    <!-- DASHBOARD HEADER -->
+
+                    <div class="dashboard-header">
+
+                        <div>
+
+                            <small>
+                                Welcome back
+                            </small>
+
+                            <h3>
+
+
+                                <span class="brand-text">
+                                    Bihar<span>Learners</span>
+                                </span>
+                            </h3>
+                        </div>
+
+
+                        <div class="profile-icon">
+
+                            <i class="bi bi-person"></i>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PROGRESS -->
+
+                    <div class="learning-progress">
+
+                        <div class="progress-top">
+
+                            <span>
+                                Learning Progress
+                            </span>
+
+                            <strong>
+                                98%
+                            </strong>
+
+                        </div>
+
+
+                        <div class="progress-track">
+
+                            <div class="progress-value"></div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- SUBJECTS -->
+
+                    <div class="mini-subjects">
+
+
+                        <div class="mini-subject">
+
+                            <span class="subject-symbol math">
+                                <i class="bi bi-calculator"></i>
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Mathematics
+                                </strong>
+
+                                <small>
+                                    14 Chapters
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="mini-subject">
+
+                            <span class="subject-symbol physics">
+                                <i class="bi bi-atom"></i>
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Physics
+                                </strong>
+
+                                <small>
+                                    14 Chapters
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="mini-subject">
+
+                            <span class="subject-symbol chemistry">
+                                <i class="bi bi-flask"></i>
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Chemistry
+                                </strong>
+
+                                <small>
+                                    16 Chapters
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="mini-subject">
+
+                            <span class="subject-symbol english">
+                                <i class="bi bi-book"></i>
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    English
+                                </strong>
+
+                                <small>
+                                    Complete Course
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- TEST CARD -->
+
+                    <div class="test-preview">
+
+                        <div class="test-icon">
+
+                            <i class="bi bi-trophy"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                Next Practice Test
+                            </strong>
+
+                            <small>
+                                20 Questions • 20 Minutes
+                            </small>
+
+                        </div>
+
+
+                        <i class="bi bi-chevron-right"></i>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FLOATING CARD -->
+
+                <div class="floating-card floating-test">
+
+                    <span>
+                        <i class="bi bi-check-lg"></i>
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Test Completed
+                        </strong>
+
+                        <small>
+                            Score: 18 / 20
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="floating-card floating-note">
+
+                    <span>
+                        <i class="bi bi-bookmark-star"></i>
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Smart Notes
+                        </strong>
+
+                        <small>
+                            Quick Revision
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+     QUICK STATS
+================================================== -->
+
+    <section class="stats-section">
+
+        <div class="container stats-container">
+
+
+            <div class="stat-item">
+
+                <div class="stat-icon">
+                    <i class="bi bi-gift"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        100%
+                    </strong>
+
+                    <span>
+                        Free Learning
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="stat-item">
+
+                <div class="stat-icon">
+                    <i class="bi bi-mortarboard"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        Class 12
+                    </strong>
+
+                    <span>
+                        Bihar Board
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="stat-item">
+
+                <div class="stat-icon">
+                    <i class="bi bi-patch-question"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        MCQ
+                    </strong>
+
+                    <span>
+                        Chapter Practice
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="stat-item">
+
+                <div class="stat-icon">
+                    <i class="bi bi-trophy"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        Mock Tests
+                    </strong>
+
+                    <span>
+                        Exam Preparation
+                    </span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+     WHY BIHAR LEARNERS
+================================================== -->
+
+    <section class="features-section">
+
+        <div class="container">
+
+
+            <div class="section-heading">
+
+                <span>
+                    WHY BIHAR LEARNERS
+                </span>
+
+                <h2>
+                    Everything you need to
+                    <span>Prepare Better.</span>
+                </h2>
+
+                <p>
+
+                    Sirf notes nahi. Ek complete learning
+                    experience jahan concepts se lekar final
+                    exam tak preparation ek hi jagah milegi.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-grid">
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="bi bi-journal-richtext"></i>
+                    </div>
+
+                    <h3>
+                        Easy Learning
+                    </h3>
+
+                    <p>
+                        Har topic ko simple language mein
+                        step-by-step explain kiya jayega.
+                    </p>
+
+                </article>
+
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="bi bi-diagram-3"></i>
+                    </div>
+
+                    <h3>
+                        Chapter Wise
+                    </h3>
+
+                    <p>
+                        Subject ko chapters aur topics mein
+                        properly organize kiya jayega.
+                    </p>
+
+                </article>
+
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="bi bi-lightning-charge"></i>
+                    </div>
+
+                    <h3>
+                        Smart Revision
+                    </h3>
+
+                    <p>
+                        Important points, formulas aur quick
+                        revision material ek jagah.
+                    </p>
+
+                </article>
+
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="bi bi-controller"></i>
+                    </div>
+
+                    <h3>
+                        Practice & Quiz
+                    </h3>
+
+                    <p>
+                        Chapter quiz, MCQs aur practice tests
+                        se apni preparation check karo.
+                    </p>
+
+                </article>
+
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="bi bi-bar-chart-line"></i>
+                    </div>
+
+                    <h3>
+                        Track Progress
+                    </h3>
+
+                    <p>
+                        Apni learning progress aur test
+                        performance ko easily track karo.
+                    </p>
+
+                </article>
+
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="bi bi-file-earmark-check"></i>
+                    </div>
+
+                    <h3>
+                        Exam Practice
+                    </h3>
+
+                    <p>
+                        Previous questions aur exam-style
+                        tests ke saath final preparation.
+                    </p>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+     CLASS 12 COURSES
+================================================== -->
+
+    <section class="courses-section" id="courses">
+
+        <div class="container">
+
+
+            <div class="section-heading section-heading-row">
+
+                <div>
+
+                    <span>
+                        CLASS 12
+                    </span>
+
+                    <h2>
+                        Start your learning journey.
+                    </h2>
+
+                </div>
+
+
+                <a href="class 12/index.html" class="view-all">
+
+                    View Class 12
+
+                    <i class="bi bi-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+
+
+            <div class="course-preview-grid">
+
+
+                <!-- SCIENCE -->
+
+                <a href="class 12/index.html" class="course-card">
+
+                    <div class="course-top">
+
+                        <div class="course-icon science-icon">
+                            <i class="bi bi-atom"></i>
+                        </div>
+
+                        <span class="course-label">
+                            Science
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Science
+                    </h3>
+
+                    <p>
+                        Physics, Chemistry, Mathematics
+                        and Biology.
+                    </p>
+
+
+                    <div class="course-footer">
+
+                        <span>
+                            Explore subjects
+                        </span>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- ARTS -->
+
+                <a href="class 12/index.html" class="course-card">
+
+                    <div class="course-top">
+
+                        <div class="course-icon arts-icon">
+                            <i class="bi bi-book"></i>
+                        </div>
+
+                        <span class="course-label">
+                            Arts
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Arts
+                    </h3>
+
+                    <p>
+                        Complete Arts subjects with
+                        readable explanations.
+                    </p>
+
+
+                    <div class="course-footer">
+
+                        <span>
+                            Explore subjects
+                        </span>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- COMMERCE -->
+
+                <a href="class 12/index.html" class="course-card">
+
+                    <div class="course-top">
+
+                        <div class="course-icon commerce-icon">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+
+                        <span class="course-label">
+                            Commerce
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Commerce
+                    </h3>
+
+                    <p>
+                        Build concepts and prepare for
+                        board examinations.
+                    </p>
+
+
+                    <div class="course-footer">
+
+                        <span>
+                            Explore subjects
+                        </span>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+     TEST CTA
+================================================== -->
+
+    <section class="test-section">
+
+        <div class="container">
+
+
+            <div class="test-banner">
+
+
+                <div class="test-banner-content">
+
+                    <span class="banner-tag">
+                        PRACTICE • TEST • IMPROVE
+                    </span>
+
+                    <h2>
+                        Ready to test
+                        your preparation?
+                    </h2>
+
+                    <p>
+                        Chapter quizzes se lekar full syllabus
+                        mock exams tak — apni preparation ko
+                        real exam ki tarah practice karo.
+                    </p>
+
+
+                    <a href="pages/tests.html" class="btn btn-white">
+
+                        Explore Tests
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+                <div class="test-banner-visual">
+
+                    <div class="score-circle">
+
+                        <strong>
+                            92%
+                        </strong>
+
+                        <span>
+                            Score
+                        </span>
+
+                    </div>
+
+                    <i class="bi bi-trophy-fill trophy-icon"></i>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+     FOOTER
+================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-top">
+
+            <div class="footer-brand">
+
+                <h3>Bihar<span>Learners</span></h3>
+
+                <p>
+                    Bihar Board Class 9–12 ke students ke liye free learning
+                    platform. Notes, Quiz, PYQ, Practice Test aur Mock Test
+                    ek hi jagah.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+                <a href="index.html">Home</a>
+                <a href="class 12/index.html">Class 12</a>
+                <a href="#">Notes</a>
+                <a href="#">Quiz</a>
+                <a href="#">Mock Test</a>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h4>Resources</h4>
+
+                <a href="#">PYQ</a>
+                <a href="#">Formula Sheet</a>
+                <a href="#">Syllabus</a>
+                <a href="#">Model Paper</a>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h4>Support</h4>
+
+                <a href="#">About</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+
+            </div>
+
+        </div>
+
+        <div class="text-align: center; padding: 20px 0;">
+
+            <p>
+                © 2026 Bihar Learners. All Rights Reserved.
+            </p>
+
+
+
+       
+
+            <p>
+                Made with ❤️ for Bihar Board Students
+            </p>
+ </div>
+    </footer>
+
+
+</main>
+
+
+
+<!-- ==================================================
+     JAVASCRIPT
+================================================== -->
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

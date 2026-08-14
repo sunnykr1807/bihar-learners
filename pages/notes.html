@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes | Bihar Learners</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/notes.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">
+                <span class="brand-icon">
+                    <i class="bi bi-mortarboard-fill"></i>
+                </span>
+                <span class="brand-text">Bihar<span>Learners</span></span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="courses.html" class="nav-link">Courses</a>
+                <a href="tests.html" class="nav-link">Tests</a>
+                <a href="notes.html" class="nav-link active">Notes</a>
+                <a href="about.html" class="nav-link">About</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="notes-hero">
+    <div class="notes-blob"></div>
+    <div class="notes-hero-inner">
+      <span class="eyebrow reveal">📘 Study Notes</span>
+      <h1 class="reveal" style="transition-delay:.06s">
+        Every chapter,
+        <span class="marker-wrap">
+          <span class="marker-text">explained simply</span>
+          <svg class="marker-svg" viewBox="0 0 420 34" preserveAspectRatio="none">
+            <path d="M4 20 C 120 6, 300 6, 416 18" />
+          </svg>
+        </span>
+      </h1>
+      <p class="notes-sub reveal" style="transition-delay:.12s">
+        Short, exam-ready notes for every chapter — pick a class and subject to start.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ FILTERS ============ -->
+  <section class="filters-bar reveal">
+    <div class="filter-select">
+      <span class="filter-icon">🎓</span>
+      <select id="classFilter">
+        <option value="all">All Classes</option>
+        <option value="10">Class 10th</option>
+        <option value="12">Class 12th</option>
+      </select>
+    </div>
+
+    <div class="filter-divider"></div>
+
+    <div class="filter-select">
+      <span class="filter-icon">📖</span>
+      <select id="subjectFilter">
+        <option value="all">All Subjects</option>
+        <option value="maths">Mathematics</option>
+        <option value="physics">Physics</option>
+        <option value="chemistry">Chemistry</option>
+        <option value="english">English</option>
+        <option value="hindi">Hindi</option>
+      </select>
+    </div>
+
+    <div class="search-box">
+      <span class="filter-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search a chapter...">
+    </div>
+  </section>
+
+  <!-- ============ NOTES GRID ============ -->
+  <section class="notes-section">
+    <div class="notes-grid" id="notesGrid">
+
+      <a href="notesview.html" class="note-card reveal" data-class="12" data-subject="maths">
+        <div class="note-top">
+          <span class="note-tag maths">CLASS 12TH · MATHS</span>
+          <span class="note-pages">18 pages</span>
+        </div>
+        <h3>Chapter 1 — Relations and Functions</h3>
+        <p>Types of relations, functions, composition and invertible functions explained with solved examples.</p>
+        <div class="note-bottom">
+          <span class="note-meta">🕒 12 min read</span>
+          <span class="note-action">View Notes →</span>
+        </div>
+      </a>
+
+      <a href="electric-charges-and-fields.html" class="note-card reveal" style="transition-delay:.05s" data-class="12" data-subject="physics">
+        <div class="note-top">
+          <span class="note-tag physics">CLASS 12TH · PHYSICS</span>
+          <span class="note-pages">22 pages</span>
+        </div>
+        <h3>Chapter 1 — Electric Charges and Fields</h3>
+        <p>Coulomb's law, electric field, field lines, and Gauss's law with diagrams and derivations.</p>
+        <div class="note-bottom">
+          <span class="note-meta">🕒 15 min read</span>
+          <span class="note-action">View Notes →</span>
+        </div>
+      </a>
+
+      <a href="#" class="note-card reveal" style="transition-delay:.1s" data-class="12" data-subject="chemistry">
+        <div class="note-top">
+          <span class="note-tag chemistry">CLASS 12TH · CHEMISTRY</span>
+          <span class="note-pages">16 pages</span>
+        </div>
+        <h3>Chapter 1 — The Solid State</h3>
+        <p>Crystal lattices, unit cells, packing efficiency and defects — with labelled diagrams.</p>
+        <div class="note-bottom">
+          <span class="note-meta">🕒 10 min read</span>
+          <span class="note-action">View Notes →</span>
+        </div>
+      </a>
+
+      <a href="#" class="note-card reveal" data-class="12" data-subject="english">
+        <div class="note-top">
+          <span class="note-tag english">CLASS 12TH · ENGLISH</span>
+          <span class="note-pages">9 pages</span>
+        </div>
+        <h3>The Last Lesson — Summary &amp; Analysis</h3>
+        <p>Theme, character sketch, important quotes and likely exam questions.</p>
+        <div class="note-bottom">
+          <span class="note-meta">🕒 8 min read</span>
+          <span class="note-action">View Notes →</span>
+        </div>
+      </a>
+
+      <a href="#" class="note-card reveal" style="transition-delay:.05s" data-class="10" data-subject="hindi">
+        <div class="note-top">
+          <span class="note-tag hindi">CLASS 10TH · HINDI</span>
+          <span class="note-pages">11 pages</span>
+        </div>
+        <h3>पद्खण्ड 7 — हिरोशिमा</h3>
+        <p>कविता का सार, भावार्थ और परीक्षा में पूछे जाने वाले महत्वपूर्ण प्रश्न।</p>
+        <div class="note-bottom">
+          <span class="note-meta">🕒 9 min read</span>
+          <span class="note-action">View Notes →</span>
+        </div>
+      </a>
+
+      <a href="#" class="note-card reveal" style="transition-delay:.1s" data-class="12" data-subject="maths">
+        <div class="note-top">
+          <span class="note-tag maths">CLASS 12TH · MATHS</span>
+          <span class="note-pages">14 pages</span>
+        </div>
+        <h3>Chapter 2 — Inverse Trigonometric Functions</h3>
+        <p>Domain, range, principal values and key identities with practice problems.</p>
+        <div class="note-bottom">
+          <span class="note-meta">🕒 11 min read</span>
+          <span class="note-action">View Notes →</span>
+        </div>
+      </a>
+
+    </div>
+
+    <p class="no-results" id="noResults">No notes match your filters. Try changing class or subject.</p>
+  </section>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script>
+    // Load shared nav
+    fetch('nav.html')
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById('nav-placeholder').innerHTML = html;
+        const path = window.location.pathname.split("/").pop().replace(".html", "") || "index";
+        document.querySelectorAll(".nav-link").forEach(link => {
+          if (link.dataset.page === path) link.classList.add("active");
+        });
+      });
+
+    // Scroll-reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => revealObserver.observe(el));
+
+    // Filtering logic
+    const classFilter = document.getElementById('classFilter');
+    const subjectFilter = document.getElementById('subjectFilter');
+    const searchInput = document.getElementById('searchInput');
+    const cards = document.querySelectorAll('.note-card');
+    const noResults = document.getElementById('noResults');
+
+    function applyFilters() {
+      const cls = classFilter.value;
+      const subj = subjectFilter.value;
+      const query = searchInput.value.trim().toLowerCase();
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const matchesClass = cls === 'all' || card.dataset.class === cls;
+        const matchesSubject = subj === 'all' || card.dataset.subject === subj;
+        const matchesSearch = !query || card.innerText.toLowerCase().includes(query);
+        const show = matchesClass && matchesSubject && matchesSearch;
+        card.style.display = show ? '' : 'none';
+        if (show) visibleCount++;
+      });
+
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    classFilter.addEventListener('change', applyFilters);
+    subjectFilter.addEventListener('change', applyFilters);
+    searchInput.addEventListener('input', applyFilters);
+  </script>
+
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <div class="footer-brand">
+                <h3>Bihar<span>Learners</span></h3>
+                <p>Bihar Board Class 9–12 ke students ke liye free learning platform. Notes, Quiz, PYQ, Practice Test
+                    aur Mock Test ek hi jagah.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="tests.html">Tests</a>
+                <a href="notes.html">Notes</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <a href="#">PYQ</a>
+                <a href="#">Formula Sheet</a>
+                <a href="#">Syllabus</a>
+                <a href="#">Model Paper</a>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Bihar Learners. All Rights Reserved.</p>
+            <span>Made with ❤️ for Bihar Board Students</span>
+        </div>
+    </footer>
+
+    <script src="../js/app.js"></script>
+
+</body>
+
+</html>

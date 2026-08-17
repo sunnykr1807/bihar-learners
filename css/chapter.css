@@ -48,7 +48,7 @@
     max-width: 720px;
     margin-top: 14px;
     color: var(--text-muted);
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
 }
 
@@ -68,7 +68,7 @@
     border-radius: 8px;
     color: var(--text-muted);
     background: #fff;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -184,7 +184,7 @@
     padding: 10px 11px;
     border-radius: 9px;
     color: var(--text-muted);
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
     transition: var(--transition);
 }
@@ -221,7 +221,7 @@
 .lesson-section h2 {
     margin-bottom: 13px;
     font-family: "Poppins", sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     letter-spacing: -.5px;
 }
 
@@ -229,12 +229,12 @@
     margin-top: 25px;
     margin-bottom: 8px;
     font-family: "Poppins", sans-serif;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .lesson-section p {
     color: #475569;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.85;
 }
 
@@ -246,7 +246,7 @@
 .lesson-section li {
     margin-bottom: 8px;
     color: #475569;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.7;
 }
 
@@ -288,7 +288,7 @@
     align-items: center;
     gap: 8px;
     color: #6d28d9;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 800;
     letter-spacing: .4px;
 }
@@ -301,7 +301,7 @@
     color: #312e81;
     background: #fff;
     font-family: "Courier New", monospace;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     text-align: center;
 }
@@ -321,7 +321,7 @@
 
 .example-label {
     color: var(--primary);
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 800;
     letter-spacing: .5px;
 }
@@ -352,7 +352,7 @@
     align-items: center;
     gap: 8px;
     color: #a16207;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 800;
 }
 
@@ -376,12 +376,12 @@
 }
 
 .definition-card h4 {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .definition-card p {
     margin-top: 6px;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 
@@ -413,12 +413,12 @@
     border-radius: 8px;
     color: var(--primary);
     background: #eef2ff;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 800;
 }
 
 .question-item p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 
@@ -446,13 +446,13 @@
 .action-box h3 {
     margin: 0;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .action-box p {
     margin-top: 5px;
     color: rgba(255, 255, 255, .75);
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .action-box .btn {
@@ -476,7 +476,7 @@
 
 .quiz-progress-text {
     color: #64748b;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -593,7 +593,7 @@
     border-radius: 10px;
     color: #fff;
     background: #4f46e5;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     cursor: pointer;
 }

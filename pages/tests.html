@@ -103,19 +103,19 @@
         <div class="result-card">
             <div class="result-ring" id="resultRing"><span id="resultPct">0%</span></div>
             <h2>Test Complete!</h2>
-            <p id="resultSub">Aapne test successfully complete kar liya hai.</p>
+            <p id="resultSub">Congratulation, Aapne test successfully complete kar liya hai.</p>
             <div class="result-stats">
                 <div class="stat-box correct">
                     <div class="num" id="correctCount">0</div>
-                    <div class="lbl">Sahi</div>
+                    <div class="lbl">Correct</div>
                 </div>
                 <div class="stat-box wrong">
                     <div class="num" id="wrongCount">0</div>
-                    <div class="lbl">Galat</div>
+                    <div class="lbl">Wrong</div>
                 </div>
                 <div class="stat-box">
                     <div class="num" id="skipCount">0</div>
-                    <div class="lbl">Chhoda</div>
+                    <div class="lbl">Not Attempt</div>
                 </div>
             </div>
             <button class="btn btn-primary" id="restartBtn" style="width:100%;">Aur Test Dekhein</button>
@@ -163,34 +163,9 @@
         /* ---------- DATA ---------- */
         const subjectsByClass = {
             "10": ["Hindi", "Science", "Mathematics", "Social Science"],
-            "12": ["Physics", "Chemistry", "Mathematics", "English"]
+            "12": ["Physics", "Chemistry", "Mathematics", "English", "Hindi 2.0",]
         };
 
-        // sample question bank keyed by "class-subject"
-        function sampleQuestions(subject) {
-            return [
-                {
-                    q: `${subject} — Sabse mahatvapurn topic kaun sa hai jo board exam me har baar poochha jata hai?`,
-                    options: ["Basic Concepts", "Advanced Only", "Random Topic", "Koi nahi"], answer: 0
-                },
-                {
-                    q: `${subject} ke question paper me sabse zyada weightage kis section ka hota hai?`,
-                    options: ["Objective", "Short Answer", "Long Answer", "Sabhi barabar"], answer: 3
-                },
-                {
-                    q: `Board exam ki taiyari ke liye sabse achha tareeka kya hai?`,
-                    options: ["Sirf notes padhna", "Chapter-wise practice test", "Last night padhna", "Kuchh na karna"], answer: 1
-                },
-                {
-                    q: `${subject} me revision ke liye kitna time roz dena chahiye?`,
-                    options: ["0 min", "10-15 min", "1-2 ghante", "Kabhi nahi"], answer: 2
-                },
-                {
-                    q: `Practice test dene ka sabse bada fayda kya hai?`,
-                    options: ["Time management", "Sirf marks", "Kuchh nahi", "Sirf fun"], answer: 0
-                },
-            ];
-        }
 
         const testsData = {
             "10": {
@@ -224,9 +199,71 @@
                     { title: "Chapter 1: Relations & Functions", time: 20, q: 10 },
                 ],
                 "English": [
-                    { title: "Full Course Practice Test", time: 30, q: 12 },
+
+                    {
+                        title: "Chapter 1: Indian Civilization and Culture",
+                        time: 25,
+                        q: 25
+                    },
+                    {
+                        title: "Chapter 2: Bharat Is My Home",
+                        time: 25,
+                        q: 30
+                    },
+                    {
+                        title: "Chapter 3: A Pinch of Snuff",
+                        time: 25,
+                        q: 30
+                    },
+                    {
+                        title: "Chapter 4: I Have a Dream",
+                        time: 25,
+                        q: 30
+                    },
+                    {
+                        title: "Chapter 5: Ideas That Have Helped Mankind",
+                        time: 25,
+                        q: 30
+                    },
+
+                    {
+                        title: "Chapter 6: The Artist",
+                        time: 40,
+                        q: 30
+                    },
+                    {
+                        title: "Chapter 7: A Child Is Born",
+                        time: 40,
+                        q: 30
+                    },
+                    {
+                        title: "Chapter 8: How Free Is the Press",
+                        time: 40,
+                        q: 30
+                    },
+                    {
+                        title: "Chapter 9: The Earth",
+                        time: 40,
+                        q: 30
+                    },
+                    {
+                        title: "Chapter 10: India Through a Traveller's Eyes",
+                        time: 40,
+                        q: 30
+                    },
+
+                    {
+                        title: "Chapter 11: A Marriage Proposal",
+                        time: 40,
+                        q: 50
+                    }
                 ],
-                  "Hindi": [
+
+
+
+
+
+                "Hindi": [
                     { title: "पद्खण्ड 7. हिरोशिमा", time: 30, q: 8 },
                     { title: "पद्खण्ड 8. एक वृक्ष की हत्या", time: 10, q: 6 },
                     { title: "पद्खण्ड 9. हमारी नींद", time: 10, q: 6 },
@@ -310,21 +347,84 @@
         let timerInterval;
 
         function startQuiz(cls, subject, testInfo) {
-            const questions = sampleQuestions(subject).slice(0, testInfo.q > 5 ? 5 : testInfo.q);
-            quizState = {
-                title: testInfo.title,
-                questions,
-                current: 0,
-                answers: new Array(questions.length).fill(null),
-                secondsLeft: testInfo.time * 60
-            };
-            pickView.classList.add('hidden');
-            resultView.classList.add('hidden');
-            quizView.classList.remove('hidden');
-            document.getElementById('quizTitle').textContent = testInfo.title;
-            renderQuestion();
-            startTimer();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            let questions = [];
+
+            if (cls === "12" && subject === "English") {
+                if (testInfo.title.includes("Indian Civilization")) {
+                    questions = getEnglishChapter1Questions();
+                }
+                else if (testInfo.title.includes("Bharat Is My Home")) {
+                    questions = getEnglishChapter2Questions();
+                }
+
+                else if (testInfo.title.includes("A Pinch of Snuff")) {
+                    questions = getEnglishChapter3Questions();
+                }
+
+                else if (testInfo.title.includes("I Have a Dream")) {
+                    questions = getEnglishChapter4Questions();
+                }
+
+                else if (testInfo.title.includes("Ideas That Have Helped Mankind")) {
+                    questions = getEnglishChapter5Questions();
+                }
+                else if (testInfo.title.includes("The Artist")) {
+                    questions = getEnglishChapter6Questions();
+                }
+
+                else if (testInfo.title.includes("A Child Is Born")) {
+                    questions = getEnglishChapter7Questions();
+                }
+
+                else if (testInfo.title.includes("How Free Is the Press")) {
+                    questions = getEnglishChapter8Questions();
+                }
+
+                else if (testInfo.title.includes("The Earth")) {
+                    questions = getEnglishChapter9Questions();
+                }
+
+                else if (testInfo.title.includes("India Through a Traveller's Eyes")) {
+                    questions = getEnglishChapter10Questions();
+                }
+
+                else if (testInfo.title.includes("A Marriage Proposal")) {
+                    questions = getEnglishChapter11Questions();
+                }
+
+                
+                // Agar is chapter ka bank nahi mila
+                if (questions.length === 0) {
+                    questions = sampleQuestions(subject).slice(
+                        0,
+                        testInfo.q > 5 ? 5 : testInfo.q
+                    );
+                }
+
+                quizState = {
+                    title: testInfo.title,
+                    questions,
+                    current: 0,
+                    answers: new Array(questions.length).fill(null),
+                    secondsLeft: testInfo.time * 60
+                };
+
+                pickView.classList.add('hidden');
+                resultView.classList.add('hidden');
+                quizView.classList.remove('hidden');
+
+                document.getElementById('quizTitle').textContent = testInfo.title;
+
+                renderQuestion();
+                startTimer();
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+
         }
 
         function startTimer() {
@@ -409,6 +509,9 @@
             pickView.classList.remove('hidden');
         });
     </script>
+
+    <script src="../js/12bank.js"></script>
+
 </body>
 
 </html>

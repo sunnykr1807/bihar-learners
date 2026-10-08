@@ -1627,1714 +1627,1714 @@ function getEnglishChapter5Questions() {
 
     ];
 }
-    /* =========================================================
-       CLASS 12 ENGLISH - CHAPTER 6
-       THE ARTIST
-       ========================================================= */
-
-    function getEnglishChapter6Questions() {
-        return [
-
-            {
-                q: "Who wrote 'The Artist'?",
-                options: [
-                    "Shiga Naoya",
-                    "H.E. Bates",
-                    "Pearl S. Buck",
-                    "Anton Chekhov"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "'The Artist' is a —",
-                options: [
-                    "Short story",
-                    "Poem",
-                    "Speech",
-                    "Essay"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Who is the main character of 'The Artist'?",
-                options: [
-                    "Seibei",
-                    "Shiga Naoya",
-                    "The teacher",
-                    "The curio dealer"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Seibei was a — year old Japanese boy.",
-                options: [
-                    "10",
-                    "11",
-                    "12",
-                    "13"
-                ],
-                answer: 2
-            },
-
-            {
-                q: "What was Seibei passionately interested in?",
-                options: [
-                    "Gourds",
-                    "Books",
-                    "Paintings",
-                    "Flowers"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Seibei usually wandered in the town looking for —",
-                options: [
-                    "Gourds",
-                    "Books",
-                    "Toys",
-                    "Coins"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "What did Seibei mistake for a splendid gourd?",
-                options: [
-                    "A football",
-                    "An old man's bald head",
-                    "A coconut",
-                    "A watermelon"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "After realizing his mistake, Seibei —",
-                options: [
-                    "Cried",
-                    "Laughed",
-                    "Ran away",
-                    "Became angry"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "What kind of gourd was displayed at the agricultural show?",
-                options: [
-                    "Bakin",
-                    "Golden",
-                    "Round",
-                    "Long"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The old woman had a stall of —",
-                options: [
-                    "Clothes",
-                    "Fruits",
-                    "Books",
-                    "Flowers"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "Seibei bought a gourd from —",
-                options: [
-                    "A teacher",
-                    "An old woman",
-                    "A farmer",
-                    "A shopkeeper"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "How much did Seibei pay for the gourd?",
-                options: [
-                    "5 sen",
-                    "10 sen",
-                    "20 sen",
-                    "50 sen"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "The curio dealer eventually sold the gourd for —",
-                options: [
-                    "Ten yen",
-                    "Twenty yen",
-                    "Fifty yen",
-                    "One hundred yen"
-                ],
-                answer: 2
-            },
-
-            {
-                q: "Seibei's father was a —",
-                options: [
-                    "Teacher",
-                    "Carpenter",
-                    "Farmer",
-                    "Merchant"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "Seibei's father was angry because of his son's interest in —",
-                options: [
-                    "Gourds",
-                    "Books",
-                    "Music",
-                    "Sports"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Who destroyed Seibei's gourds?",
-                options: [
-                    "His father",
-                    "His teacher",
-                    "His friend",
-                    "The old woman"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The teacher punished Seibei because he was —",
-                options: [
-                    "Talking in class",
-                    "Working on gourds during class",
-                    "Absent from school",
-                    "Fighting"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "Seibei's talent was not properly understood by his —",
-                options: [
-                    "Father and teacher",
-                    "Friends",
-                    "Mother only",
-                    "Neighbour"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Seibei later became interested in —",
-                options: [
-                    "Painting",
-                    "Farming",
-                    "Music",
-                    "Business"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story highlights the conflict between —",
-                options: [
-                    "Talent and conventional thinking",
-                    "Rich and poor",
-                    "East and West",
-                    "Science and religion"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Seibei's father considered his hobby —",
-                options: [
-                    "Useful",
-                    "Worthless",
-                    "Profitable",
-                    "Necessary"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "The curio dealer recognized the — of Seibei's gourd.",
-                options: [
-                    "Value",
-                    "Colour only",
-                    "Weight",
-                    "Age"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Seibei had a natural talent for —",
-                options: [
-                    "Art",
-                    "Mathematics",
-                    "Science",
-                    "Politics"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story is written by a — writer.",
-                options: [
-                    "Japanese",
-                    "Indian",
-                    "British",
-                    "American"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Shiga Naoya was a famous — writer.",
-                options: [
-                    "Japanese",
-                    "French",
-                    "Indian",
-                    "Russian"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The title 'The Artist' refers mainly to —",
-                options: [
-                    "Seibei",
-                    "His father",
-                    "His teacher",
-                    "The curio dealer"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Seibei's talent was initially —",
-                options: [
-                    "Encouraged",
-                    "Suppressed",
-                    "Rewarded",
-                    "Publicized"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "The story teaches that natural talent should be —",
-                options: [
-                    "Suppressed",
-                    "Encouraged",
-                    "Ignored",
-                    "Punished"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "The main theme of 'The Artist' is —",
-                options: [
-                    "Recognition of artistic talent",
-                    "Political freedom",
-                    "War",
-                    "Child marriage"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story presents Seibei as a —",
-                options: [
-                    "Sensitive and talented child",
-                    "Lazy child",
-                    "Cruel child",
-                    "Dishonest child"
-                ],
-                answer: 0
-            }
-
-        ];
-    }
-
-
-    /* =========================================================
-       CLASS 12 ENGLISH - CHAPTER 7
-       A CHILD IS BORN
-       ========================================================= */
-
-    function getEnglishChapter7Questions() {
-        return [
-
-            {
-                q: "Who wrote 'A Child is Born'?",
-                options: [
-                    "Germaine Greer",
-                    "Dorothy L. Sayers",
-                    "Pearl S. Buck",
-                    "Shiga Naoya"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "'A Child is Born' is an extract from —",
-                options: [
-                    "The Female Eunuch",
-                    "Sex and Destiny",
-                    "My Several Worlds",
-                    "The Artist"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "The full title of the book is —",
-                options: [
-                    "Sex and Destiny: The Politics of Human Fertility",
-                    "Sex and Society",
-                    "The Female World",
-                    "Birth and Society"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "'A Child is Born' is a/an —",
-                options: [
-                    "Essay",
-                    "Poem",
-                    "Drama",
-                    "Short story"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Germaine Greer was born in —",
-                options: [
-                    "1938",
-                    "1939",
-                    "1940",
-                    "1941"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "Germaine Greer was born and educated in —",
-                options: [
-                    "Australia",
-                    "India",
-                    "Britain",
-                    "America"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The chapter mainly deals with —",
-                options: [
-                    "Childbirth and child care",
-                    "Education",
-                    "Politics",
-                    "Travel"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The chapter compares childbirth practices of —",
-                options: [
-                    "East and West",
-                    "North and South",
-                    "India and America only",
-                    "Britain and France"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "In many traditional societies, a woman becomes a member of her husband's family after she —",
-                options: [
-                    "Gets a job",
-                    "Bears a child",
-                    "Buys a house",
-                    "Starts cooking"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "Married women in traditional societies may live with their —",
-                options: [
-                    "Mother-in-law",
-                    "Teacher",
-                    "Friend",
-                    "Doctor"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The author discusses various — associated with childbirth.",
-                options: [
-                    "Taboos and rituals",
-                    "Games",
-                    "Sports",
-                    "Political rules"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "In some societies, a pregnant woman has to observe various —",
-                options: [
-                    "Customs",
-                    "Political laws",
-                    "School rules",
-                    "Business rules"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The birth of a child is generally an occasion of —",
-                options: [
-                    "Joy",
-                    "Fear",
-                    "Anger",
-                    "Silence"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "In Bangladesh, the child is looked after by —",
-                options: [
-                    "The whole family",
-                    "The father only",
-                    "The mother only",
-                    "The doctor"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The author discusses the role of — in childbirth.",
-                options: [
-                    "Women and society",
-                    "Machines only",
-                    "Government only",
-                    "Schools"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The hospital was uncooperative about —",
-                options: [
-                    "Breast-feeding",
-                    "Food",
-                    "Medicine",
-                    "Clothes"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Infant and mother mortality is greater in —",
-                options: [
-                    "Traditional births",
-                    "Modern births",
-                    "Hospital births",
-                    "Safe births"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The hospital refused to believe that the woman was in the —",
-                options: [
-                    "First stage of labour",
-                    "Second stage of labour",
-                    "Third stage of labour",
-                    "Final stage"
-                ],
-                answer: 1
-            },
-
-            {
-                q: "The ceremony after childbirth is held for —",
-                options: [
-                    "Boys only",
-                    "Girls only",
-                    "Both boys and girls",
-                    "Mothers only"
-                ],
-                answer: 2
-            },
-
-            {
-                q: "The musical programme on the occasion is given by —",
-                options: [
-                    "Women and girls",
-                    "Doctors",
-                    "Teachers",
-                    "Men only"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The author criticizes social practices that mainly serve the interests of —",
-                options: [
-                    "Males",
-                    "Children",
-                    "Doctors",
-                    "Women"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The chapter examines the relationship between —",
-                options: [
-                    "Culture and childbirth",
-                    "Politics and war",
-                    "Education and business",
-                    "Science and industry"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "In some societies, mothers-in-law are considered —",
-                options: [
-                    "Unjust and vindictive",
-                    "Very kind",
-                    "Doctors",
-                    "Teachers"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The loss of a woman's own name after marriage is regarded in the West as —",
-                options: [
-                    "Outrageous",
-                    "Normal",
-                    "Beautiful",
-                    "Necessary"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Buying new clothes for a baby before birth is considered — in some societies.",
-                options: [
-                    "Bad luck",
-                    "Good luck",
-                    "Necessary",
-                    "A festival"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Germaine Greer is particularly known as a —",
-                options: [
-                    "Feminist writer",
-                    "Scientist",
-                    "Painter",
-                    "Politician"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The chapter emphasizes the importance of —",
-                options: [
-                    "Mother and child care",
-                    "Political power",
-                    "Industrial growth",
-                    "Military training"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The author's approach to traditional customs is mainly —",
-                options: [
-                    "Critical and analytical",
-                    "Completely approving",
-                    "Humorous only",
-                    "Indifferent"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The central issue discussed in the essay is —",
-                options: [
-                    "Cultural attitudes toward childbirth",
-                    "Political elections",
-                    "Education",
-                    "Industrialization"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The main purpose of the essay is to examine —",
-                options: [
-                    "Different social practices surrounding childbirth",
-                    "The history of wars",
-                    "The growth of cities",
-                    "The development of literature"
-                ],
-                answer: 0
-            }
-
-        ];
-    }
-
-
-    /* =========================================================
-       CLASS 12 ENGLISH - CHAPTER 8
-       HOW FREE IS THE PRESS
-       ========================================================= */
-
-    function getEnglishChapter8Questions() {
-        return [
-
-            {
-                q: "Who wrote 'How Free is the Press'?",
-                options: [
-                    "Dorothy L. Sayers",
-                    "Germaine Greer",
-                    "Pearl S. Buck",
-                    "Bertrand Russell"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "'How Free is the Press' is a/an —",
-                options: [
-                    "Essay",
-                    "Poem",
-                    "Story",
-                    "Drama"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The essay mainly discusses the — of the press.",
-                options: [
-                    "Freedom",
-                    "History",
-                    "Technology",
-                    "Printing"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "A free and fair press is the true watchdog of —",
-                options: [
-                    "Democracy",
-                    "Industry",
-                    "Education",
-                    "Agriculture"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Free people take a free — for granted.",
-                options: [
-                    "Press",
-                    "School",
-                    "House",
-                    "Market"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Without a free press there can be no free —",
-                options: [
-                    "People",
-                    "Schools",
-                    "Markets",
-                    "Factories"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The master of the state is —",
-                options: [
-                    "The people",
-                    "The press",
-                    "The government",
-                    "The court"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The press can make or break a person's —",
-                options: [
-                    "Reputation",
-                    "Education",
-                    "House",
-                    "Family"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The press is restricted during —",
-                options: [
-                    "War",
-                    "Peace",
-                    "Summer",
-                    "Elections only"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "During wartime some sort of — is imposed on the press.",
-                options: [
-                    "Censorship",
-                    "Reward",
-                    "Freedom",
-                    "Advertisement"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "According to the essay, the British Press is particularly free during —",
-                options: [
-                    "Normal times",
-                    "War",
-                    "Revolution",
-                    "Elections"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Every newspaper is shackled to its own set of —",
-                options: [
-                    "Overlords",
-                    "Teachers",
-                    "Readers",
-                    "Workers"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Newspaper owners may have their own — interests.",
-                options: [
-                    "Personal",
-                    "Scientific",
-                    "Educational",
-                    "Religious"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Advertisers contribute to the newspaper's —",
-                options: [
-                    "Revenue",
-                    "History",
-                    "Editorials",
-                    "Censorship"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "A newspaper may avoid a public policy that conflicts with the interests of its —",
-                options: [
-                    "Advertisers",
-                    "Teachers",
-                    "Students",
-                    "Farmers"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "A big circulation may mean bankruptcy if the newspaper depends on sales for its —",
-                options: [
-                    "Revenue",
-                    "News",
-                    "Policy",
-                    "Printing"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The special accomplishment of the press interviewer is —",
-                options: [
-                    "Garbling",
-                    "Teaching",
-                    "Painting",
-                    "Printing"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The essay warns against the misuse of the freedom of —",
-                options: [
-                    "Press",
-                    "Education",
-                    "Speech only",
-                    "Travel"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The freedom of press means freedom from government intervention and —",
-                options: [
-                    "Censorship",
-                    "Education",
-                    "Advertising",
-                    "Competition"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The press should be — and fair.",
-                options: [
-                    "Free",
-                    "Controlled",
-                    "Silent",
-                    "Secret"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The newspaper's editorial policy can be influenced by —",
-                options: [
-                    "Owners and advertisers",
-                    "Teachers only",
-                    "Students only",
-                    "Doctors only"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The essay is mainly concerned with the relationship between press and —",
-                options: [
-                    "Democracy",
-                    "Agriculture",
-                    "Sports",
-                    "Science"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Dorothy L. Sayers was a — writer.",
-                options: [
-                    "British",
-                    "Indian",
-                    "Japanese",
-                    "American"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The press is called the watchdog of —",
-                options: [
-                    "Democracy",
-                    "Industry",
-                    "Education",
-                    "Religion"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The press can influence public —",
-                options: [
-                    "Opinion",
-                    "Weather",
-                    "Agriculture",
-                    "Climate"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The writer believes that the freedom of press is —",
-                options: [
-                    "Important for democracy",
-                    "Useless",
-                    "Dangerous in every situation",
-                    "Only for advertisers"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "One major danger to press freedom is —",
-                options: [
-                    "Commercial interests",
-                    "Education",
-                    "Literature",
-                    "Science"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The essay criticizes — reporting by the press.",
-                options: [
-                    "Misleading",
-                    "Scientific",
-                    "Educational",
-                    "Historical"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The title 'How Free is the Press' is mainly —",
-                options: [
-                    "A question about the real freedom of newspapers",
-                    "A story title",
-                    "A poem title",
-                    "A political slogan"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The central message of the essay is that press freedom must be accompanied by —",
-                options: [
-                    "Responsibility and fairness",
-                    "Profit only",
-                    "Political control",
-                    "Silence"
-                ],
-                answer: 0
-            }
-
-        ];
-    }
-
-
-    /* =========================================================
-       CLASS 12 ENGLISH - CHAPTER 9
-       THE EARTH
-       ========================================================= */
-
-    function getEnglishChapter9Questions() {
-        return [
-
-            {
-                q: "Who wrote 'The Earth'?",
-                options: [
-                    "H.E. Bates",
-                    "Shiga Naoya",
-                    "Pearl S. Buck",
-                    "Anton Chekhov"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "'The Earth' is a —",
-                options: [
-                    "Short story",
-                    "Poem",
-                    "Speech",
-                    "Essay"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "H.E. Bates was a — writer.",
-                options: [
-                    "British",
-                    "Indian",
-                    "Japanese",
-                    "American"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The main character in 'The Earth' is —",
-                options: [
-                    "Johnson",
-                    "Seibei",
-                    "Nanukaka",
-                    "Gessler"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson was a — farmer.",
-                options: [
-                    "Tenant",
-                    "Rich",
-                    "Government",
-                    "Factory"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson was not very —",
-                options: [
-                    "Hardworking",
-                    "Clever",
-                    "Kind",
-                    "Friendly"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson depended heavily on —",
-                options: [
-                    "God",
-                    "The government",
-                    "His neighbours",
-                    "The market"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson believed that if God wanted, there would be a good —",
-                options: [
-                    "Harvest",
-                    "Rain",
-                    "House",
-                    "Market"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson hoped that he would become —",
-                options: [
-                    "Rich",
-                    "A teacher",
-                    "A politician",
-                    "A doctor"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story gives the message that man should —",
-                options: [
-                    "Do his own work",
-                    "Leave everything to God",
-                    "Avoid hard work",
-                    "Wait for luck"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story emphasizes the value of —",
-                options: [
-                    "Hard work",
-                    "Luck",
-                    "Wealth",
-                    "Power"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The Earth is associated with —",
-                options: [
-                    "Agriculture",
-                    "Industry",
-                    "Politics",
-                    "Education"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson's attitude towards farming was —",
-                options: [
-                    "Passive",
-                    "Active",
-                    "Scientific",
-                    "Professional"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson expected God to —",
-                options: [
-                    "Provide success",
-                    "Teach him",
-                    "Buy his land",
-                    "Give him a job"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story suggests that God helps those who —",
-                options: [
-                    "Help themselves",
-                    "Do nothing",
-                    "Wait for luck",
-                    "Avoid work"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The central theme of the story is —",
-                options: [
-                    "Hard work versus dependence on fate",
-                    "Political freedom",
-                    "Childbirth",
-                    "Press freedom"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The Earth represents the importance of —",
-                options: [
-                    "Land and labour",
-                    "Money",
-                    "Politics",
-                    "Machines"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson's family hoped that the children would —",
-                options: [
-                    "Overcome their sorrows",
-                    "Leave the farm",
-                    "Become politicians",
-                    "Travel abroad"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story contains a message about —",
-                options: [
-                    "Self-reliance",
-                    "Luxury",
-                    "War",
-                    "Travel"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "According to the story, simplicity can sometimes be —",
-                options: [
-                    "Deceitful",
-                    "Perfect",
-                    "Useless",
-                    "Dangerous only"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson's failure is largely due to his —",
-                options: [
-                    "Lack of hard work",
-                    "Lack of money only",
-                    "Lack of education only",
-                    "Lack of friends"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story criticizes excessive dependence on —",
-                options: [
-                    "Fate",
-                    "Education",
-                    "Science",
-                    "Family"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The Earth is important to a farmer because it provides —",
-                options: [
-                    "Livelihood",
-                    "Entertainment",
-                    "Education",
-                    "Politics"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "H.E. Bates uses the story to teach the value of —",
-                options: [
-                    "Action",
-                    "Idleness",
-                    "Luck",
-                    "Wealth"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Johnson's character can best be described as —",
-                options: [
-                    "Passive and dependent",
-                    "Hardworking and ambitious",
-                    "Brave and adventurous",
-                    "Scientific"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The title 'The Earth' is closely connected with —",
-                options: [
-                    "Farming and human life",
-                    "Sea travel",
-                    "City life",
-                    "Political life"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story suggests that success requires —",
-                options: [
-                    "Effort",
-                    "Luck alone",
-                    "Prayer alone",
-                    "Money alone"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The story is mainly set in a —",
-                options: [
-                    "Rural environment",
-                    "City",
-                    "School",
-                    "Factory"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The Earth teaches that human beings should not —",
-                options: [
-                    "Leave all responsibility to fate",
-                    "Work hard",
-                    "Use land",
-                    "Take responsibility"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The main lesson of 'The Earth' is —",
-                options: [
-                    "Self-help and hard work",
-                    "Luxury and pleasure",
-                    "Political power",
-                    "Dependence on others"
-                ],
-                answer: 0
-            }
-
-        ];
-    }
-
-
-    /* =========================================================
-       CLASS 12 ENGLISH - CHAPTER 10
-       INDIA THROUGH A TRAVELLER'S EYES
-       ========================================================= */
-
-    function getEnglishChapter10Questions() {
-        return [
-
-            {
-                q: "Who wrote 'India Through a Traveller's Eyes'?",
-                options: [
-                    "Pearl S. Buck",
-                    "Germaine Greer",
-                    "Dorothy L. Sayers",
-                    "Shiga Naoya"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "'India Through a Traveller's Eyes' is an extract from —",
-                options: [
-                    "My Several Worlds",
-                    "The Female Eunuch",
-                    "Sex and Destiny",
-                    "The Artist"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck was a — writer.",
-                options: [
-                    "American",
-                    "British",
-                    "Japanese",
-                    "Indian"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck had a special interest in —",
-                options: [
-                    "Asia",
-                    "Africa",
-                    "Europe",
-                    "Australia"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The chapter describes India from the viewpoint of a —",
-                options: [
-                    "Traveller",
-                    "Politician",
-                    "Soldier",
-                    "Scientist"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck visited —",
-                options: [
-                    "India",
-                    "Japan only",
-                    "France",
-                    "Russia"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The writer was especially impressed by India's —",
-                options: [
-                    "People",
-                    "Factories",
-                    "Machines",
-                    "Military"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck showed sympathy towards the — of India.",
-                options: [
-                    "Poor",
-                    "Rich only",
-                    "Kings",
-                    "Politicians"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The chapter focuses particularly on the people living in —",
-                options: [
-                    "Indian villages",
-                    "Big cities",
-                    "Factories",
-                    "Palaces"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The writer's attitude towards India is mainly —",
-                options: [
-                    "Sympathetic",
-                    "Hostile",
-                    "Indifferent",
-                    "Mocking"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The writer observes Indian life through a —",
-                options: [
-                    "Traveller's eyes",
-                    "Politician's eyes",
-                    "Soldier's eyes",
-                    "Teacher's eyes"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck was awarded the Nobel Prize in —",
-                options: [
-                    "Literature",
-                    "Physics",
-                    "Medicine",
-                    "Peace"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck received the Nobel Prize in Literature in —",
-                options: [
-                    "1938",
-                    "1940",
-                    "1945",
-                    "1950"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck was born in —",
-                options: [
-                    "1892",
-                    "1895",
-                    "1900",
-                    "1905"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck died in —",
-                options: [
-                    "1973",
-                    "1975",
-                    "1980",
-                    "1985"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck spent much of her early life in —",
-                options: [
-                    "China",
-                    "India",
-                    "Britain",
-                    "France"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The title indicates that India is being presented from a — perspective.",
-                options: [
-                    "Foreign traveller's",
-                    "Political",
-                    "Military",
-                    "Scientific"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The author was deeply interested in the — of ordinary people.",
-                options: [
-                    "Lives",
-                    "Wealth",
-                    "Politics",
-                    "Business"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The writer admired the — of Indian people.",
-                options: [
-                    "Resilience",
-                    "Luxury",
-                    "Political power",
-                    "Military strength"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Indian villages are presented as places where people live a — life.",
-                options: [
-                    "Simple",
-                    "Luxurious",
-                    "Industrial",
-                    "Modern"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The chapter gives importance to the — culture of India.",
-                options: [
-                    "Rural",
-                    "Industrial",
-                    "Military",
-                    "Political"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The author's observations are based mainly on her —",
-                options: [
-                    "Personal experience",
-                    "Newspaper reports",
-                    "Books only",
-                    "Political speeches"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The essay is best described as a —",
-                options: [
-                    "Travel account",
-                    "Drama",
-                    "Poem",
-                    "Scientific paper"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "Pearl S. Buck's writing often reflects her knowledge of —",
-                options: [
-                    "Asian cultures",
-                    "European wars",
-                    "American politics only",
-                    "African history only"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The author's sympathy is particularly directed towards —",
-                options: [
-                    "Poor villagers",
-                    "Kings",
-                    "Industrialists",
-                    "Officials"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The writer tries to understand India through —",
-                options: [
-                    "Direct observation",
-                    "Rumours",
-                    "Political propaganda",
-                    "Official reports only"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The chapter presents India's — as an important part of its identity.",
-                options: [
-                    "Culture",
-                    "Military",
-                    "Industry",
-                    "Politics"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The writer's view of India is largely —",
-                options: [
-                    "Appreciative and sympathetic",
-                    "Completely negative",
-                    "Indifferent",
-                    "Hostile"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The main focus of the chapter is —",
-                options: [
-                    "India and its people as observed by Pearl S. Buck",
-                    "Indian military history",
-                    "Indian industrial development",
-                    "Indian political parties"
-                ],
-                answer: 0
-            },
-
-            {
-                q: "The central idea of the chapter is —",
-                options: [
-                    "Understanding India through a traveller's experience",
-                    "Criticizing all Indian traditions",
-                    "Describing only Indian cities",
-                    "Discussing Indian politics"
-                ],
-                answer: 0
-            }
-
-        ];
-    }
+/* =========================================================
+   CLASS 12 ENGLISH - CHAPTER 6
+   THE ARTIST
+   ========================================================= */
+
+function getEnglishChapter6Questions() {
+    return [
+
+        {
+            q: "Who wrote 'The Artist'?",
+            options: [
+                "Shiga Naoya",
+                "H.E. Bates",
+                "Pearl S. Buck",
+                "Anton Chekhov"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "'The Artist' is a —",
+            options: [
+                "Short story",
+                "Poem",
+                "Speech",
+                "Essay"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Who is the main character of 'The Artist'?",
+            options: [
+                "Seibei",
+                "Shiga Naoya",
+                "The teacher",
+                "The curio dealer"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Seibei was a — year old Japanese boy.",
+            options: [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            answer: 2
+        },
+
+        {
+            q: "What was Seibei passionately interested in?",
+            options: [
+                "Gourds",
+                "Books",
+                "Paintings",
+                "Flowers"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Seibei usually wandered in the town looking for —",
+            options: [
+                "Gourds",
+                "Books",
+                "Toys",
+                "Coins"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "What did Seibei mistake for a splendid gourd?",
+            options: [
+                "A football",
+                "An old man's bald head",
+                "A coconut",
+                "A watermelon"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "After realizing his mistake, Seibei —",
+            options: [
+                "Cried",
+                "Laughed",
+                "Ran away",
+                "Became angry"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "What kind of gourd was displayed at the agricultural show?",
+            options: [
+                "Bakin",
+                "Golden",
+                "Round",
+                "Long"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The old woman had a stall of —",
+            options: [
+                "Clothes",
+                "Fruits",
+                "Books",
+                "Flowers"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "Seibei bought a gourd from —",
+            options: [
+                "A teacher",
+                "An old woman",
+                "A farmer",
+                "A shopkeeper"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "How much did Seibei pay for the gourd?",
+            options: [
+                "5 sen",
+                "10 sen",
+                "20 sen",
+                "50 sen"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "The curio dealer eventually sold the gourd for —",
+            options: [
+                "Ten yen",
+                "Twenty yen",
+                "Fifty yen",
+                "One hundred yen"
+            ],
+            answer: 2
+        },
+
+        {
+            q: "Seibei's father was a —",
+            options: [
+                "Teacher",
+                "Carpenter",
+                "Farmer",
+                "Merchant"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "Seibei's father was angry because of his son's interest in —",
+            options: [
+                "Gourds",
+                "Books",
+                "Music",
+                "Sports"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Who destroyed Seibei's gourds?",
+            options: [
+                "His father",
+                "His teacher",
+                "His friend",
+                "The old woman"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The teacher punished Seibei because he was —",
+            options: [
+                "Talking in class",
+                "Working on gourds during class",
+                "Absent from school",
+                "Fighting"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "Seibei's talent was not properly understood by his —",
+            options: [
+                "Father and teacher",
+                "Friends",
+                "Mother only",
+                "Neighbour"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Seibei later became interested in —",
+            options: [
+                "Painting",
+                "Farming",
+                "Music",
+                "Business"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story highlights the conflict between —",
+            options: [
+                "Talent and conventional thinking",
+                "Rich and poor",
+                "East and West",
+                "Science and religion"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Seibei's father considered his hobby —",
+            options: [
+                "Useful",
+                "Worthless",
+                "Profitable",
+                "Necessary"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "The curio dealer recognized the — of Seibei's gourd.",
+            options: [
+                "Value",
+                "Colour only",
+                "Weight",
+                "Age"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Seibei had a natural talent for —",
+            options: [
+                "Art",
+                "Mathematics",
+                "Science",
+                "Politics"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story is written by a — writer.",
+            options: [
+                "Japanese",
+                "Indian",
+                "British",
+                "American"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Shiga Naoya was a famous — writer.",
+            options: [
+                "Japanese",
+                "French",
+                "Indian",
+                "Russian"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The title 'The Artist' refers mainly to —",
+            options: [
+                "Seibei",
+                "His father",
+                "His teacher",
+                "The curio dealer"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Seibei's talent was initially —",
+            options: [
+                "Encouraged",
+                "Suppressed",
+                "Rewarded",
+                "Publicized"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "The story teaches that natural talent should be —",
+            options: [
+                "Suppressed",
+                "Encouraged",
+                "Ignored",
+                "Punished"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "The main theme of 'The Artist' is —",
+            options: [
+                "Recognition of artistic talent",
+                "Political freedom",
+                "War",
+                "Child marriage"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story presents Seibei as a —",
+            options: [
+                "Sensitive and talented child",
+                "Lazy child",
+                "Cruel child",
+                "Dishonest child"
+            ],
+            answer: 0
+        }
+
+    ];
+}
+
+
+/* =========================================================
+   CLASS 12 ENGLISH - CHAPTER 7
+   A CHILD IS BORN
+   ========================================================= */
+
+function getEnglishChapter7Questions() {
+    return [
+
+        {
+            q: "Who wrote 'A Child is Born'?",
+            options: [
+                "Germaine Greer",
+                "Dorothy L. Sayers",
+                "Pearl S. Buck",
+                "Shiga Naoya"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "'A Child is Born' is an extract from —",
+            options: [
+                "The Female Eunuch",
+                "Sex and Destiny",
+                "My Several Worlds",
+                "The Artist"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "The full title of the book is —",
+            options: [
+                "Sex and Destiny: The Politics of Human Fertility",
+                "Sex and Society",
+                "The Female World",
+                "Birth and Society"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "'A Child is Born' is a/an —",
+            options: [
+                "Essay",
+                "Poem",
+                "Drama",
+                "Short story"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Germaine Greer was born in —",
+            options: [
+                "1938",
+                "1939",
+                "1940",
+                "1941"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "Germaine Greer was born and educated in —",
+            options: [
+                "Australia",
+                "India",
+                "Britain",
+                "America"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The chapter mainly deals with —",
+            options: [
+                "Childbirth and child care",
+                "Education",
+                "Politics",
+                "Travel"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The chapter compares childbirth practices of —",
+            options: [
+                "East and West",
+                "North and South",
+                "India and America only",
+                "Britain and France"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "In many traditional societies, a woman becomes a member of her husband's family after she —",
+            options: [
+                "Gets a job",
+                "Bears a child",
+                "Buys a house",
+                "Starts cooking"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "Married women in traditional societies may live with their —",
+            options: [
+                "Mother-in-law",
+                "Teacher",
+                "Friend",
+                "Doctor"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The author discusses various — associated with childbirth.",
+            options: [
+                "Taboos and rituals",
+                "Games",
+                "Sports",
+                "Political rules"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "In some societies, a pregnant woman has to observe various —",
+            options: [
+                "Customs",
+                "Political laws",
+                "School rules",
+                "Business rules"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The birth of a child is generally an occasion of —",
+            options: [
+                "Joy",
+                "Fear",
+                "Anger",
+                "Silence"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "In Bangladesh, the child is looked after by —",
+            options: [
+                "The whole family",
+                "The father only",
+                "The mother only",
+                "The doctor"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The author discusses the role of — in childbirth.",
+            options: [
+                "Women and society",
+                "Machines only",
+                "Government only",
+                "Schools"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The hospital was uncooperative about —",
+            options: [
+                "Breast-feeding",
+                "Food",
+                "Medicine",
+                "Clothes"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Infant and mother mortality is greater in —",
+            options: [
+                "Traditional births",
+                "Modern births",
+                "Hospital births",
+                "Safe births"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The hospital refused to believe that the woman was in the —",
+            options: [
+                "First stage of labour",
+                "Second stage of labour",
+                "Third stage of labour",
+                "Final stage"
+            ],
+            answer: 1
+        },
+
+        {
+            q: "The ceremony after childbirth is held for —",
+            options: [
+                "Boys only",
+                "Girls only",
+                "Both boys and girls",
+                "Mothers only"
+            ],
+            answer: 2
+        },
+
+        {
+            q: "The musical programme on the occasion is given by —",
+            options: [
+                "Women and girls",
+                "Doctors",
+                "Teachers",
+                "Men only"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The author criticizes social practices that mainly serve the interests of —",
+            options: [
+                "Males",
+                "Children",
+                "Doctors",
+                "Women"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The chapter examines the relationship between —",
+            options: [
+                "Culture and childbirth",
+                "Politics and war",
+                "Education and business",
+                "Science and industry"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "In some societies, mothers-in-law are considered —",
+            options: [
+                "Unjust and vindictive",
+                "Very kind",
+                "Doctors",
+                "Teachers"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The loss of a woman's own name after marriage is regarded in the West as —",
+            options: [
+                "Outrageous",
+                "Normal",
+                "Beautiful",
+                "Necessary"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Buying new clothes for a baby before birth is considered — in some societies.",
+            options: [
+                "Bad luck",
+                "Good luck",
+                "Necessary",
+                "A festival"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Germaine Greer is particularly known as a —",
+            options: [
+                "Feminist writer",
+                "Scientist",
+                "Painter",
+                "Politician"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The chapter emphasizes the importance of —",
+            options: [
+                "Mother and child care",
+                "Political power",
+                "Industrial growth",
+                "Military training"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The author's approach to traditional customs is mainly —",
+            options: [
+                "Critical and analytical",
+                "Completely approving",
+                "Humorous only",
+                "Indifferent"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The central issue discussed in the essay is —",
+            options: [
+                "Cultural attitudes toward childbirth",
+                "Political elections",
+                "Education",
+                "Industrialization"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The main purpose of the essay is to examine —",
+            options: [
+                "Different social practices surrounding childbirth",
+                "The history of wars",
+                "The growth of cities",
+                "The development of literature"
+            ],
+            answer: 0
+        }
+
+    ];
+}
+
+
+/* =========================================================
+   CLASS 12 ENGLISH - CHAPTER 8
+   HOW FREE IS THE PRESS
+   ========================================================= */
+
+function getEnglishChapter8Questions() {
+    return [
+
+        {
+            q: "Who wrote 'How Free is the Press'?",
+            options: [
+                "Dorothy L. Sayers",
+                "Germaine Greer",
+                "Pearl S. Buck",
+                "Bertrand Russell"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "'How Free is the Press' is a/an —",
+            options: [
+                "Essay",
+                "Poem",
+                "Story",
+                "Drama"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The essay mainly discusses the — of the press.",
+            options: [
+                "Freedom",
+                "History",
+                "Technology",
+                "Printing"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "A free and fair press is the true watchdog of —",
+            options: [
+                "Democracy",
+                "Industry",
+                "Education",
+                "Agriculture"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Free people take a free — for granted.",
+            options: [
+                "Press",
+                "School",
+                "House",
+                "Market"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Without a free press there can be no free —",
+            options: [
+                "People",
+                "Schools",
+                "Markets",
+                "Factories"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The master of the state is —",
+            options: [
+                "The people",
+                "The press",
+                "The government",
+                "The court"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The press can make or break a person's —",
+            options: [
+                "Reputation",
+                "Education",
+                "House",
+                "Family"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The press is restricted during —",
+            options: [
+                "War",
+                "Peace",
+                "Summer",
+                "Elections only"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "During wartime some sort of — is imposed on the press.",
+            options: [
+                "Censorship",
+                "Reward",
+                "Freedom",
+                "Advertisement"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "According to the essay, the British Press is particularly free during —",
+            options: [
+                "Normal times",
+                "War",
+                "Revolution",
+                "Elections"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Every newspaper is shackled to its own set of —",
+            options: [
+                "Overlords",
+                "Teachers",
+                "Readers",
+                "Workers"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Newspaper owners may have their own — interests.",
+            options: [
+                "Personal",
+                "Scientific",
+                "Educational",
+                "Religious"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Advertisers contribute to the newspaper's —",
+            options: [
+                "Revenue",
+                "History",
+                "Editorials",
+                "Censorship"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "A newspaper may avoid a public policy that conflicts with the interests of its —",
+            options: [
+                "Advertisers",
+                "Teachers",
+                "Students",
+                "Farmers"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "A big circulation may mean bankruptcy if the newspaper depends on sales for its —",
+            options: [
+                "Revenue",
+                "News",
+                "Policy",
+                "Printing"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The special accomplishment of the press interviewer is —",
+            options: [
+                "Garbling",
+                "Teaching",
+                "Painting",
+                "Printing"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The essay warns against the misuse of the freedom of —",
+            options: [
+                "Press",
+                "Education",
+                "Speech only",
+                "Travel"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The freedom of press means freedom from government intervention and —",
+            options: [
+                "Censorship",
+                "Education",
+                "Advertising",
+                "Competition"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The press should be — and fair.",
+            options: [
+                "Free",
+                "Controlled",
+                "Silent",
+                "Secret"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The newspaper's editorial policy can be influenced by —",
+            options: [
+                "Owners and advertisers",
+                "Teachers only",
+                "Students only",
+                "Doctors only"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The essay is mainly concerned with the relationship between press and —",
+            options: [
+                "Democracy",
+                "Agriculture",
+                "Sports",
+                "Science"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Dorothy L. Sayers was a — writer.",
+            options: [
+                "British",
+                "Indian",
+                "Japanese",
+                "American"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The press is called the watchdog of —",
+            options: [
+                "Democracy",
+                "Industry",
+                "Education",
+                "Religion"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The press can influence public —",
+            options: [
+                "Opinion",
+                "Weather",
+                "Agriculture",
+                "Climate"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The writer believes that the freedom of press is —",
+            options: [
+                "Important for democracy",
+                "Useless",
+                "Dangerous in every situation",
+                "Only for advertisers"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "One major danger to press freedom is —",
+            options: [
+                "Commercial interests",
+                "Education",
+                "Literature",
+                "Science"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The essay criticizes — reporting by the press.",
+            options: [
+                "Misleading",
+                "Scientific",
+                "Educational",
+                "Historical"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The title 'How Free is the Press' is mainly —",
+            options: [
+                "A question about the real freedom of newspapers",
+                "A story title",
+                "A poem title",
+                "A political slogan"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The central message of the essay is that press freedom must be accompanied by —",
+            options: [
+                "Responsibility and fairness",
+                "Profit only",
+                "Political control",
+                "Silence"
+            ],
+            answer: 0
+        }
+
+    ];
+}
+
+
+/* =========================================================
+   CLASS 12 ENGLISH - CHAPTER 9
+   THE EARTH
+   ========================================================= */
+
+function getEnglishChapter9Questions() {
+    return [
+
+        {
+            q: "Who wrote 'The Earth'?",
+            options: [
+                "H.E. Bates",
+                "Shiga Naoya",
+                "Pearl S. Buck",
+                "Anton Chekhov"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "'The Earth' is a —",
+            options: [
+                "Short story",
+                "Poem",
+                "Speech",
+                "Essay"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "H.E. Bates was a — writer.",
+            options: [
+                "British",
+                "Indian",
+                "Japanese",
+                "American"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The main character in 'The Earth' is —",
+            options: [
+                "Johnson",
+                "Seibei",
+                "Nanukaka",
+                "Gessler"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson was a — farmer.",
+            options: [
+                "Tenant",
+                "Rich",
+                "Government",
+                "Factory"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson was not very —",
+            options: [
+                "Hardworking",
+                "Clever",
+                "Kind",
+                "Friendly"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson depended heavily on —",
+            options: [
+                "God",
+                "The government",
+                "His neighbours",
+                "The market"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson believed that if God wanted, there would be a good —",
+            options: [
+                "Harvest",
+                "Rain",
+                "House",
+                "Market"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson hoped that he would become —",
+            options: [
+                "Rich",
+                "A teacher",
+                "A politician",
+                "A doctor"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story gives the message that man should —",
+            options: [
+                "Do his own work",
+                "Leave everything to God",
+                "Avoid hard work",
+                "Wait for luck"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story emphasizes the value of —",
+            options: [
+                "Hard work",
+                "Luck",
+                "Wealth",
+                "Power"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The Earth is associated with —",
+            options: [
+                "Agriculture",
+                "Industry",
+                "Politics",
+                "Education"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson's attitude towards farming was —",
+            options: [
+                "Passive",
+                "Active",
+                "Scientific",
+                "Professional"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson expected God to —",
+            options: [
+                "Provide success",
+                "Teach him",
+                "Buy his land",
+                "Give him a job"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story suggests that God helps those who —",
+            options: [
+                "Help themselves",
+                "Do nothing",
+                "Wait for luck",
+                "Avoid work"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The central theme of the story is —",
+            options: [
+                "Hard work versus dependence on fate",
+                "Political freedom",
+                "Childbirth",
+                "Press freedom"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The Earth represents the importance of —",
+            options: [
+                "Land and labour",
+                "Money",
+                "Politics",
+                "Machines"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson's family hoped that the children would —",
+            options: [
+                "Overcome their sorrows",
+                "Leave the farm",
+                "Become politicians",
+                "Travel abroad"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story contains a message about —",
+            options: [
+                "Self-reliance",
+                "Luxury",
+                "War",
+                "Travel"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "According to the story, simplicity can sometimes be —",
+            options: [
+                "Deceitful",
+                "Perfect",
+                "Useless",
+                "Dangerous only"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson's failure is largely due to his —",
+            options: [
+                "Lack of hard work",
+                "Lack of money only",
+                "Lack of education only",
+                "Lack of friends"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story criticizes excessive dependence on —",
+            options: [
+                "Fate",
+                "Education",
+                "Science",
+                "Family"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The Earth is important to a farmer because it provides —",
+            options: [
+                "Livelihood",
+                "Entertainment",
+                "Education",
+                "Politics"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "H.E. Bates uses the story to teach the value of —",
+            options: [
+                "Action",
+                "Idleness",
+                "Luck",
+                "Wealth"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Johnson's character can best be described as —",
+            options: [
+                "Passive and dependent",
+                "Hardworking and ambitious",
+                "Brave and adventurous",
+                "Scientific"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The title 'The Earth' is closely connected with —",
+            options: [
+                "Farming and human life",
+                "Sea travel",
+                "City life",
+                "Political life"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story suggests that success requires —",
+            options: [
+                "Effort",
+                "Luck alone",
+                "Prayer alone",
+                "Money alone"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The story is mainly set in a —",
+            options: [
+                "Rural environment",
+                "City",
+                "School",
+                "Factory"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The Earth teaches that human beings should not —",
+            options: [
+                "Leave all responsibility to fate",
+                "Work hard",
+                "Use land",
+                "Take responsibility"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The main lesson of 'The Earth' is —",
+            options: [
+                "Self-help and hard work",
+                "Luxury and pleasure",
+                "Political power",
+                "Dependence on others"
+            ],
+            answer: 0
+        }
+
+    ];
+}
+
+
+/* =========================================================
+   CLASS 12 ENGLISH - CHAPTER 10
+   INDIA THROUGH A TRAVELLER'S EYES
+   ========================================================= */
+
+function getEnglishChapter10Questions() {
+    return [
+
+        {
+            q: "Who wrote 'India Through a Traveller's Eyes'?",
+            options: [
+                "Pearl S. Buck",
+                "Germaine Greer",
+                "Dorothy L. Sayers",
+                "Shiga Naoya"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "'India Through a Traveller's Eyes' is an extract from —",
+            options: [
+                "My Several Worlds",
+                "The Female Eunuch",
+                "Sex and Destiny",
+                "The Artist"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck was a — writer.",
+            options: [
+                "American",
+                "British",
+                "Japanese",
+                "Indian"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck had a special interest in —",
+            options: [
+                "Asia",
+                "Africa",
+                "Europe",
+                "Australia"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The chapter describes India from the viewpoint of a —",
+            options: [
+                "Traveller",
+                "Politician",
+                "Soldier",
+                "Scientist"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck visited —",
+            options: [
+                "India",
+                "Japan only",
+                "France",
+                "Russia"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The writer was especially impressed by India's —",
+            options: [
+                "People",
+                "Factories",
+                "Machines",
+                "Military"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck showed sympathy towards the — of India.",
+            options: [
+                "Poor",
+                "Rich only",
+                "Kings",
+                "Politicians"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The chapter focuses particularly on the people living in —",
+            options: [
+                "Indian villages",
+                "Big cities",
+                "Factories",
+                "Palaces"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The writer's attitude towards India is mainly —",
+            options: [
+                "Sympathetic",
+                "Hostile",
+                "Indifferent",
+                "Mocking"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The writer observes Indian life through a —",
+            options: [
+                "Traveller's eyes",
+                "Politician's eyes",
+                "Soldier's eyes",
+                "Teacher's eyes"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck was awarded the Nobel Prize in —",
+            options: [
+                "Literature",
+                "Physics",
+                "Medicine",
+                "Peace"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck received the Nobel Prize in Literature in —",
+            options: [
+                "1938",
+                "1940",
+                "1945",
+                "1950"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck was born in —",
+            options: [
+                "1892",
+                "1895",
+                "1900",
+                "1905"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck died in —",
+            options: [
+                "1973",
+                "1975",
+                "1980",
+                "1985"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck spent much of her early life in —",
+            options: [
+                "China",
+                "India",
+                "Britain",
+                "France"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The title indicates that India is being presented from a — perspective.",
+            options: [
+                "Foreign traveller's",
+                "Political",
+                "Military",
+                "Scientific"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The author was deeply interested in the — of ordinary people.",
+            options: [
+                "Lives",
+                "Wealth",
+                "Politics",
+                "Business"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The writer admired the — of Indian people.",
+            options: [
+                "Resilience",
+                "Luxury",
+                "Political power",
+                "Military strength"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Indian villages are presented as places where people live a — life.",
+            options: [
+                "Simple",
+                "Luxurious",
+                "Industrial",
+                "Modern"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The chapter gives importance to the — culture of India.",
+            options: [
+                "Rural",
+                "Industrial",
+                "Military",
+                "Political"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The author's observations are based mainly on her —",
+            options: [
+                "Personal experience",
+                "Newspaper reports",
+                "Books only",
+                "Political speeches"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The essay is best described as a —",
+            options: [
+                "Travel account",
+                "Drama",
+                "Poem",
+                "Scientific paper"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "Pearl S. Buck's writing often reflects her knowledge of —",
+            options: [
+                "Asian cultures",
+                "European wars",
+                "American politics only",
+                "African history only"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The author's sympathy is particularly directed towards —",
+            options: [
+                "Poor villagers",
+                "Kings",
+                "Industrialists",
+                "Officials"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The writer tries to understand India through —",
+            options: [
+                "Direct observation",
+                "Rumours",
+                "Political propaganda",
+                "Official reports only"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The chapter presents India's — as an important part of its identity.",
+            options: [
+                "Culture",
+                "Military",
+                "Industry",
+                "Politics"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The writer's view of India is largely —",
+            options: [
+                "Appreciative and sympathetic",
+                "Completely negative",
+                "Indifferent",
+                "Hostile"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The main focus of the chapter is —",
+            options: [
+                "India and its people as observed by Pearl S. Buck",
+                "Indian military history",
+                "Indian industrial development",
+                "Indian political parties"
+            ],
+            answer: 0
+        },
+
+        {
+            q: "The central idea of the chapter is —",
+            options: [
+                "Understanding India through a traveller's experience",
+                "Criticizing all Indian traditions",
+                "Describing only Indian cities",
+                "Discussing Indian politics"
+            ],
+            answer: 0
+        }
+
+    ];
+}
 
 /* =========================================================
    CLASS 12 ENGLISH - CHAPTER 11
@@ -3902,18 +3902,504 @@ function getEnglishChapter11Questions() {
 // HINDI
 function getHindiChapter1Questions() {
     return [
+
         {
-            q: "Question yahan",
-            options: [
-                "Option A",
-                "Option B",
-                "Option C",
-                "Option D"
-            ],
+            q: "रेल का विकट खेल' रचना के रचनाकार कौन हैं?",
+            options: ["भारतेन्दु हरिश्चन्द्र", "जयशंकर प्रसाद", "बालकृष्ण भट्ट", "रामनरेश त्रिपाठी"],
+            answer: 2
+        },
+        {
+            q: "बालकृष्ण भट्ट के अनुसार कितने कानों में पड़ी बात खुल जाती है?",
+            options: ["दो", "तीन", "चार", "छह"],
+            answer: 3
+        },
+        {
+            q: "'सौ अजान एक सुजान' नामक उपन्यास के उपन्यासकार कौन हैं?",
+            options: ["जयप्रकाश नारायण", "जगदीशचन्द्र माथुर", "बालकृष्ण भट्ट", "मोहन राकेश"],
+            answer: 2
+        },
+        {
+            q: "'हिन्दी के एडीसन' निम्नलिखित में से कौन कहे जाते हैं?",
+            options: ["बालकृष्ण भट्ट", "चन्द्रधर शर्मा गुलेरी", "जयप्रकाश नारायण", "दिनकर"],
             answer: 0
+        },
+        {
+            q: "बालकृष्ण भट्ट की रचना निम्न में से कौन है?",
+            options: ["बातचीत", "जूठन", "रोज", "प्रगीत और समाज"],
+            answer: 0
+        },
+        {
+            q: "'बातचीत' के जरिये मवाद या धुआँ बाहर निकल जाता है?",
+            options: ["ईर्ष्या", "द्वेष", "मवाद या धुआँ", "क्लेश"],
+            answer: 2
+        },
+        {
+            q: "बालकृष्ण भट्ट की माता का क्या नाम है?",
+            options: ["सुशीला देवी", "रजनी देवी", "पार्वती देवी", "सविता देवी"],
+            answer: 2
+        },
+        {
+            q: "निबंध लेखन की दृष्टि से भारतेन्दु युग कैसा था?",
+            options: ["उर्वर", "अनुपयोगी", "प्रगतिशील", "प्रतिगामी"],
+            answer: 0
+        },
+        {
+            q: "'बातचीत' शीर्षक निबंध के अनुसार जो कुछ मवाद या धुआँ जमा रहता है, वह भाप बनकर निकल पड़ता है। कैसे?",
+            options: ["बहस करके", "झगड़ा करके", "बातचीत के जरिए", "हँसने से"],
+            answer: 2
+        },
+        {
+            q: "'जैसा काम वैसा परिणाम' किस लेखक द्वारा रचित प्रहसन है?",
+            options: ["रामधारी सिंह 'दिनकर'", "जयप्रकाश नारायण", "बालकृष्ण भट्ट", "मोहन राकेश"],
+            answer: 2
+        },
+        {
+            q: "बालकृष्ण भट्ट के पिता का क्या नाम था?",
+            options: ["देनी प्रसाद भट्ट", "बेनी प्रसाद भट्ट", "टेनी प्रसाद भट्ट", "सैनी प्रसाद भट्ट"],
+            answer: 1
+        },
+        {
+            q: "'दमयंती स्वयंवर' किस लेखक की रचना है?",
+            options: ["चन्द्रधर शर्मा गुलेरी", "मलयज", "बालकृष्ण भट्ट", "भगत सिंह"],
+            answer: 2
+        },
+        {
+            q: "बालकृष्ण भट्ट की रचना 'बातचीत' क्या है?",
+            options: ["एकांकी", "कहानी", "यात्रा संस्मरण", "ललित निबंध"],
+            answer: 3
+        },
+        {
+            q: "बालकृष्ण भट्ट किस युग के निबंधकार/साहित्यकार थे?",
+            options: ["प्रसाद युग", "भारतेन्दु युग", "द्विवेदी युग", "स्वातंत्र्योत्तर युग"],
+            answer: 1
+        },
+        {
+            q: "मनुष्य की बातचीत का उत्तम तरीका क्या है?",
+            options: ["विद्वतापूर्ण बात करना", "तर्कपूर्ण बात करना", "भीड़ से बात करना", "अवाक होकर अपने से बातचीत करना"],
+            answer: 3
+        },
+        {
+            q: "'संवाद' में सबसे महत्वपूर्ण क्या है?",
+            options: ["तर्क", "जिज्ञासा", "आत्मीयता", "प्रवाहपूर्ण भाषा"],
+            answer: 2
+        },
+        {
+            q: "बालकृष्ण भट्ट का जन्म हुआ था—",
+            options: ["23 जून, 1884 को", "23 जून, 1844 को", "20 जुलाई, 1902 को", "18 दिसम्बर, 1834 को"],
+            answer: 1
+        },
+        {
+            q: "'संयोगिता स्वयंवर' रचना है—",
+            options: ["बालकृष्ण भट्ट की", "प्रतापनारायण मिश्र की", "श्रीनिवास दास की", "मैथिलीशरण गुप्त की"],
+            answer: 2
+        },
+        {
+            q: "'बातचीत' शीर्षक निबंध के अनुसार—रस का समुद्र किनकी बातचीत में उमड़ा चला जाता है?",
+            options: ["दो हमजोली सहेलियों की बातचीत में", "दो पुरुषों की बातचीत में", "दो बच्चों की बातचीत में", "दो मूर्खों की बातचीत में"],
+            answer: 0
+        },
+        {
+            q: "'वाद विवाद संवाद' क्या है?",
+            options: ["आलोचनात्मक निबंधों की पुस्तक", "कविता संग्रह", "कहानी संग्रह", "नाट्य संग्रह"],
+            answer: 0
+        },
+        {
+            q: "बालकृष्ण भट्ट ने कौन-सा मासिक पत्र निकाला था?",
+            options: ["प्रताप", "कर्मवीर", "हिंदी प्रदीप", "ज्योत्सना"],
+            answer: 2
+        },
+        {
+            q: "बालकृष्ण भट्ट किस विधा के रचनाकार हैं?",
+            options: ["आलोचना", "गीत", "शोध", "निबंध"],
+            answer: 3
+        },
+        {
+            q: "रॉबिन्सन क्रूसो ने 16 वर्ष के उपरांत किसके मुख से एक बात सुनी?",
+            options: ["फ्राइडे के", "सन्डे के", "एडीसन के", "स्टील के"],
+            answer: 0
+        },
+        {
+            q: "'बातचीत' शीर्षक निबंध के निबंधकार हैं—",
+            options: ["जयप्रकाश नारायण", "मोहन राकेश", "नामवर सिंह", "बालकृष्ण भट्ट"],
+            answer: 3
+        },
+        {
+            q: "भट्टजी को किसने अंग्रेजी साहित्य के एडीसन और स्टील की श्रेणी में रखा है?",
+            options: ["हजारी प्रसाद द्विवेदी", "डॉ. नगेंद्र", "रामचंद्र शुक्ल", "रामविलास शर्मा"],
+            answer: 2
+        },
+        {
+            q: "बातचीत के माध्यम से बालकृष्ण भट्ट क्या बतलाना चाहते हैं?",
+            options: ["बातचीत की शैली", "भाषण की शैली", "संवाद की शैली", "इनमें से कोई नहीं"],
+            answer: 0
+        },
+        {
+            q: "बालकृष्ण भट्ट का निवास-स्थान कौन-सा है?",
+            options: ["लखनऊ, उत्तरप्रदेश", "इलाहाबाद, उत्तरप्रदेश", "मथुरा, उत्तरप्रदेश", "वाराणसी, उत्तरप्रदेश"],
+            answer: 1
+        },
+        {
+            q: "बालकृष्ण भट्ट ने किस पत्रिका का संपादन किया?",
+            options: ["आर्यावर्त", "हुंकार", "हिंदी प्रदीप", "पंजाब केसरी"],
+            answer: 2
+        },
+        {
+            q: "बालकृष्ण भट्ट ने 'हिंदी प्रदीप' नामक मासिक पत्रिका निकालना कब प्रारंभ किया?",
+            options: ["1877", "1888", "1890", "1894"],
+            answer: 0
+        },
+        {
+            q: "बालकृष्ण भट्ट के पिता पेशे से क्या थे?",
+            options: ["चिकित्सक", "व्यापारी", "शिक्षक", "समाजसेवी"],
+            answer: 1
+        },
+        {
+            q: "कौन-सा उपन्यास बालकृष्ण भट्ट द्वारा रचित है?",
+            options: ["मैला आँचल", "गोदान", "सौ अजान एक सुजान", "अंतराल"],
+            answer: 2
+        },
+        {
+            q: "नाटक के प्रारंभ में होनेवाले मंगल पाठ को क्या कहा जाता है?",
+            options: ["भजन", "नांदी पाठ", "मंगलाचरण", "आरती"],
+            answer: 1
+        },
+        {
+            q: "रॉबिन्सन क्रूसो को कब तक मनुष्य का मुख देखने को नहीं मिला?",
+            options: ["10 वर्ष तक", "12 वर्ष तक", "16 वर्ष तक", "18 वर्ष तक"],
+            answer: 2
+        },
+        {
+            q: "बोलने से ही मनुष्य के रूप का साक्षात्कार होता है—यह किसने कहा?",
+            options: ["एडिसन", "बेन जॉनसन", "स्पेंसर", "मिल्टन"],
+            answer: 1
+        },
+        {
+            q: "'असल बातचीत सिर्फ दो व्यक्तियों में ही हो सकती है।' यह किसका मत है?",
+            options: ["एडिसन", "बेन जॉनसन", "मिल्टन", "स्पेंसर"],
+            answer: 0
+        },
+        {
+            q: "एडिसन के अनुसार असल बातचीत कितने लोगों के बीच हो सकती है?",
+            options: ["दो", "तीन", "चार", "पाँच"],
+            answer: 0
+        },
+        {
+            q: "बातचीत से मन किस प्रकार का हो जाता है?",
+            options: ["क्रोधपूर्ण", "भारी और बोझिल", "हल्का और स्वच्छ", "इनमें से कोई नहीं"],
+            answer: 2
+        },
+        {
+            q: "किसके न होने से सृष्टि गूँगी प्रतीत होती है?",
+            options: ["श्रवणशक्ति", "वाक्शक्ति", "दिव्यशक्ति", "स्मरणशक्ति"],
+            answer: 1
+        },
+        {
+            q: "'आर्ट ऑफ कन्वर्सेशन' कहाँ के लोगों में सर्वाधिक प्रचलित है?",
+            options: ["अफ्रीका के", "भारत के", "यूरोप के", "कनाडा के"],
+            answer: 2
+        },
+        {
+            q: "बालकृष्ण भट्ट किस काल के रचनाकार हैं?",
+            options: ["आदिकाल", "भक्तिकाल", "रीतिकाल", "आधुनिक काल"],
+            answer: 3
         }
     ];
 }
+function getHindiChapter2Questions() {
+    return [
+        {
+            q: "'सिगड़ी' शब्द का क्या अर्थ है?",
+            options: ["चूल्हा", "अंगीठी", "पुरोहित", "सराई"],
+            answer: 1
+        },
+        {
+            q: "'उसने कहा था' शीर्षक कहानी में पोल्टाराम कौन था?",
+            options: ["चौकीदार", "डाक बाबू", "किसान", "सिपाही"],
+            answer: 1
+        },
+        {
+            q: "'उसने कहा था' शीर्षक कहानी में किसने अपनी जरसी उतार कर बोधा सिंह को पहना दिया था?",
+            options: ["वजीरा सिंह", "लहना सिंह", "हजारा सिंह", "कीरत सिंह"],
+            answer: 1
+        },
+        {
+            q: "'देखते नहीं यह रेशम से कढ़ा हुआ सालू'—यह पंक्ति किस शीर्षक कहानी की है?",
+            options: ["जूठन", "तिरिछ", "उसने कहा था", "रोज"],
+            answer: 2
+        },
+        {
+            q: "'सूबेदार बोला—लहना, सूबेदारनी तुमको जानती है! बुलाती है। जा मिल आ।'—यह कथन किस शीर्षक पाठ से है?",
+            options: ["तिरिछ", "जूठन", "रोज", "उसने कहा था"],
+            answer: 3
+        },
+        {
+            q: "'उसने कहा था' कहानी में किस युद्ध का उल्लेख है?",
+            options: ["प्रथम विश्व युद्ध", "द्वितीय विश्व युद्ध", "कारगिल युद्ध", "हल्दीघाटी युद्ध"],
+            answer: 0
+        },
+        {
+            q: "'निमोनिया से मरने वालों को मुर्दे नहीं मिला करते।'—यह उक्ति किस शीर्षक पाठ से है?",
+            options: ["उसने कहा था", "शिक्षा", "रोज", "तिरिछ"],
+            answer: 0
+        },
+        {
+            q: "'वजीरासिंह' किस कहानी का पात्र है?",
+            options: ["उसने कहा था", "रोज", "तिरिछ", "अर्धनारीश्वर"],
+            answer: 0
+        },
+        {
+            q: "बोधा सिंह के पिता का नाम क्या था?",
+            options: ["वजीरासिंह", "लहना सिंह", "हजारासिंह", "कीरतसिंह"],
+            answer: 2
+        },
+        {
+            q: "लहनासिंह किस देश की ओर से युद्ध कर रहा था?",
+            options: ["इंग्लैंड", "फ्रांस", "रूस", "अमेरिका"],
+            answer: 0
+        },
+        {
+            q: "एक अकालिया सिख कितने के बराबर होता है?",
+            options: ["दो लाख", "सवा लाख", "एक लाख", "तीन लाख"],
+            answer: 1
+        },
+        {
+            q: "'सूबेदारनी' किस कहानी की पात्र है?",
+            options: ["तिरिछ", "उसने कहा था", "रोज", "ओ सदानीरा"],
+            answer: 1
+        },
+        {
+            q: "हिंदी कहानी के विकास में 'मील के पत्थर' कौन-सी कहानी मानी जाती है?",
+            options: ["उसने कहा था", "पंच परमेश्वर", "पुरस्कार", "मंगर"],
+            answer: 0
+        },
+        {
+            q: "'तेरी कुड़माई हो गई' का किस कहानी से संबंध है?",
+            options: ["रोज", "उसने कहा था", "तिरिछ", "जूठन"],
+            answer: 1
+        },
+        {
+            q: "'बिना फेरे घोड़ा बिगाड़ता है और बिना लड़े सिपाही'—यह पंक्ति किस कहानी में है?",
+            options: ["रोज", "ओ सदानीरा", "एक लेख और एक पत्र", "उसने कहा था"],
+            answer: 3
+        },
+        {
+            q: "'बुद्ध का काँटा' रचना है—",
+            options: ["बालकृष्ण भट्ट की", "चन्द्रधर शर्मा गुलेरी की", "जयप्रकाश नारायण की", "नामवर सिंह की"],
+            answer: 1
+        },
+        {
+            q: "'चन्द्रधर शर्मा गुलेरी' किस सदी के प्रमुख लेखक थे?",
+            options: ["15वीं सदी", "16वीं सदी", "19वीं सदी", "20वीं सदी"],
+            answer: 3
+        },
+        {
+            q: "गुलेरी जी ने कुल कितनी कहानियाँ लिखीं?",
+            options: ["एक", "दो", "तीन", "चार"],
+            answer: 2
+        },
+        {
+            q: "'उसने कहा था' कहानी का नायक है—",
+            options: ["लहना सिंह", "बोधा सिंह", "वजीरा सिंह", "हजारा सिंह"],
+            answer: 0
+        },
+        {
+            q: "निम्न में से कौन-सी रचना गुलेरी जी की नहीं है?",
+            options: ["सुखमय जीवन", "बुद्ध का काँटा", "उसने कहा था", "हारे को हरिनाम"],
+            answer: 3
+        },
+        {
+            q: "'उसने कहा था' कहानी है—",
+            options: ["युद्ध की कहानी", "दिव्य-प्रेम की कहानी", "प्रेम पर बलिदान होने की कहानी", "इनमें से सभी"],
+            answer: 3
+        },
+        {
+            q: "'उसने कहा था' कहानी में किस शहर का चित्रण है?",
+            options: ["अमृतसर", "लुधियाना", "लखनऊ", "जयपुर"],
+            answer: 0
+        },
+        {
+            q: "लहना सिंह के गाँव का क्या नाम था?",
+            options: ["मरोरे", "मांझे", "कटड़ा", "दोलरियाँ"],
+            answer: 1
+        },
+        {
+            q: "लहना सिंह किस पद पर था?",
+            options: ["सूबेदार के", "लेफ्टिनेंट के", "जमादार के", "मेजर के"],
+            answer: 2
+        },
+        {
+            q: "लहना सिंह की मृत्यु किसकी गोद में हुई?",
+            options: ["कीरत सिंह", "वजीरा सिंह", "अतर सिंह", "महिप सिंह"],
+            answer: 1
+        },
+        {
+            q: "पलटन का विदूषक कौन था?",
+            options: ["हजारा सिंह", "मुख्तार सिंह", "वजीरा सिंह", "कुलदीप सिंह"],
+            answer: 2
+        },
+        {
+            q: "सूबेदार हजारा सिंह के लड़के का नाम था—",
+            options: ["बोधा सिंह", "महा सिंह", "कीरत सिंह", "जगधारी सिंह"],
+            answer: 0
+        },
+        {
+            q: "भारतीय सिपाहियों का किसके साथ संघर्ष हुआ था?",
+            options: ["फ्रांसीसियों के साथ", "तुर्कों के साथ", "अंग्रेजों के साथ", "जर्मनी के साथ"],
+            answer: 3
+        },
+        {
+            q: "जर्मन 'लपटन' को किसने मार गिराया?",
+            options: ["सूबेदार ने", "बोधा सिंह ने", "लहना सिंह ने", "वजीरा सिंह ने"],
+            answer: 2
+        },
+        {
+            q: "सिख राइफल्स के जमादार लहना सिंह का नम्बर क्या था?",
+            options: ["77", "105", "1805", "72"],
+            answer: 0
+        },
+        {
+            q: "सरकार ने सूबेदार को जमीन कहाँ दी है?",
+            options: ["संजलपुर में", "अलावलपुर में", "जलालपुर में", "लायलपुर में"],
+            answer: 3
+        },
+        {
+            q: "गुलेरीजी का जन्म हुआ था—",
+            options: ["हरियाणा में", "जयपुर (राजस्थान) में", "काँगड़ा (हिमाचल प्रदेश) में", "गुजरात में"],
+            answer: 1
+        },
+        {
+            q: "'सुखमय जीवन' किसकी रचना है?",
+            options: ["चन्द्रधर शर्मा 'गुलेरी'", "देवकीनंदन खत्री", "गोपाल राम गहमरी", "बालकृष्ण भट्ट"],
+            answer: 0
+        },
+        {
+            q: "'उसने कहा था' कहानी कब प्रकाशित हुई?",
+            options: ["1913 में", "1912 में", "1915 में", "1900 में"],
+            answer: 2
+        },
+        {
+            q: "'कछुआ धरम' किसकी कृति है?",
+            options: ["प्रताप नारायण मिश्र", "बालकृष्ण भट्ट", "रामचंद्र शुक्ल", "चन्द्रधर शर्मा 'गुलेरी'"],
+            answer: 3
+        },
+        {
+            q: "'पुरानी हिंदी' रचना है—",
+            options: ["रामचंद्र शुक्ल की", "हजारी प्रसाद द्विवेदी की", "नामवर सिंह की", "चन्द्रधर शर्मा 'गुलेरी' की"],
+            answer: 3
+        },
+        {
+            q: "'उसने कहा था' शीर्षक कहानी में यह किसने कहा कि 'उदमी, उठ सिगड़ी में कोले डाल'?",
+            options: ["वजीरासिंह", "सूबेदार हजारा सिंह", "सूबेदारनी", "बोधासिंह"],
+            answer: 1
+        },
+        {
+            q: "'कुड़माई' का क्या अर्थ होता है?",
+            options: ["मंगनी", "विवाह", "कड़वी बात", "दहेज"],
+            answer: 0
+        },
+        {
+            q: "बोधा कौन था?",
+            options: ["हजारा सिंह का भाई", "लहना सिंह का भाई", "वजीरा सिंह का भाई", "सूबेदार हजारा सिंह का बेटा"],
+            answer: 3
+        },
+        {
+            q: "चन्द्रधर शर्मा गुलेरी की कहानी कौन-सी है?",
+            options: ["'जूठन'", "'रोज'", "'उसने कहा था'", "'तिरिछ'"],
+            answer: 2
+        },
+        {
+            q: "कौन-सी कहानी चन्द्रधर शर्मा गुलेरी ने लिखी हुई नहीं है?",
+            options: ["'सुखमय जीवन'", "'बुद्ध का काँटा'", "'उसने कहा था'", "'कफन'"],
+            answer: 3
+        },
+        {
+            q: "गुलेरीजी किस गाँव के मूल निवासी थे?",
+            options: ["फतेहपुर", "गुलेर", "मंडी", "हमीरपुर"],
+            answer: 1
+        },
+        {
+            q: "'उसने कहा था' कहानी के कहानीकार कौन हैं?",
+            options: ["बालकृष्ण भट्ट", "भगत सिंह", "चन्द्रधर शर्मा गुलेरी", "रामधारी सिंह दिनकर"],
+            answer: 2
+        },
+        {
+            q: "चन्द्रधर शर्मा गुलेरी किस युग के कहानीकार थे?",
+            options: ["द्विवेदी युग", "भारतेन्दु युग", "प्रेमचंद युग", "इनमें से कोई नहीं"],
+            answer: 0
+        },
+        {
+            q: "'उसने कहा था' कहानी कितने भागों में विभक्त है?",
+            options: ["दो भागों में", "तीन भागों में", "चार भागों में", "पाँच भागों में"],
+            answer: 3
+        },
+        {
+            q: "चन्द्रधर शर्मा गुलेरी का जन्म कब हुआ था?",
+            options: ["7 जुलाई, 1882", "8 जुलाई, 1883", "7 जुलाई, 1883", "8 जुलाई, 1890"],
+            answer: 2
+        },
+        {
+            q: "लहना सिंह किस कहानी का पात्र है?",
+            options: ["सुखमय जीवन", "जूठन", "तिरिछ", "उसने कहा था"],
+            answer: 3
+        },
+        {
+            q: "'उसने कहा था' किस प्रकार की कहानी है?",
+            options: ["चरित्र-प्रधान", "कर्म-प्रधान", "धर्म-प्रधान", "भाव-प्रधान"],
+            answer: 1
+        },
+        {
+            q: "चन्द्रधर शर्मा गुलेरी किसके अभिभावक बनकर मेयो कॉलेज अजमेर में आए?",
+            options: ["राजा भोज के", "राजा हरि सिंह के", "खेड़ड़ी के नाबालिग राजा जयसिंह के", "राजा दयाचंद के"],
+            answer: 2
+        },
+        {
+            q: "कीरत सिंह कौन था?",
+            options: ["लहना सिंह का चाचा", "लहना सिंह का भतीजा", "लहना सिंह का भाई", "लहना सिंह का मित्र"],
+            answer: 1
+        },
+        {
+            q: "बचपन में लहना सिंह लड़की से बार-बार कौन-सा प्रश्न करता था?",
+            options: ["तेरा नाम क्या है?", "तू कहाँ रहती है?", "तेरी कुड़माई हो गई?", "तेरी शादी हो गयी?"],
+            answer: 2
+        },
+        {
+            q: "लपटन साहब सूबेदार को कितने आदमी खंदक में छोड़कर जाने को कहता है?",
+            options: ["पन्द्रह", "दस", "पाँच", "बीस"],
+            answer: 1
+        },
+        {
+            q: "अमृतसर में लहना सिंह के कौन थे?",
+            options: ["भाई", "मित्र", "मामा", "चाचा"],
+            answer: 2
+        },
+        {
+            q: "लहना सिंह सूबेदार को वापस बुलाने के लिए किसे भेजता है?",
+            options: ["कीरत सिंह", "बोधा सिंह", "वजीरा सिंह", "अतर सिंह"],
+            answer: 0
+        },
+        {
+            q: "सूबेदारनी ने अपने पति एवं पुत्र की रक्षा के लिए किससे कहा?",
+            options: ["वजीरा सिंह से", "लहना सिंह से", "कीरत सिंह से", "किसी से नहीं"],
+            answer: 1
+        },
+        {
+            q: "लहना सिंह का सिर अपनी गोद में लेकर कौन बैठा था?",
+            options: ["हजारा सिंह", "कीरत सिंह", "वजीरा सिंह", "अतर सिंह"],
+            answer: 2
+        },
+        {
+            q: "लहना सिंह के मामा कहाँ के रहने वाले थे?",
+            options: ["चंडीगढ़", "अमृतसर", "लुधियाना", "जयपुर"],
+            answer: 1
+        }
+    ];
+}
+
+
+
+
+
+
 
 
 // PHYSICS

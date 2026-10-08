@@ -485,3 +485,166 @@
                 width: 100%;
             }
         }
+
+
+
+
+
+        /* ==========================================
+   QUESTION-WISE RESULT
+========================================== */
+
+.result-review {
+    margin-top: 35px;
+    text-align: left;
+}
+
+.result-review h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+/* QUESTION CARD */
+
+.question-review-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+/* QUESTION */
+
+.review-question {
+    display: flex;
+    gap: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.review-number {
+    font-weight: 800;
+    min-width: 35px;
+}
+
+
+/* OPTIONS */
+
+.review-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.review-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: #fafafa;
+    line-height: 1.5;
+}
+
+.review-letter {
+    font-weight: 700;
+    min-width: 25px;
+}
+
+
+/* CORRECT OPTION */
+
+.review-option-correct {
+    background: #ecfdf5;
+    border-color: #22c55e;
+}
+
+
+/* WRONG OPTION */
+
+.review-option-wrong {
+    background: #fef2f2;
+    border-color: #ef4444;
+}
+
+
+/* LABEL */
+
+.answer-label {
+    margin-left: auto;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.wrong-label {
+    color: #dc2626;
+}
+
+
+/* SUMMARY */
+
+.review-summary {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.review-status {
+    margin-top: 8px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+/* CORRECT QUESTION */
+
+.review-correct {
+    border-left: 5px solid #22c55e;
+}
+
+
+/* WRONG QUESTION */
+
+.review-wrong {
+    border-left: 5px solid #ef4444;
+}
+
+
+/* SKIPPED QUESTION */
+
+.review-skip {
+    border-left: 5px solid #f59e0b;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .question-review-card {
+        padding: 15px;
+    }
+
+    .review-question {
+        font-size: 15px;
+    }
+
+    .review-option {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .answer-label {
+        font-size: 11px;
+    }
+
+}

@@ -100,26 +100,58 @@
 
     <!-- RESULT VIEW -->
     <section class="hidden" id="resultView">
+
         <div class="result-card">
-            <div class="result-ring" id="resultRing"><span id="resultPct">0%</span></div>
-            <h2>Test Complete!</h2>
-            <p id="resultSub">Congratulation, Aapne test successfully complete kar liya hai.</p>
+
+            <div class="result-ring" id="resultRing">
+                <span id="resultPct">0%</span>
+            </div>
+
+            <h2>Test Complete! 🎉</h2>
+
+            <p id="resultSub">
+                Congratulation, Aapne test successfully complete kar liya hai.
+            </p>
+
             <div class="result-stats">
+
+                <div class="stat-box">
+                    <div class="num" id="totalCount">0</div>
+                    <div class="lbl">Total</div>
+                </div>
+
                 <div class="stat-box correct">
                     <div class="num" id="correctCount">0</div>
                     <div class="lbl">Correct</div>
                 </div>
+
                 <div class="stat-box wrong">
                     <div class="num" id="wrongCount">0</div>
                     <div class="lbl">Wrong</div>
                 </div>
+
                 <div class="stat-box">
                     <div class="num" id="skipCount">0</div>
                     <div class="lbl">Not Attempt</div>
                 </div>
+
             </div>
-            <button class="btn btn-primary" id="restartBtn" style="width:100%;">Aur Test Dekhein</button>
+
+            <!-- QUESTION REVIEW -->
+            <div class="result-review">
+
+                <h3>📝 Question-wise Result</h3>
+
+                <div id="questionReview"></div>
+
+            </div>
+
+            <button class="btn btn-primary" id="restartBtn" style="width:100%;">
+                Aur Test Dekhein
+            </button>
+
         </div>
+
     </section>
 
     <footer class="site-footer">
@@ -163,7 +195,7 @@
         /* ---------- DATA ---------- */
         const subjectsByClass = {
             "10": ["Hindi", "Science", "Mathematics", "Social Science"],
-            "12": ["Physics", "Chemistry", "Mathematics", "English", "Hindi 2.0",]
+            "12": ["Physics", "Chemistry", "Mathematics", "English", "Hindi",]
         };
 
 
@@ -264,9 +296,16 @@
 
 
                 "Hindi": [
-                    { title: "पद्खण्ड 7. हिरोशिमा", time: 30, q: 8 },
-                    { title: "पद्खण्ड 8. एक वृक्ष की हत्या", time: 10, q: 6 },
-                    { title: "पद्खण्ड 9. हमारी नींद", time: 10, q: 6 },
+                    {
+                        title: "बातचीत",
+                        q: 40,
+                        time: 40
+                    },
+                    {
+                        title: "उसने कहा था",
+                        q: 57,
+                        time: 40
+                    }
                 ],
             }
         };
@@ -348,85 +387,122 @@
 
         function startQuiz(cls, subject, testInfo) {
 
-            let questions = [];
+    let questions = [];
 
-            if (cls === "12" && subject === "English") {
-                if (testInfo.title.includes("Indian Civilization")) {
-                    questions = getEnglishChapter1Questions();
-                }
-                else if (testInfo.title.includes("Bharat Is My Home")) {
-                    questions = getEnglishChapter2Questions();
-                }
+    // =========================
+    // CLASS 12 ENGLISH
+    // =========================
 
-                else if (testInfo.title.includes("A Pinch of Snuff")) {
-                    questions = getEnglishChapter3Questions();
-                }
+    if (cls === "12" && subject === "English") {
 
-                else if (testInfo.title.includes("I Have a Dream")) {
-                    questions = getEnglishChapter4Questions();
-                }
-
-                else if (testInfo.title.includes("Ideas That Have Helped Mankind")) {
-                    questions = getEnglishChapter5Questions();
-                }
-                else if (testInfo.title.includes("The Artist")) {
-                    questions = getEnglishChapter6Questions();
-                }
-
-                else if (testInfo.title.includes("A Child Is Born")) {
-                    questions = getEnglishChapter7Questions();
-                }
-
-                else if (testInfo.title.includes("How Free Is the Press")) {
-                    questions = getEnglishChapter8Questions();
-                }
-
-                else if (testInfo.title.includes("The Earth")) {
-                    questions = getEnglishChapter9Questions();
-                }
-
-                else if (testInfo.title.includes("India Through a Traveller's Eyes")) {
-                    questions = getEnglishChapter10Questions();
-                }
-
-                else if (testInfo.title.includes("A Marriage Proposal")) {
-                    questions = getEnglishChapter11Questions();
-                }
-
-                
-                // Agar is chapter ka bank nahi mila
-                if (questions.length === 0) {
-                    questions = sampleQuestions(subject).slice(
-                        0,
-                        testInfo.q > 5 ? 5 : testInfo.q
-                    );
-                }
-
-                quizState = {
-                    title: testInfo.title,
-                    questions,
-                    current: 0,
-                    answers: new Array(questions.length).fill(null),
-                    secondsLeft: testInfo.time * 60
-                };
-
-                pickView.classList.add('hidden');
-                resultView.classList.add('hidden');
-                quizView.classList.remove('hidden');
-
-                document.getElementById('quizTitle').textContent = testInfo.title;
-
-                renderQuestion();
-                startTimer();
-
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            }
-
+        if (testInfo.title.includes("Indian Civilization")) {
+            questions = getEnglishChapter1Questions();
         }
 
+        else if (testInfo.title.includes("Bharat Is My Home")) {
+            questions = getEnglishChapter2Questions();
+        }
+
+        else if (testInfo.title.includes("A Pinch of Snuff")) {
+            questions = getEnglishChapter3Questions();
+        }
+
+        else if (testInfo.title.includes("I Have a Dream")) {
+            questions = getEnglishChapter4Questions();
+        }
+
+        else if (testInfo.title.includes("Ideas That Have Helped Mankind")) {
+            questions = getEnglishChapter5Questions();
+        }
+
+        else if (testInfo.title.includes("The Artist")) {
+            questions = getEnglishChapter6Questions();
+        }
+
+        else if (testInfo.title.includes("A Child Is Born")) {
+            questions = getEnglishChapter7Questions();
+        }
+
+        else if (testInfo.title.includes("How Free Is the Press")) {
+            questions = getEnglishChapter8Questions();
+        }
+
+        else if (testInfo.title.includes("The Earth")) {
+            questions = getEnglishChapter9Questions();
+        }
+
+        else if (testInfo.title.includes("India Through a Traveller's Eyes")) {
+            questions = getEnglishChapter10Questions();
+        }
+
+        else if (testInfo.title.includes("A Marriage Proposal")) {
+            questions = getEnglishChapter11Questions();
+        }
+    }
+
+
+    // =========================
+    // CLASS 12 HINDI
+    // =========================
+
+    else if (cls === "12" && subject === "Hindi") {
+
+        if (testInfo.title.includes("बातचीत")) {
+            questions = getHindiChapter1Questions();
+        }
+
+        else if (testInfo.title.includes("उसने कहा था")) {
+            questions = getHindiChapter2Questions();
+        }
+    }
+
+
+    // =========================
+    // BANK NOT FOUND
+    // =========================
+
+    if (questions.length === 0) {
+
+        questions = sampleQuestions(subject).slice(
+            0,
+            testInfo.q > 5 ? 5 : testInfo.q
+        );
+    }
+
+
+    // =========================
+    // QUIZ STATE
+    // =========================
+
+    quizState = {
+        title: testInfo.title,
+        questions: questions,
+        current: 0,
+        answers: new Array(questions.length).fill(null),
+        secondsLeft: testInfo.time * 60
+    };
+
+
+    // =========================
+    // SHOW QUIZ
+    // =========================
+
+    pickView.classList.add('hidden');
+    resultView.classList.add('hidden');
+    quizView.classList.remove('hidden');
+
+    document.getElementById('quizTitle').textContent = testInfo.title;
+
+    renderQuestion();
+    startTimer();
+
+
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+
+}
         function startTimer() {
             clearInterval(timerInterval);
             updateTimerText();
@@ -484,24 +560,216 @@
         });
 
         function finishQuiz() {
+
             clearInterval(timerInterval);
+
             const { questions, answers } = quizState;
-            let correct = 0, wrong = 0, skip = 0;
+
+            let correct = 0;
+            let wrong = 0;
+            let skip = 0;
+
             questions.forEach((q, i) => {
-                if (answers[i] === null) skip++;
-                else if (answers[i] === q.answer) correct++;
-                else wrong++;
+
+                if (answers[i] === null) {
+                    skip++;
+                }
+
+                else if (answers[i] === q.answer) {
+                    correct++;
+                }
+
+                else {
+                    wrong++;
+                }
+
             });
+
             const pct = Math.round((correct / questions.length) * 100);
+
+            // Result summary
+            document.getElementById('totalCount').textContent = questions.length;
             document.getElementById('correctCount').textContent = correct;
             document.getElementById('wrongCount').textContent = wrong;
             document.getElementById('skipCount').textContent = skip;
+
             document.getElementById('resultPct').textContent = pct + '%';
-            document.getElementById('resultRing').style.setProperty('--pct', pct);
-            document.getElementById('resultSub').textContent = `${quizState.title} — Aapne ${questions.length} me se ${correct} sahi kiye.`;
+
+            document
+                .getElementById('resultRing')
+                .style.setProperty('--pct', pct);
+
+            document.getElementById('resultSub').textContent =
+                `${quizState.title} — Aapne ${questions.length} me se ${correct} sahi kiye.`;
+
+
+
+            /* ==========================================
+               QUESTION-WISE REVIEW
+            ========================================== */
+
+            const letters = ['A', 'B', 'C', 'D'];
+
+            const reviewArea = document.getElementById('questionReview');
+
+            reviewArea.innerHTML = questions.map((q, i) => {
+
+                const userAnswer = answers[i];
+                const correctAnswer = q.answer;
+
+                let statusClass = '';
+                let statusText = '';
+                let statusIcon = '';
+
+                if (userAnswer === null) {
+
+                    statusClass = 'review-skip';
+                    statusText = 'Not Attempted';
+                    statusIcon = '⭕';
+
+                }
+
+                else if (userAnswer === correctAnswer) {
+
+                    statusClass = 'review-correct';
+                    statusText = 'Correct';
+                    statusIcon = '✅';
+
+                }
+
+                else {
+
+                    statusClass = 'review-wrong';
+                    statusText = 'Wrong';
+                    statusIcon = '❌';
+
+                }
+
+
+                return `
+
+            <div class="question-review-card ${statusClass}">
+
+                <div class="review-question">
+
+                    <span class="review-number">
+                        Q${i + 1}
+                    </span>
+
+                    <span>
+                        ${q.q}
+                    </span>
+
+                </div>
+
+
+                <div class="review-options">
+
+                    ${q.options.map((opt, optionIndex) => {
+
+                    let optionClass = '';
+
+                    // Correct answer
+                    if (optionIndex === correctAnswer) {
+                        optionClass = 'review-option-correct';
+                    }
+
+                    // User's wrong answer
+                    if (
+                        userAnswer !== null &&
+                        optionIndex === userAnswer &&
+                        userAnswer !== correctAnswer
+                    ) {
+                        optionClass = 'review-option-wrong';
+                    }
+
+                    // User selected correct answer
+                    if (
+                        userAnswer === correctAnswer &&
+                        optionIndex === userAnswer
+                    ) {
+                        optionClass = 'review-option-correct';
+                    }
+
+                    return `
+
+                            <div class="review-option ${optionClass}">
+
+                                <span class="review-letter">
+                                    ${letters[optionIndex]}
+                                </span>
+
+                                <span>
+                                    ${opt}
+                                </span>
+
+                                ${optionIndex === correctAnswer
+                            ? '<span class="answer-label">✓ Correct Answer</span>'
+                            : ''
+                        }
+
+                                ${userAnswer !== null &&
+                            optionIndex === userAnswer &&
+                            userAnswer !== correctAnswer
+                            ? '<span class="answer-label wrong-label">✗ Your Answer</span>'
+                            : ''
+                        }
+
+                            </div>
+
+                        `;
+
+                }).join('')}
+
+                </div>
+
+
+                <div class="review-summary">
+
+                    <div>
+                        <strong>Your Answer:</strong>
+
+                        ${userAnswer === null
+                        ? 'Not Attempted'
+                        : `${letters[userAnswer]}. ${q.options[userAnswer]}`
+                    }
+
+                    </div>
+
+
+                    <div>
+                        <strong>Correct Answer:</strong>
+
+                        ${letters[correctAnswer]}. ${q.options[correctAnswer]}
+
+                    </div>
+
+
+                    <div class="review-status">
+
+                        ${statusIcon} ${statusText}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        `;
+
+            }).join('');
+
+
+            // Show result
             quizView.classList.add('hidden');
+
             resultView.classList.remove('hidden');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
         }
 
         document.getElementById('restartBtn').addEventListener('click', () => {

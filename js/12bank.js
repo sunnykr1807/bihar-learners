@@ -8,254 +8,464 @@
 function getEnglishChapter1Questions() {
     return [
         {
-            q: "Who is the author of 'Indian Civilization and Culture'?",
+            q: "Who were the rulers of ancient Egypt?",
+            options: ["Pharaohs", "Porus", "Goods", "Alfred"],
+            answer: 0
+        },
+        {
+            q: "\"Nothing can equal the seeds sown by our ancestors\" is from:",
             options: [
-                "Jawaharlal Nehru",
-                "Mahatma Gandhi",
+                "A Child is Born",
+                "Indian Civilization and Culture",
+                "Bharat is My Home",
+                "I Have a Dream"
+            ],
+            answer: 1
+        },
+        {
+            q: "Gandhiji completely dominated Indian politics:",
+            options: [
+                "from 1915 till 1948",
+                "from 1917 till 1947",
+                "from 1920 till 1950",
+                "from 1930 till 1952"
+            ],
+            answer: 0
+        },
+        {
+            q: "The last of the pre-historic invention was:",
+            options: ["hunting", "cooking", "writing", "taming"],
+            answer: 2
+        },
+        {
+            q: "The food in Indian villages were served on _____ leaves.",
+            options: ["banana", "banyan", "papaya", "mango"],
+            answer: 0
+        },
+        {
+            q: "_____ prefers spiritualism to materialism.",
+            options: [
+                "Rajiv Gandhi",
+                "Dr. Zakir Hussain",
                 "Dr. Rajendra Prasad",
+                "Mahatma Gandhi"
+            ],
+            answer: 3
+        },
+        {
+            q: "Attic civilization belongs to:",
+            options: ["India", "Greece", "Rome", "China"],
+            answer: 1
+        },
+        {
+            q: "\"Our ancestors, therefore, set a limit to our _____\".",
+            options: ["land", "indulgences", "towns", "grains"],
+            answer: 1
+        },
+        {
+            q: "_____ has taught us to be friendly towards one another.",
+            options: ["Progress", "Ideas", "Inventions", "Civilization"],
+            answer: 3
+        },
+        {
+            q: "Civilization helps in the development of:",
+            options: [
+                "sense of duty",
+                "non-living things",
+                "spiritualism",
+                "animals and birds"
+            ],
+            answer: 0
+        },
+        {
+            q: "According to Gandhi, mind is a:",
+            options: [
+                "restless bird",
+                "restless body",
+                "restless heart",
+                "restless soul"
+            ],
+            answer: 0
+        },
+        {
+            q: "In no civilization have all men attained _____.",
+            options: ["enmity", "jealousy", "perfection", "education"],
+            answer: 2
+        },
+        {
+            q: "The Gujarati equivalent for civilization means:",
+            options: [
+                "bad conduct",
+                "intelligent conduct",
+                "good conduct",
+                "delightful conduct"
+            ],
+            answer: 2
+        },
+        {
+            q: "\"Civilization is that mode of conduct which points out to man the path of duty\" is from:",
+            options: [
+                "Indian Civilization and Culture",
+                "A Child is Born",
+                "A Marriage Proposal",
+                "Bharat is My Home"
+            ],
+            answer: 0
+        },
+        {
+            q: "\"Some of the immediate and brilliant results of modern inventions are too maddening to resist.\" is from:",
+            options: [
+                "Bharat is My Home",
+                "A Pinch of Snuff",
+                "Indian Civilization and Culture",
+                "Ideas That Have Helped Mankind"
+            ],
+            answer: 2
+        },
+        {
+            q: "\"The more we indulge in our passions, the more unbridled they become\" is taken from:",
+            options: [
+                "Bharat is My Home",
+                "Indian Civilization and Culture",
+                "How Free is the Press",
+                "A Child is Born"
+            ],
+            answer: 1
+        },
+        {
+            q: "_____ were satisfied with true Home Rule.",
+            options: [
+                "Our ancestors",
+                "Germans",
+                "Italians",
+                "Greeks"
+            ],
+            answer: 0
+        },
+        {
+            q: "India remains immovable and that is her _____.",
+            options: ["independence", "glory", "honesty", "power"],
+            answer: 1
+        },
+        {
+            q: "The sentence \"After all, there is something in Hinduism that has kept it alive up till now\" is taken from:",
+            options: [
+                "Artist",
+                "The Earth",
+                "Indian Civilization and Culture",
+                "I Have a Dream"
+            ],
+            answer: 2
+        },
+        {
+            q: "Gandhiji died at the hands of a fanatic on _____.",
+            options: [
+                "31st October, 1984",
+                "15th August, 1947",
+                "30th January, 1948",
+                "26th January, 1950"
+            ],
+            answer: 2
+        },
+        {
+            q: "\"I believe that the civilization India has evolved is not to be beaten in the world\" is from:",
+            options: [
+                "Indian Civilization and Culture",
+                "India Through a Traveller's Eyes",
+                "The Earth",
+                "Bharat is My Home"
+            ],
+            answer: 0
+        },
+        {
+            q: "Our forefathers did not invent machinery because:",
+            options: [
+                "they knew we would become slaves",
+                "they knew we would be happy",
+                "they did not like to see us comfortable",
+                "they were jealous of us"
+            ],
+            answer: 0
+        },
+        {
+            q: "Mahatma Gandhi has written the lesson:",
+            options: [
+                "I Have a Dream",
+                "The Artist",
+                "Indian Civilization and Culture",
+                "The Earth"
+            ],
+            answer: 2
+        },
+        {
+            q: "Pharaohs were rulers of ancient _____.",
+            options: ["Russia", "Egypt", "India", "Greece"],
+            answer: 1
+        },
+        {
+            q: "_____ were rulers of Egypt.",
+            options: ["Americans", "Africans", "Iranians", "Pharaohs"],
+            answer: 3
+        },
+        {
+            q: "Civilization is the state of development of a _____.",
+            options: ["people", "animal", "bird", "non-living things"],
+            answer: 0
+        },
+        {
+            q: "Gibbon is associated with:",
+            options: ["Italy", "Sweden", "Russia", "America"],
+            answer: 0
+        },
+        {
+            q: "European civilization will mean _____ for India.",
+            options: ["want", "living", "real", "ruin"],
+            answer: 3
+        },
+        {
+            q: "\"Simple living and high thinking\" is the base of:",
+            options: [
+                "American Civilization",
+                "Indian Civilization",
+                "European Civilization",
+                "None of these"
+            ],
+            answer: 1
+        },
+        {
+            q: "Indian glory is that it is _____.",
+            options: ["immovable", "movable", "uncivilised", "ignorant"],
+            answer: 0
+        },
+        {
+            q: "_____ was a spiritual leader rather than a politician.",
+            options: [
+                "Nehruji",
+                "Sardar Patel",
+                "Mahatma Gandhi",
+                "Indira Gandhi"
+            ],
+            answer: 2
+        },
+        {
+            q: "\"My Experiments with Truth\" was written by:",
+            options: [
+                "Nehruji",
+                "Mahatma Gandhi",
+                "Maulana Abul Kalam Azad",
                 "Sardar Patel"
             ],
             answer: 1
         },
         {
-            q: "'Indian Civilization and Culture' is a/an —",
-            options: [
-                "Poem",
-                "Story",
-                "Essay",
-                "Drama"
-            ],
+            q: "The human mind is a restless _____; the more it gets, the more it wants.",
+            options: ["bird", "dog", "cow", "monkey"],
+            answer: 0
+        },
+        {
+            q: "The people of Europe learnt their lesson from the writing of the men of _____.",
+            options: ["Germany", "Britain", "Greece or Rome", "Spain"],
             answer: 2
         },
         {
-            q: "According to Gandhi, civilization is that mode of conduct which points out to man the —",
+            q: "\"Plain living and high thinking\" is the motto of a:",
             options: [
-                "Path of wealth",
-                "Path of duty",
-                "Path of pleasure",
-                "Path of power"
-            ],
-            answer: 1
-        },
-        {
-            q: "According to Gandhi, the mind is like a —",
-            options: [
-                "Restless bird",
-                "Sleeping bird",
-                "Strong horse",
-                "Wild animal"
+                "Western philosopher",
+                "Eastern philosopher",
+                "North philosopher",
+                "None of these"
             ],
             answer: 0
         },
         {
-            q: "The more the mind gets, the more it —",
-            options: [
-                "Sleeps",
-                "Wants",
-                "Works",
-                "Rests"
-            ],
-            answer: 1
-        },
-        {
-            q: "Indian civilization gives importance to —",
-            options: [
-                "Materialism",
-                "Luxury",
-                "Spirituality",
-                "Machinery"
-            ],
+            q: "Sacrifice is the sole aim of our _____.",
+            options: ["philosophers", "farmers", "rishis", "scientists"],
             answer: 2
         },
         {
-            q: "The basis of Indian civilization is —",
+            q: "_____ is dead against blind imitation of Western civilization.",
+            options: ["Nehruji", "Gandhiji", "Patel", "Ambedkar"],
+            answer: 1
+        },
+        {
+            q: "_____ were satisfied with small villages.",
             options: [
-                "Simple living and high thinking",
-                "Luxury and pleasure",
-                "Industrial development",
-                "Material wealth"
+                "Our ancestors",
+                "Germans",
+                "Romans",
+                "Italians"
             ],
             answer: 0
         },
         {
-            q: "Our ancestors were satisfied with —",
-            options: [
-                "Large cities",
-                "Small villages",
-                "Foreign countries",
-                "Huge industries"
-            ],
+            q: "Has civilization taught us to be more _____ towards one another?",
+            options: ["enemy", "angry", "upset", "friendly"],
+            answer: 3
+        },
+        {
+            q: "Our ancestors enjoyed true _____ Rule.",
+            options: ["Nice", "Society", "Home", "Nation"],
+            answer: 2
+        },
+        {
+            q: "Wealth and luxuries do not make a _____ happy.",
+            options: ["bird", "man", "cow", "dog"],
             answer: 1
         },
         {
-            q: "Our ancestors viewed large cities as —",
-            options: [
-                "Places of beauty",
-                "Centres of education",
-                "Snares and useless encumbrances",
-                "Places of entertainment"
-            ],
+            q: "Gandhiji went to Champaran in _____.",
+            options: ["1915", "1916", "1917", "1918"],
             answer: 2
         },
         {
-            q: "According to Gandhi, our ancestors did not invent machinery because —",
-            options: [
-                "They were lazy",
-                "They hated science",
-                "They feared becoming slaves to machinery",
-                "They had no knowledge"
-            ],
-            answer: 2
-        },
-        {
-            q: "Indian civilization teaches us to —",
-            options: [
-                "Increase our wants",
-                "Restrict our wants",
-                "Collect wealth",
-                "Use more machines"
-            ],
+            q: "The people of Europe are inspired by _____ and Roman writers.",
+            options: ["British", "Greek", "German", "Indian"],
             answer: 1
         },
         {
-            q: "According to Gandhi, real happiness depends on —",
+            q: "The invention of _____ proved a milestone in our development.",
+            options: ["fire", "agriculture", "carpentry", "none of these"],
+            answer: 0
+        },
+        {
+            q: "\"Observing all this, our ancestors dissuaded us from luxuries and pleasures\" is from:",
             options: [
-                "Luxury",
-                "Material wealth",
-                "Peace and self-control",
-                "Machines"
+                "A Pinch of Snuff",
+                "The Earth",
+                "Indian Civilization and Culture",
+                "India Through a Traveller's Eyes"
             ],
             answer: 2
         },
         {
-            q: "Western civilization is mainly associated with —",
+            q: "Civilization points out to man:",
             options: [
-                "Spiritualism",
-                "Materialism",
-                "Self-control",
-                "Simple living"
+                "how to make money",
+                "how to win the enemy",
+                "the path of duty",
+                "the way of living"
             ],
+            answer: 2
+        },
+        {
+            q: "To observe morality is to attain mastery over _____.",
+            options: [
+                "economic growth",
+                "political ability",
+                "minds and passions",
+                "art"
+            ],
+            answer: 2
+        },
+        {
+            q: "The mind is a restless bird which always remains _____.",
+            options: ["hungry", "unsatisfied", "thirsty", "sick"],
             answer: 1
         },
         {
-            q: "Gandhi believed that Indian civilization was —",
+            q: "Happiness is largely a _____.",
             options: [
-                "Temporary",
-                "Weak",
-                "Superior in its spiritual values",
-                "Based only on machinery"
-            ],
-            answer: 2
-        },
-        {
-            q: "The Indian civilization aims to elevate the —",
-            options: [
-                "Material wealth",
-                "Moral being",
-                "Physical strength",
-                "Industrial power"
-            ],
-            answer: 1
-        },
-        {
-            q: "Our forefathers dissuaded us from —",
-            options: [
-                "Education",
-                "Agriculture",
-                "Luxuries and pleasures",
-                "Hard work"
-            ],
-            answer: 2
-        },
-        {
-            q: "Gandhi's idea of civilization is closely related to —",
-            options: [
-                "Duty",
-                "Luxury",
-                "Competition",
-                "Power"
+                "mental condition",
+                "physical condition",
+                "disease",
+                "imagination"
             ],
             answer: 0
         },
         {
-            q: "Gandhi preferred ______ over materialism.",
+            q: "Mahatma Gandhi was more a _____.",
             options: [
-                "Violence",
-                "Spiritualism",
-                "Competition",
-                "Luxury"
+                "politician",
+                "economist",
+                "social reformer",
+                "spiritual leader"
             ],
-            answer: 1
+            answer: 3
         },
         {
-            q: "Gandhi considered excessive wants to be —",
+            q: "\"I am thankful to the West for many a thing I have learnt from Western literature\" is taken from:",
             options: [
-                "Beneficial",
-                "Necessary",
-                "Harmful",
-                "Natural"
-            ],
-            answer: 2
-        },
-        {
-            q: "According to Gandhi, civilization should teach man —",
-            options: [
-                "How to become rich",
-                "How to enjoy luxury",
-                "How to perform his duty",
-                "How to use machines"
-            ],
-            answer: 2
-        },
-        {
-            q: "The glory of Indian civilization lies in its —",
-            options: [
-                "Modern machines",
-                "Spiritual and moral values",
-                "Large cities",
-                "Industrial growth"
-            ],
-            answer: 1
-        },
-        {
-            q: "Gandhi was against the blind imitation of —",
-            options: [
-                "Indian culture",
-                "Western civilization",
-                "Village life",
-                "Ancient traditions"
-            ],
-            answer: 1
-        },
-        {
-            q: "According to Gandhi, multiplication of wants leads to —",
-            options: [
-                "Peace",
-                "Contentment",
-                "Bondage and dissatisfaction",
-                "Spiritual growth"
-            ],
-            answer: 2
-        },
-        {
-            q: "The main message of 'Indian Civilization and Culture' is —",
-            options: [
-                "Adopt unlimited materialism",
-                "Follow simple and moral living",
-                "Reject all education",
-                "Develop more machines"
-            ],
-            answer: 1
-        },
-        {
-            q: "Who wrote 'My Experiments with Truth'?",
-            options: [
-                "Mahatma Gandhi",
-                "Rabindranath Tagore",
-                "Jawaharlal Nehru",
-                "Dr. Rajendra Prasad"
+                "Indian Civilization and Culture",
+                "I Have a Dream",
+                "Bharat is My Home",
+                "The Earth"
             ],
             answer: 0
+        },
+        {
+            q: "Our ancestors dissuaded us from _____.",
+            options: [
+                "politics",
+                "luxuries and pleasure",
+                "morality",
+                "spirituality"
+            ],
+            answer: 1
+        },
+        {
+            q: "People in ancient days were satisfied with _____.",
+            options: ["towns", "cities", "mega cities", "villages"],
+            answer: 3
+        },
+        {
+            q: "Our forefathers saw that kings and their swords were inferior to _____.",
+            options: [
+                "the swords of ethics",
+                "the swords of politics",
+                "the swords of economics",
+                "the swords of treachery"
+            ],
+            answer: 0
+        },
+        {
+            q: "In ancient days the common people followed _____.",
+            options: ["business", "agriculture", "industry", "politics"],
+            answer: 1
+        },
+        {
+            q: "Modern civilization is the worship of _____.",
+            options: ["material", "ethics", "brotherhood", "equality"],
+            answer: 0
+        },
+        {
+            q: "\"Indian Civilization and Culture\" has been written by:",
+            options: [
+                "Pt. Nehru",
+                "M. Gandhi",
+                "Hussain",
+                "None of these"
+            ],
+            answer: 1
+        },
+        {
+            q: "In ancient days the common people enjoyed _____.",
+            options: [
+                "court rule",
+                "slavery",
+                "true home rule",
+                "foreign rule"
+            ],
+            answer: 2
+        },
+        {
+            q: "The tendency of Indian civilization is to elevate _____.",
+            options: [
+                "immorality",
+                "partiality",
+                "moral being",
+                "dishonesty"
+            ],
+            answer: 2
+        },
+        {
+            q: "Indian civilization is _____.",
+            options: [
+                "godless",
+                "based on belief in God",
+                "based on partiality",
+                "based on matter"
+            ],
+            answer: 1
         }
     ];
 }
@@ -268,337 +478,296 @@ function getEnglishChapter1Questions() {
 
 function getEnglishChapter2Questions() {
     return [
-
         {
-            q: "Who is the author of 'Bharat Is My Home'?",
-            options: [
-                "Mahatma Gandhi",
-                "Dr. Zakir Husain",
-                "Bertrand Russell",
-                "Martin Luther King Jr."
-            ],
-            answer: 1
-        },
-
-        {
-            q: "'Bharat Is My Home' is a part of a —",
-            options: [
-                "Poem",
-                "Speech",
-                "Short story",
-                "Drama"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "Dr. Zakir Husain delivered 'Bharat Is My Home' in —",
-            options: [
-                "1965",
-                "1966",
-                "1967",
-                "1968"
-            ],
-            answer: 2
-        },
-
-        {
-            q: "Dr. Zakir Husain took oath as the —",
-            options: [
-                "Prime Minister of India",
-                "President of India",
-                "Governor of India",
-                "Chief Justice of India"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "Dr. Zakir Husain was the ______ President of India.",
-            options: [
-                "Second",
-                "Third",
-                "Fourth",
-                "Fifth"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "Dr. Zakir Husain entered the office of the President in a spirit of —",
-            options: [
-                "Pride and power",
-                "Prayerful humility and total dedication",
-                "Anger and determination",
-                "Fear and doubt"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "Dr. Zakir Husain regarded Bharat as his —",
-            options: [
-                "Kingdom",
-                "Home",
-                "Office",
-                "Workplace"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "According to Dr. Zakir Husain, India is a —",
-            options: [
-                "Family",
-                "Business",
-                "Colony",
-                "Kingdom"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The people of India had chosen Dr. Zakir Husain as the head of the —",
-            options: [
-                "Government",
-                "Family",
-                "Army",
-                "Court"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "Dr. Zakir Husain considered himself the head of the family for —",
-            options: [
-                "A lifetime",
-                "A certain time",
-                "Ten years",
-                "Five years only"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "According to Zakir Husain, education is a prime instrument of —",
-            options: [
-                "National purpose",
-                "Economic purpose",
-                "Military purpose",
-                "Personal luxury"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The process of growth of culture and national character is the business of —",
-            options: [
-                "Education",
-                "Army",
-                "Police",
-                "Industry"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Education helps in the development of —",
-            options: [
-                "National character",
-                "Luxury",
-                "Political power",
-                "Industrial wealth"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "According to Dr. Zakir Husain, values are —",
-            options: [
-                "Externally valid",
-                "Only temporary",
-                "Useless",
-                "Only political"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "'Work on one's self' means work for the —",
-            options: [
-                "Individual",
-                "Government",
-                "Army",
-                "Market"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Who was the role model of Dr. Zakir Husain?",
+            q: "Who became the President of India in 1977?",
             options: [
                 "Dr. S. Radhakrishnan",
+                "Dr. Rajendra Prasad",
+                "Dr. Zakir Hussain",
+                "Dr. A.P.J. Abdul Kalam"
+            ],
+            answer: 2
+        },
+        {
+            q: "\"The past is not dead and static, it is alive and dynamic\" is said by:",
+            options: [
+                "Shiga Naoya",
+                "M. Gandhi",
+                "Dr. Zakir Hussain",
+                "H. E. Bates"
+            ],
+            answer: 3
+        },
+        {
+            q: "\"The past is not dead and static, it is alive and _____.\"",
+            options: ["pledge", "ethnic", "dynamic", "presumptuous"],
+            answer: 2
+        },
+        {
+            q: "\"I pledge my loyalty to my country, irrespective of religion or language.\" From whose piece is this quotation taken?",
+            options: [
+                "Zakir Hussain",
+                "Pearl S. Buck",
                 "Mahatma Gandhi",
-                "Jawaharlal Nehru",
-                "Sardar Patel"
+                "Anton P. Chekhov"
             ],
             answer: 0
         },
-
         {
-            q: "Dr. Zakir Husain was an eminent —",
+            q: "Dr. Zakir Hussain delivered the speech on:",
             options: [
-                "Educationist",
-                "Businessman",
-                "Artist",
-                "Scientist"
+                "taking oath as the President of India",
+                "Republic Day 1968",
+                "Independence Day 1968",
+                "taking oath as the Governor of Bihar"
             ],
             answer: 0
         },
-
         {
-            q: "Dr. Zakir Husain was born in —",
+            q: "The leader should have the basic quality of:",
+            options: ["dishonesty", "dictatorship", "selflessness", "selfishness"],
+            answer: 2
+        },
+        {
+            q: "Dr. Zakir Hussain was an eminent:",
+            options: ["politician", "philosopher", "educationist", "scientist"],
+            answer: 2
+        },
+        {
+            q: "\"The people have chosen to make me the head of this family for a certain time.\" Who says this?",
             options: [
-                "1896",
-                "1897",
-                "1898",
-                "1900"
+                "Dr. Zakir Hussain",
+                "Kamala Das",
+                "Pearl S. Buck",
+                "Manohar Malgaonkar"
+            ],
+            answer: 0
+        },
+        {
+            q: "Dr. Radhakrishnan never lost his faith in the _____ .",
+            options: [
+                "essential wealth",
+                "essential humanity of man",
+                "essential knowledge",
+                "essential experience"
             ],
             answer: 1
         },
-
         {
-            q: "Dr. Zakir Husain died in —",
+            q: "Dr. Zakir Hussain was born in:",
+            options: ["Aligarh", "Ahmedabad", "Delhi", "Hyderabad"],
+            answer: 2
+        },
+        {
+            q: "Dr. Zakir Hussain had also served as the Governor of:",
+            options: ["West Bengal", "Assam", "Bihar", "Karnataka"],
+            answer: 3
+        },
+        {
+            q: "The past is:",
             options: [
-                "1967",
-                "1968",
-                "1969",
-                "1970"
+                "dead and static",
+                "alive and dynamic",
+                "useless",
+                "harmful"
+            ],
+            answer: 1
+        },
+        {
+            q: "The Indian culture is the best example of:",
+            options: [
+                "unity",
+                "diversity",
+                "unity in diversity",
+                "disparity"
             ],
             answer: 2
         },
-
         {
-            q: "Dr. Zakir Husain lived for about —",
+            q: "The word 'erudition' stands for:",
+            options: ["poverty", "great knowledge", "prosperity", "greed"],
+            answer: 1
+        },
+        {
+            q: "When did Dr. Zakir Hussain deliver this speech?",
             options: [
-                "62 years",
-                "68 years",
-                "72 years",
-                "75 years"
+                "On Independence Day",
+                "On Republic Day",
+                "When he took oath as the President of India",
+                "On Army Day"
             ],
             answer: 2
         },
-
         {
-            q: "Dr. Zakir Husain was one of India's greatest freedom fighters as well as an eminent —",
+            q: "Dr. Zakir Hussain was born in:",
+            options: ["1865", "1877", "1867", "1897"],
+            answer: 3
+        },
+        {
+            q: "Dr. Zakir Hussain died in:",
+            options: ["1959", "1969", "1979", "1989"],
+            answer: 1
+        },
+        {
+            q: "Dr. Zakir Hussain was born in:",
+            options: ["Delhi", "Karnataka", "Chennai", "Hyderabad"],
+            answer: 3
+        },
+        {
+            q: "\"The family is big and is constantly growing at a rather inconveniently fast pace\" is from:",
             options: [
-                "Educationist",
-                "Writer",
-                "Engineer",
-                "Doctor"
+                "Bharat Is My Home",
+                "The Earth",
+                "How Free Is the Press",
+                "I Have a Dream"
             ],
             answer: 0
         },
-
         {
-            q: "The past is not dead and static; it is —",
+            q: "Dr. Radhakrishnan explained exceptionally:",
             options: [
-                "Weak and useless",
-                "Alive and dynamic",
-                "Old and meaningless",
-                "Finished and forgotten"
+                "Indian economics",
+                "Indian philosophy",
+                "Indian politics",
+                "Indian civilization"
             ],
             answer: 1
         },
-
         {
-            q: "According to Zakir Husain, the past should be regarded as —",
+            q: "Dr. Zakir Hussain entered the office with:",
+            options: ["partiality", "total dedication", "enmity", "treachery"],
+            answer: 1
+        },
+        {
+            q: "Dr. Zakir Hussain was long associated with:",
+            options: ["business", "education", "art", "game"],
+            answer: 1
+        },
+        {
+            q: "\"The past is not dead and static, it is alive and dynamic\" is taken from:",
             options: [
-                "Dead",
-                "Dynamic",
-                "Useless",
-                "Dangerous"
+                "I Have a Dream",
+                "The Artist",
+                "The Earth",
+                "Bharat Is My Home"
+            ],
+            answer: 3
+        },
+        {
+            q: "As the president, Dr. Hussain advocated for the growth of:",
+            options: [
+                "certain religions",
+                "the whole nation",
+                "the rich only",
+                "the poor only"
             ],
             answer: 1
         },
-
         {
-            q: "Dr. Zakir Husain believed in the unity of —",
+            q: "Power should be used only for:",
             options: [
-                "India",
-                "Only one religion",
-                "Only one community",
-                "Only one language"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The speech 'Bharat Is My Home' mainly emphasizes —",
-            options: [
-                "National unity and responsibility",
-                "War",
-                "Business",
-                "Foreign policy"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Dr. Zakir Husain wanted education to serve —",
-            options: [
-                "National purpose",
-                "Personal luxury",
-                "Political rivalry",
-                "Military expansion"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Dr. Zakir Husain's attitude towards the people of India was one of —",
-            options: [
-                "Dedication",
-                "Hatred",
-                "Fear",
-                "Indifference"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The central idea of 'Bharat Is My Home' is —",
-            options: [
-                "Service to the nation",
-                "Personal wealth",
-                "Foreign travel",
-                "Industrial development"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Dr. Zakir Husain took the oath of loyalty to the —",
-            options: [
-                "British Empire",
-                "Constitution of India",
-                "President of India",
-                "Parliament only"
+                "making money",
+                "moral purpose",
+                "own interest",
+                "material gain"
             ],
             answer: 1
         },
-
         {
-            q: "Dr. Zakir Husain's speech reflects his feeling of —",
+            q: "Dr. Zakir Hussain delivered his speech in:",
+            options: ["1965", "1966", "1967", "1968"],
+            answer: 2
+        },
+        {
+            q: "Which nation has been called the young state of ancient people?",
+            options: ["India", "China", "Pakistan", "Iran"],
+            answer: 0
+        },
+        {
+            q: "'Bharat Is My Home' is written by:",
             options: [
-                "National service",
-                "Personal ambition",
-                "Political revenge",
-                "Luxury"
+                "Mahatma Gandhi",
+                "Dr. Zakir Hussain",
+                "Pearl S. Buck",
+                "H. E. Bates"
+            ],
+            answer: 1
+        },
+        {
+            q: "_____ was the role model of Dr. Zakir Hussain.",
+            options: [
+                "Mahatma Gandhi",
+                "Sardar Patel",
+                "Dr. Radha Krishnan",
+                "Dr. Rajendra Prasad"
+            ],
+            answer: 2
+        },
+        {
+            q: "Dr. Zakir Hussain took the oath of loyalty to the:",
+            options: ["people", "constitution", "nation", "none of these"],
+            answer: 1
+        },
+        {
+            q: "_____ said that Bharat is my home and its people are my family.",
+            options: [
+                "Dr. Zakir Hussain",
+                "Dr. Radha Krishnan",
+                "Dr. Rajendra Prasad",
+                "None of these"
             ],
             answer: 0
+        },
+        {
+            q: "Dr. Zakir Hussain was a great:",
+            options: ["politician", "thinker", "nationalist", "leader"],
+            answer: 2
+        },
+        {
+            q: "Dr. Zakir Hussain delivered his speech in 1967 after taking the oath of the:",
+            options: ["President", "Governor", "Chief Minister", "Minister"],
+            answer: 0
+        },
+        {
+            q: "_____ is the prime instrument of nation building.",
+            options: ["Agriculture", "Education", "Trade", "None of these"],
+            answer: 1
+        },
+        {
+            q: "_____ brought a lot of erudition and wealth of knowledge to the Presidency.",
+            options: [
+                "Dr. Zakir Hussain",
+                "Dr. Rajendra Prasad",
+                "Gyani Zail Singh",
+                "Dr. Radha Krishnan"
+            ],
+            answer: 3
+        },
+        {
+            q: "Dr. Zakir Hussain feels greatly obliged to the people of:",
+            options: ["Pakistan", "India", "China", "Nepal"],
+            answer: 1
+        },
+        {
+            q: "Dr. Zakir Hussain became the president of India in:",
+            options: ["1965", "1966", "1967", "1969"],
+            answer: 2
+        },
+        {
+            q: "Dr. Zakir Hussain entered the office in a spirit of:",
+            options: ["special", "prayerful", "long", "new"],
+            answer: 1
+        },
+        {
+            q: "Dr. Zakir Hussain has written the lesson:",
+            options: [
+                "Indian Civilization and Culture",
+                "I Have a Dream",
+                "Bharat Is My Home",
+                "The Artist"
+            ],
+            answer: 2
         }
-
     ];
 }
 
@@ -610,337 +779,241 @@ function getEnglishChapter2Questions() {
 
 function getEnglishChapter3Questions() {
     return [
-
         {
-            q: "Who is the author of 'A Pinch of Snuff'?",
+            q: "Nanukaka has a unique quality of telling:",
+            options: ["truths", "stories", "incidents", "lies"],
+            answer: 3
+        },
+        {
+            q: "_____ was Nanukaka's favourite dress.",
             options: [
-                "Manohar Malgonkar",
-                "Bertrand Russell",
-                "Shiga Naoya",
-                "H.E. Bates"
+                "Silk Coat",
+                "Pathani Coat",
+                "Kashmiri Coat",
+                "Jodhpuri Coat"
             ],
+            answer: 3
+        },
+        {
+            q: "Nanukaka went to the _____ Auto Dealers.",
+            options: ["Sikka", "Alankar", "Rikka", "Kia"],
             answer: 0
         },
-
         {
-            q: "'A Pinch of Snuff' is a —",
+            q: "Nanukaka still wore:",
             options: [
-                "Poem",
-                "Short story",
-                "Speech",
-                "Drama"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "Who is Nanukaka?",
-            options: [
-                "The narrator's uncle",
-                "The narrator's brother",
-                "The narrator's teacher",
-                "The narrator's friend"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Nanukaka was related to the narrator as his —",
-            options: [
-                "Uncle",
-                "Nephew",
-                "Cousin",
-                "Brother"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The narrator of 'A Pinch of Snuff' was on probation as a —",
-            options: [
-                "Secretary",
-                "Under-secretary",
-                "Minister",
-                "Professor"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "Nanukaka was coming to Delhi to see some —",
-            options: [
-                "Doctors",
-                "Ministers",
-                "Teachers",
-                "Friends"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "Sohanlal Ratiram was a party boss in —",
-            options: [
-                "Delhi",
-                "Mumbai",
-                "Patna",
-                "Kolkata"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The son of Sohanlal Ratiram was —",
-            options: [
-                "Ratiram",
-                "Nanukaka",
-                "Mohanlal",
-                "Hariram"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Nanukaka's meeting with Sohanlal Ratiram was —",
-            options: [
-                "A failure",
-                "Cancelled",
-                "Very successful",
-                "Postponed"
+                "a knee-length black coat",
+                "Aligarh pajamas",
+                "a Jodhpuri coat",
+                "an Aligarh kurta"
             ],
             answer: 2
         },
-
         {
-            q: "The second important person Nanukaka planned to meet was the —",
+            q: "Nanukaka had tied a huge _____ round the narrator's head.",
             options: [
-                "Welfare Minister",
-                "Prime Minister",
-                "Education Minister",
-                "Finance Minister"
+                "orange turban",
+                "green turban",
+                "red turban",
+                "yellow turban"
             ],
             answer: 0
         },
-
         {
-            q: "Nanukaka gave the narrator a new role as a —",
+            q: "\"Nanukaka opened his silver snuffbox and took a _____.\"",
+            options: ["coat", "kurta", "pinch", "pitch"],
+            answer: 2
+        },
+        {
+            q: "Nanukaka went to visit the _____ Minister.",
+            options: ["Finance", "Welfare", "Railway", "Home"],
+            answer: 1
+        },
+        {
+            q: "Who took a pinch of snuff?",
+            options: ["Alam", "Rehman", "Manohar", "Nanukaka"],
+            answer: 3
+        },
+        {
+            q: "Nanukaka _____ before he spoke.",
             options: [
-                "Cook",
-                "Driver",
-                "Professor",
-                "Minister"
+                "ate some biscuits",
+                "drank tea",
+                "inhaled some snuff",
+                "drank coffee"
+            ],
+            answer: 2
+        },
+        {
+            q: "Manohar Malgaonkar's story is full of wit and _____.",
+            options: ["Humour", "Tragedy", "Adventure", "Irony"],
+            answer: 0
+        },
+        {
+            q: "Nanukaka managed to travel in 2nd class on a ticket of:",
+            options: [
+                "1st class",
+                "General class",
+                "Sleeper class",
+                "Third class"
+            ],
+            answer: 3
+        },
+        {
+            q: "Who travelled free with Nanukaka?",
+            options: ["Dog", "Rabbit", "Hen", "Kitten"],
+            answer: 3
+        },
+        {
+            q: "The mother in \"A Pinch of Snuff\" was waiting at the _____ for her brother.",
+            options: ["room", "gate", "doorstep", "verandah"],
+            answer: 2
+        },
+        {
+            q: "Nanukaka was installed in:",
+            options: [
+                "the guest room",
+                "the drawing room",
+                "the author's bedroom",
+                "the verandah"
             ],
             answer: 1
         },
-
         {
-            q: "Nanukaka was a very — person.",
+            q: "The author had taken:",
             options: [
-                "Clever",
-                "Timid",
-                "Silent",
-                "Lazy"
+                "five days' leave",
+                "three days' leave",
+                "two days' leave",
+                "six days' leave"
             ],
-            answer: 0
+            answer: 3
         },
-
         {
-            q: "Nanukaka was skilled in dealing with —",
+            q: "Nanukaka in a linguistic emergency always turned to:",
             options: [
-                "Officials and influential people",
-                "Only students",
-                "Only farmers",
-                "Only doctors"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The narrator initially felt — about Nanukaka's visit.",
-            options: [
-                "Embarrassed",
-                "Excited",
-                "Proud",
-                "Indifferent"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Nanukaka's character is mainly presented through —",
-            options: [
-                "Humour and satire",
-                "Tragedy",
-                "Romance",
-                "Horror"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Nanukaka was installed in the narrator's —",
-            options: [
-                "Bedroom",
-                "Kitchen",
-                "Office",
-                "Garden"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The narrator had taken — days' leave.",
-            options: [
-                "One",
-                "Two",
-                "Three",
-                "Five"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "In a linguistic emergency Nanukaka turned to his —",
-            options: [
-                "Mother tongue",
                 "English",
                 "Hindi",
+                "his mother-tongue",
                 "Sanskrit"
             ],
-            answer: 0
+            answer: 2
         },
-
         {
-            q: "Nanukaka thought the secretary treated them coldly because they had not gone in a —",
+            q: "Nanukaka thought that the secretary treated them coldly because they had not gone in:",
             options: [
-                "New car",
-                "Bigger car",
-                "Small car",
-                "Government car"
+                "an old car",
+                "a bigger car",
+                "a small car",
+                "a new car"
             ],
             answer: 1
         },
-
         {
-            q: "Nanukaka used his cheque-book mainly to create an impression of his —",
+            q: "Nanukaka took out his cheque-book and wrote a cheque for:",
             options: [
-                "Importance",
-                "Poverty",
-                "Fear",
-                "Weakness"
+                "five thousand rupees",
+                "two thousand rupees",
+                "a thousand rupees",
+                "five hundred rupees"
             ],
-            answer: 0
+            answer: 2
         },
-
         {
-            q: "The story presents a humorous picture of —",
+            q: "Nanukaka was coming to Delhi:",
             options: [
-                "Political and bureaucratic life",
-                "Village farming",
-                "School education",
-                "Military life"
+                "to visit the Red Fort",
+                "to see some minister",
+                "to participate in a conference",
+                "to spend the summer"
             ],
-            answer: 0
+            answer: 1
         },
-
         {
-            q: "The narrator's uncle is called —",
+            q: "Nanukaka was the author's:",
+            options: ["brother", "neighbour", "maternal uncle", "friend"],
+            answer: 2
+        },
+        {
+            q: "The author has a complex about:",
+            options: ["a relative", "a guest", "officials", "ministers"],
+            answer: 3
+        },
+        {
+            q: "Nanukaka travelled in:",
             options: [
-                "Nanukaka",
-                "Ratiram",
-                "Sohanlal",
-                "Ramesh"
+                "the A.C. Class",
+                "the Second Class",
+                "the Third Class",
+                "the First Class"
             ],
-            answer: 0
+            answer: 1
         },
-
         {
-            q: "Nanukaka was interested in meeting —",
+            q: "The narrator in \"A Pinch of Snuff\" was an/a:",
             options: [
-                "Powerful people",
-                "School teachers",
-                "Farmers",
-                "Students"
+                "Secretary",
+                "Clerk",
+                "Under-Secretary",
+                "Bank Officer"
             ],
-            answer: 0
+            answer: 2
         },
-
         {
-            q: "The title 'A Pinch of Snuff' is connected with —",
+            q: "For what purpose had Nanukaka come to Delhi?",
             options: [
-                "Nanukaka's habit",
-                "The narrator's job",
-                "The minister's office",
-                "The party boss"
+                "For paying the debt",
+                "To attend Zamindar convention",
+                "To take rest",
+                "To see some Minister"
             ],
-            answer: 0
+            answer: 3
         },
-
         {
-            q: "The story is notable for its —",
+            q: "Nanukaka had a third-class ticket but travelled in the second class because:",
             options: [
-                "Satire",
-                "Romanticism",
-                "Mystery",
-                "Tragedy"
+                "he was clever",
+                "there was no third class",
+                "he lost his ticket",
+                "there was no room in the third class"
             ],
-            answer: 0
+            answer: 1
         },
-
         {
-            q: "Manohar Malgonkar was an Indian —",
+            q: "Nanukaka stood in the doorway of a _____ class carriage.",
+            options: ["first", "A.C.", "second", "third"],
+            answer: 2
+        },
+        {
+            q: "\"A Pinch of Snuff\" is written by:",
             options: [
-                "Writer",
-                "Scientist",
-                "Politician",
-                "Painter"
+                "Bertrand Russell",
+                "H.E. Bates",
+                "Manohar Malgaonkar",
+                "Pearl S. Buck"
             ],
-            answer: 0
+            answer: 2
         },
-
         {
-            q: "Nanukaka's visit creates trouble mainly for the —",
+            q: "Manohar Malgaonkar has written the lesson:",
             options: [
-                "Narrator",
-                "Minister",
-                "Party boss",
-                "Doctor"
+                "I Have a Dream",
+                "A Pinch of Snuff",
+                "Bharat Is My Home",
+                "The Earth"
             ],
-            answer: 0
+            answer: 1
         },
-
         {
-            q: "Nanukaka's personality can best be described as —",
+            q: "Nanukaka wrote a cheque for _____ rupees.",
             options: [
-                "Resourceful and clever",
-                "Weak and fearful",
-                "Quiet and shy",
-                "Careless and lazy"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The narrator was working in the —",
-            options: [
-                "Government service",
-                "Railway",
-                "School",
-                "Hospital"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The main source of humour in the story is Nanukaka's —",
-            options: [
-                "Clever manipulation of situations",
-                "Fear of officials",
-                "Love for books",
-                "Silence"
+                "a thousand",
+                "hundred",
+                "five hundred",
+                "ten thousand"
             ],
             answer: 0
         }
-
     ];
 }
 
@@ -952,337 +1025,246 @@ function getEnglishChapter3Questions() {
 
 function getEnglishChapter4Questions() {
     return [
-
         {
-            q: "Who delivered 'I Have a Dream'?",
-            options: [
-                "Martin Luther King Jr.",
-                "Bertrand Russell",
-                "Dr. Zakir Husain",
-                "Mahatma Gandhi"
-            ],
+            q: "_____ was influenced by Mahatma Gandhi.",
+            options: ["Martin Luther King, Jr.", "Shiga Naoya", "Dorothy L. Sayers", "Pearl S. Buck"],
             answer: 0
         },
-
         {
-            q: "'I Have a Dream' is a famous —",
-            options: [
-                "Speech",
-                "Poem",
-                "Short story",
-                "Novel"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Martin Luther King Jr. belonged to —",
-            options: [
-                "India",
-                "Britain",
-                "The USA",
-                "France"
-            ],
+            q: "Who was one of the greatest orators in American history?",
+            options: ["H. E. Bates", "Johnson", "Martin Luther King, Jr.", "Walt Whitman"],
             answer: 2
         },
-
         {
-            q: "Martin Luther King Jr. delivered the speech on —",
-            options: [
-                "August 28, 1963",
-                "August 28, 1965",
-                "June 28, 1963",
-                "January 28, 1963"
-            ],
+            q: "Who refuses to believe that the bank of justice is bankrupt?",
+            options: ["Negroes", "Americans", "Indians", "Australians"],
             answer: 0
         },
-
         {
-            q: "The speech was delivered in —",
-            options: [
-                "Washington, D.C.",
-                "New York",
-                "Chicago",
-                "Boston"
-            ],
+            q: "Martin Luther King, Jr. wanted the Negroes to continue working with:",
+            options: ["hatred", "jealousy", "love", "faith"],
+            answer: 3
+        },
+        {
+            q: "The _____ would not be satisfied until justice rolled down like water.",
+            options: ["Americans", "Negroes", "Europeans", "Indians"],
+            answer: 1
+        },
+        {
+            q: "_____ discrimination was disapproved by Martin Luther King, Jr.",
+            options: ["Racial", "Sex", "Caste", "Religion"],
             answer: 0
         },
-
         {
-            q: "Martin Luther King Jr. fought for —",
-            options: [
-                "Racial equality",
-                "Colonialism",
-                "Monarchy",
-                "Economic dictatorship"
-            ],
+            q: "The Negroes were hopeful that one day they would:",
+            options: ["get their rights", "kill the white people", "divide the nation", "kill themselves"],
             answer: 0
         },
-
         {
-            q: "The speech deals mainly with the struggle of —",
-            options: [
-                "African Americans",
-                "European workers",
-                "Indian farmers",
-                "Asian traders"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The condition of the Negroes was described as —",
-            options: [
-                "Excellent",
-                "Comfortable",
-                "Appalling",
-                "Perfect"
-            ],
+            q: "One hundred years later, the Negro is still _____ in the concerns of American society.",
+            options: ["complaining", "enjoying", "languishing", "clamouring"],
             answer: 2
         },
-
         {
-            q: "Mississippi was described as sweltering with the heat of —",
-            options: [
-                "War and poverty",
-                "Injustice and oppression",
-                "Education and freedom",
-                "Peace and justice"
-            ],
-            answer: 1
+            q: "\"I Have a Dream\" is part of a _____.",
+            options: ["drama", "novel", "poem", "speech"],
+            answer: 3
         },
-
         {
-            q: "America gave the Negro people a —",
-            options: [
-                "Good cheque",
-                "Bad cheque",
-                "New house",
-                "Gold medal"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "The Emancipation Proclamation had raised hopes among the —",
-            options: [
-                "Negro population",
-                "British people",
-                "European rulers",
-                "Farmers"
-            ],
+            q: "My children will not be judged by the _____ of their skin.",
+            options: ["colour", "food habits", "education", "culture"],
             answer: 0
         },
-
         {
-            q: "The hopes of the Negro population remained —",
-            options: [
-                "Fulfilled",
-                "Partly fulfilled",
-                "Unfulfilled",
-                "Forgotten"
-            ],
+            q: "Martin Luther King, Jr. asks the black people to continue working with:",
+            options: ["love", "hatred", "faith", "jealousy"],
             answer: 2
         },
-
         {
-            q: "To overlook the Negro would be —",
-            options: [
-                "Beneficial",
-                "Fatal",
-                "Useful",
-                "Helpful"
-            ],
+            q: "Emancipation Proclamation gave the Negroes:",
+            options: ["slavery", "freedom from slavery", "captivity", "despair"],
             answer: 1
         },
-
         {
-            q: "The Negroes made a pledge that they would always —",
-            options: [
-                "March ahead",
-                "March back",
-                "Remain silent",
-                "Leave America"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The central demand of King's speech was —",
-            options: [
-                "Racial justice and equality",
-                "War",
-                "Separation",
-                "Colonial rule"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "Racial discrimination is against —",
-            options: [
-                "Human rights",
-                "Science",
-                "Agriculture",
-                "Industry"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "King dreamed that one day his children would be judged by —",
-            options: [
-                "The colour of their skin",
-                "The content of their character",
-                "Their wealth",
-                "Their social status"
-            ],
-            answer: 1
-        },
-
-        {
-            q: "King's dream was of a society based on —",
-            options: [
-                "Equality",
-                "Discrimination",
-                "Violence",
-                "Slavery"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The word 'momentous' means —",
-            options: [
-                "Very important",
-                "Unimportant",
-                "Foolish",
-                "Ordinary"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The repeated phrase in the speech is —",
-            options: [
-                "I have a dream",
-                "I have a book",
-                "I have a house",
-                "I have a problem"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "King wanted Mississippi to become an —",
-            options: [
-                "Oasis of freedom and justice",
-                "Industrial centre",
-                "Military centre",
-                "Economic market"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "King wanted freedom and justice for —",
-            options: [
-                "Only the rich",
-                "Only white people",
-                "All people",
-                "Only politicians"
-            ],
+            q: "_____ is sweltering with the heat of injustice and oppression.",
+            options: ["New York", "New Jersey", "Mississippi", "Chicago"],
             answer: 2
         },
-
         {
-            q: "The speech strongly opposes —",
-            options: [
-                "Racial discrimination",
-                "Education",
-                "Democracy",
-                "Freedom"
-            ],
+            q: "And as we walk, we make the pledge that we shall:",
+            options: ["always be satisfied", "always march ahead", "always hate people", "always fight"],
+            answer: 1
+        },
+        {
+            q: "Martin Luther King was the youngest person to receive the _____ in 1964.",
+            options: ["Booker Prize", "Nobel Prize", "National Award for Innovation", "Ibrahim Prize for Achievement"],
+            answer: 1
+        },
+        {
+            q: "According to Martin Luther King, Jr., \"Let us not wallow in the value of _____.\"",
+            options: ["Liverpool", "despair", "Alabama", "hope"],
+            answer: 1
+        },
+        {
+            q: "The author advocates:",
+            options: ["non-violent struggle", "violent struggle", "both the ways", "none of these"],
             answer: 0
         },
-
         {
-            q: "King's method of struggle was based mainly on —",
-            options: [
-                "Peaceful protest",
-                "Military invasion",
-                "Political dictatorship",
-                "Violence"
-            ],
+            q: "Martin Luther King, Jr. was born in:",
+            options: ["1939", "1929", "1919", "1969"],
+            answer: 1
+        },
+        {
+            q: "Martin Luther King, Jr. was assassinated on:",
+            options: ["March 4", "April 4", "May 4", "December 4"],
+            answer: 1
+        },
+        {
+            q: "The state of _____ is sweltering with the heat of injustice and oppression, and will be transformed into an oasis of freedom and justice.",
+            options: ["Texas", "New Jersey", "New York", "Mississippi"],
+            answer: 3
+        },
+        {
+            q: "\"I Have a Dream\" is a speech delivered by King on:",
+            options: ["August 28, 1963", "June 28, 1965", "May 28, 1953", "April 28, 1973"],
             answer: 0
         },
-
         {
-            q: "Martin Luther King Jr. was a famous —",
-            options: [
-                "Civil rights leader",
-                "Scientist",
-                "Novelist",
-                "Businessman"
-            ],
+            q: "America gave the Negro people:",
+            options: ["a good cheque", "a bad cheque", "a torn cheque", "none of these"],
+            answer: 1
+        },
+        {
+            q: "By the signing of the Emancipation Proclamation, the hopes of the Negro population:",
+            options: ["fulfilled", "half fulfilled", "remained unfulfilled", "none of these"],
+            answer: 2
+        },
+        {
+            q: "To overlook the Negro would be:",
+            options: ["good", "beneficial", "fatal", "none of these"],
+            answer: 2
+        },
+        {
+            q: "The Negroes made the pledge that they will always:",
+            options: ["march ahead", "march back", "march slowly", "none of these"],
             answer: 0
         },
-
         {
-            q: "The speech was associated with the struggle for —",
-            options: [
-                "Civil rights",
-                "Colonial expansion",
-                "Monarchy",
-                "Military power"
-            ],
+            q: "How many times does King repeat that \"we cannot be satisfied\"?",
+            options: ["two times", "three times", "five times", "six times"],
+            answer: 2
+        },
+        {
+            q: "The word 'momentous' stands for:",
+            options: ["foolishness", "aggressive", "very important", "unimportant"],
+            answer: 2
+        },
+        {
+            q: "They had a dream that one day they would:",
+            options: ["divide the nation", "kill the white people", "get their rights", "none of these"],
+            answer: 2
+        },
+        {
+            q: "Racial discrimination is against:",
+            options: ["capitalism", "power", "secularism", "human rights"],
+            answer: 3
+        },
+        {
+            q: "\"I Have a Dream\" is written by:",
+            options: ["Germaine Greer", "Shiga Naoya", "Martin Luther King, Jr.", "H. E. Bates"],
+            answer: 2
+        },
+        {
+            q: "Martin Luther King, Jr. has written the lesson:",
+            options: ["The Artist", "I Have a Dream", "A Pinch of Snuff", "Bharat Is My Home"],
+            answer: 1
+        },
+        {
+            q: "Martin Luther King, Jr. belonged to:",
+            options: ["Britain", "France", "China", "The USA"],
+            answer: 3
+        },
+        {
+            q: "The condition of the _____ was appalling.",
+            options: ["African", "Negroes", "Indians", "none of these"],
+            answer: 1
+        },
+        {
+            q: "_____ is sweltering with the heat of injustice and oppression.",
+            options: ["New York", "Texas", "Chicago", "Mississippi"],
+            answer: 3
+        },
+        {
+            q: "_____ was a great orator.",
+            options: ["Pearl S. Buck", "Shiga Naoya", "Martin Luther King, Jr.", "Germaine Greer"],
+            answer: 2
+        },
+        {
+            q: "Martin Luther King, Jr. was:",
+            options: ["Negro", "German", "French", "none of these"],
             answer: 0
         },
-
         {
-            q: "King believed that freedom should be available to —",
-            options: [
-                "Every human being",
-                "Only one race",
-                "Only politicians",
-                "Only rich people"
-            ],
+            q: "Nobel Prize for Peace was given to Martin Luther King, Jr. in:",
+            options: ["1963", "1964", "1965", "1966"],
+            answer: 1
+        },
+        {
+            q: "Negroes are the former _____ of America.",
+            options: ["farmers", "traders", "slaves", "none of these"],
+            answer: 2
+        },
+        {
+            q: "_____ is a desert state of the USA.",
+            options: ["Mississippi", "Alabama", "Georgia", "none of these"],
+            answer: 1
+        },
+        {
+            q: "Martin Luther King, Jr. had _____ children.",
+            options: ["one", "two", "three", "four"],
+            answer: 3
+        },
+        {
+            q: "_____ advocates non-violent struggle.",
+            options: ["Pearl S. Buck", "H. E. Bates", "Martin Luther King, Jr.", "Shiga Naoya"],
+            answer: 2
+        },
+        {
+            q: "Martin Luther King, Jr. loves the white _____.",
+            options: ["African", "Asian", "European", "American"],
+            answer: 3
+        },
+        {
+            q: "Martin Luther King, Jr. was a:",
+            options: ["artist", "civil rights activist", "scientist", "philosopher"],
+            answer: 1
+        },
+        {
+            q: "Martin Luther King, Jr. delivered his speech in Washington DC on August _____.",
+            options: ["25, 1963", "28, 1963", "12, 1964", "28, 1965"],
+            answer: 1
+        },
+        {
+            q: "Martin Luther King, Jr. dislikes _____ discrimination.",
+            options: ["caste", "sex", "religion", "racial"],
+            answer: 3
+        },
+        {
+            q: "\"I Have a Dream\" is a speech delivered by:",
+            options: ["Germaine Greer", "Shiga Naoya", "H. E. Bates", "Martin Luther King, Jr."],
+            answer: 3
+        },
+        {
+            q: "The 'bank of justice' is:",
+            options: ["bankrupt", "highway", "staggered", "struggled"],
             answer: 0
         },
-
         {
-            q: "The dream of King was ultimately a dream of —",
-            options: [
-                "Equality and brotherhood",
-                "War and revenge",
-                "Power and wealth",
-                "Separation"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The phrase 'we cannot be satisfied' expresses —",
-            options: [
-                "The continued struggle for justice",
-                "Complete satisfaction",
-                "Fear",
-                "Political victory"
-            ],
-            answer: 0
-        },
-
-        {
-            q: "The main message of 'I Have a Dream' is —",
-            options: [
-                "Equality, freedom and justice",
-                "Racial hatred",
-                "Violence",
-                "Economic competition"
-            ],
-            answer: 0
+            q: "_____ has given the Negro people a bad cheque which has come back marked in insufficient fund.",
+            options: ["Europe", "America", "Canada", "Mexico"],
+            answer: 1
         }
-
     ];
 }
 
